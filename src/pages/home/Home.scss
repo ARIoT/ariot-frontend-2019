@@ -35,3 +35,25 @@
     }
   }
 }
+
+.c_palette {
+  display: flex;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 0;
+  list-style: none;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  &__item {
+    padding: 1em;
+    width: calc(100% / 2);
+    @media (min-width: $break--med) {
+      width: calc(100% / 3);
+    }
+    &--dark {
+      color: #fff;
+    }
+  }
+}

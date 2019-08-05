@@ -1,7 +1,7 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 import './Home.scss';
 import Header from '../../components/header/Header';
+import PrototypeData from '../../data/prototype.json';
 
 export default class Home extends React.Component {
 	render() {
@@ -10,6 +10,14 @@ export default class Home extends React.Component {
 				<Header />
         <div className="c_home">
           <h2>Hallo :)</h2>
+					<ul className="c_palette">
+						{PrototypeData.colors.map(item => 
+						(
+							<li className={`c_palette__item  ${item.dark ? 'c_palette__item--dark' : ''}`} style={{backgroundColor: item.hex}}>
+								<span>{item.name}</span>
+							</li>
+						))}
+					</ul>
         </div>
 			</div>
 		);

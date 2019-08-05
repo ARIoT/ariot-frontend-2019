@@ -6,7 +6,7 @@
     top: 0;
     right: 0;
     width: 15em;
-    height: 15em;
+    // height: 15em;
     z-index: 50;
     background: $darkblue2;
     transition: transform 200ms ease-in-out, background-color 200ms ease-in-out;
@@ -24,9 +24,15 @@
         text-decoration: none;
         color: #fff;
         transition: padding 150ms ease-in-out;
+        &.active {
+          background: salmon;
+        }
         &:focus {
           outline: 2px solid $orange;
         }
+      }
+      &.active {
+        background: salmon;
       }
     }
   }

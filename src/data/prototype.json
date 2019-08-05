@@ -1,0 +1,83 @@
+{
+  "colors": [
+    {
+      "name": "purplesuperdark",
+      "hex": "#0b0323",
+      "dark": true
+    },
+    {
+      "name": "black",
+      "hex": "#002233",
+      "dark": true
+    },
+    {
+      "name": "purple",
+      "hex": "#a3a9ff"
+    },
+    {
+      "name": "darkpurple",
+      "hex": "#704a7b",
+      "dark": true
+    },
+    {
+      "name": "yellow",
+      "hex": "#ffffbf"
+    },
+    {
+      "name": "yellow-2",
+      "hex": "#eff088"
+    },
+    {
+      "name": "greygreen",
+      "hex": "#c4e2e8"
+    },
+    {
+      "name": "blue",
+      "hex": "#4bc1da"
+    },
+    {
+      "name": "turquoise",
+      "hex": "#4bdac7"
+    },
+    {
+      "name": "turquoise-2",
+      "hex": "#a3fff3"
+    },
+    {
+      "name": "pink",
+      "hex": "#df3692"
+    }
+  ],
+    "mainMenu": [
+      {
+        "name": "About",
+        "url": "about",
+        "aria": "Read all our info on the event"
+      },
+      {
+        "name": "Program 2020",
+        "url": "program-2020",
+        "aria": "See our program for the event"
+      },
+      {
+        "name": "Badges",
+        "url": "badges",
+        "aria": "Read up all the badges you can collect!"
+      },
+      {
+        "name": "Jury & speakers",
+        "url": "jury-speakers",
+        "aria": "See all out jury and speakers"
+      },
+      {
+        "name": "Past events",
+        "url": "past-events",
+        "aria": "Travel back in time and see our past events"
+      },
+      {
+        "name": "Sign up",
+        "url": "sign-up",
+        "aria": "Sign up today!"
+      }
+    ]
+}
