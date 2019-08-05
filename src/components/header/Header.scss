@@ -1,0 +1,79 @@
+@import '../../utils/_variables.scss';
+
+.c_header {
+  padding: 2em 0;
+  margin-bottom: 2em;
+  text-align: center;
+  border-bottom: 1px solid grey;
+  overflow-x: hidden;
+  h1 {
+    font-size: 2.4em;
+    text-transform: uppercase;
+  }
+  &__logo {
+    display: inline-block;
+    font-family: $header-font;
+    text-decoration: none;
+    h1 {
+      // background: linear-gradient(to top, #ff8a00 0%, #da1b60 100%);
+      // background: linear-gradient(to bottom, $orange 0%, $purple 100%);
+      // -webkit-background-clip: text;
+      // -webkit-text-fill-color: transparent;
+      color: $darkblue;
+    }
+  }
+  // @media (max-width: $break--med) {
+    &__toggle-menu-button {
+      position: fixed;
+      top: 1em;
+      right: 1em;
+      padding: 0;
+      width: 3em;
+      height: 3em;
+      display: inline-block;
+      border: none;
+      background: none;
+      -webkit-appearance: none;
+      z-index: 60;
+      &:focus {
+        outline: 2px solid $orange;
+      }
+      cursor: pointer;
+      svg {
+        font-size: 2.1em;
+        
+        // width: 80%;
+        path {
+          transition: fill 200ms ease-in-out;
+          fill: $salmon;
+          // width: 100%;
+        }
+      }
+      @media (min-width: $break--med) {
+        top: 2em;
+        right: 2em;
+        &:hover {
+          background-color: $darkblue;
+        }
+      }
+      &--clicked {
+        @media (min-width: $break--med) {
+          &:hover {
+            // background-color: $orange;
+          }
+        }
+        svg {
+          path {
+            fill: #fff;
+          }
+        }
+      }
+    }
+  // }
+  @media (min-width: $break--med) {
+    h1 {
+      font-size: 4em;
+      width: auto;
+    }
+  }
+}

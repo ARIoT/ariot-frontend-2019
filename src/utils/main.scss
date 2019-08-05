@@ -1,0 +1,36 @@
+@import './_variables.scss';
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+}
+
+body {
+  min-height: 100vh;
+  // font-size: 62.5%;
+  font-family: 'Noto Sans HK', sans-serif;
+  // background: #FF8008;
+  // background: -webkit-linear-gradient(to bottom, #FFC837, #FF8008);
+  // background: linear-gradient(to bottom, #FFC837, #FF8008);
+  // background: $darkblue2;
+  // color: #fff;
+}
+
+.wrapper {
+  // padding: 0 0.5em;
+  margin: 0 auto;
+  max-width: 80em;
+}
+
+h2 {
+  margin-bottom: 1.6em;
+}
+
+p {
+  margin-bottom: 1em;
+}

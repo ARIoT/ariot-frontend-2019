@@ -1,0 +1,61 @@
+@import '../../utils/_variables.scss';
+
+.c_nav {
+    padding: 4em 0;
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 15em;
+    height: 15em;
+    z-index: 50;
+    background: $darkblue2;
+    transition: transform 200ms ease-in-out, background-color 200ms ease-in-out;
+    transform: translateY(-100%) translateX(100%);
+    border-radius: 0 0 0 100%;
+  ul {
+    padding-right: 0.8em;
+    li {
+      display: block;
+      margin-bottom: 0.4em;
+      text-align: right;
+      a {
+        display: inline-block;
+        padding: 0.2em 0.6em;
+        text-decoration: none;
+        color: #fff;
+        transition: padding 150ms ease-in-out;
+        &:focus {
+          outline: 2px solid $orange;
+        }
+      }
+    }
+  }
+  &--open {
+
+    background: $darkblue;
+    transform: translate(0, 0);
+  }
+  @media (min-width: $break--med) {
+    ul {
+      margin-top: 1em;
+      padding-right: 1.4em;
+      li {
+        a {
+          &:hover {
+            padding-right: 0.8em;
+            text-decoration: underline;
+          }
+        }
+      }
+    }
+  }
+}
+
+// $orange: #fa9d4a;
+// $salmon: #f17771;
+// $pink: #c6668e;
+// $purple: #876193;
+// $blue: #4d587e;
+// $darkblue: #2f4858;
+// $darkblue2: #0e181e;
+// $nearblack: #090b0c;
