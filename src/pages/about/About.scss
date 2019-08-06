@@ -1,5 +1,13 @@
 @import '../../utils/_variables.scss';
 
-.c_about {
-  border: 1px solid $orange;
+.t_about {  
+  &__intro {
+    padding: 0 1em;
+    margin-bottom: 3em;
+    color: $blue;
+    font-family: 'PT Mono';
+    @media (min-width: $break--med) {
+
+    }
+  }
 }

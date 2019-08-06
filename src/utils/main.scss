@@ -20,12 +20,21 @@ body {
   // background: linear-gradient(to bottom, #FFC837, #FF8008);
   // background: $darkblue2;
   // color: #fff;
+  background-color: $purplesuperdark;
 }
 
 .wrapper {
   // padding: 0 0.5em;
+  
+}
+
+.g_center {
   margin: 0 auto;
   max-width: 80em;
+  @media (min-width: $break--med) {
+    // padding: 0 1em;
+    width: 90%;
+  }
 }
 
 h1,

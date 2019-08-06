@@ -1,7 +1,7 @@
 import React from 'react'
 import { NavLink } from 'react-router-dom';
 import './Nav.scss';
-import Site from '../../data/prototype.json';
+import Prototype from '../../data/prototype.json';
 
 class Nav extends React.Component {
 
@@ -25,14 +25,14 @@ class Nav extends React.Component {
 			<nav className={`c_nav ${this.props.navOpen ? 'c_nav--open' : ''}`} role="navigation" aria-label="Hovedmeny">
 			
   		<ul className="c_nav__main-menu">
-				{Site.mainMenu.map(item => 
+				{Prototype.mainMenu.map(item => 
 				(
 					<li className="c_nav__main-menu__item">
 						<NavLink exact to={`/` + item.url} activeClassName="active">
 							{item.name}
 						</NavLink>
 					</li>
-				))}  			
+				))}
   		</ul>
   	</nav>
 		)

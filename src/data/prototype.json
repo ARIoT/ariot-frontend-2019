@@ -79,5 +79,32 @@
         "url": "sign-up",
         "aria": "Sign up today!"
       }
+    ],
+    "whereWhenWhat": [
+      {
+        "id": "about-where",
+        "label": "Where",
+        "title": "Voksenåsen Hotel in Oslo",
+        "text": "The Arctic IoT Challenge is of course held among trees with an amazing view.",
+        "urlText": "Check out the facilites",
+        "url": "http://voksenaasen.no",
+        "newTab": true
+      },
+      {
+        "id": "about-when",
+        "label": "When",
+        "title": "12-15 of March 2020",
+        "text": "It all starts with you rigging your camp on Thursday 12th of March! Sign up before deadline 14th of February.",
+        "urlText": "Sign up for Ariot!",
+        "url": "/sign-up"
+      },
+      {
+        "id": "about-what",
+        "label": "What",
+        "title": "Program 2020",
+        "text": "A three-day hackaton challenge focusing on the Internet of Things (IoT)",
+        "urlText": "See entire program",
+        "url": "/program"
+      }
     ]
 }
