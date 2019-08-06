@@ -28,7 +28,7 @@ class Header extends Component {
           <h1>Ariot</h1>
         </Link>
         <button className={`c_header__toggle-menu-button ${this.state.navOpen ? 'c_header__toggle-menu-button--clicked' : ''}`} aria-label="Åpne/lukke menyen" onClick={this.toggleMainMenu}>
-        Meny
+        Menu
         </button>
         <Nav 
           navOpen={this.state.navOpen}

@@ -88,7 +88,8 @@
         "text": "The Arctic IoT Challenge is of course held among trees with an amazing view.",
         "urlText": "Check out the facilites",
         "url": "http://voksenaasen.no",
-        "newTab": true
+        "newTab": true,
+        "extraClass": "blue"
       },
       {
         "id": "about-when",
@@ -96,7 +97,8 @@
         "title": "12-15 of March 2020",
         "text": "It all starts with you rigging your camp on Thursday 12th of March! Sign up before deadline 14th of February.",
         "urlText": "Sign up for Ariot!",
-        "url": "/sign-up"
+        "url": "/sign-up",
+        "extraClass": "blue"
       },
       {
         "id": "about-what",
@@ -104,7 +106,39 @@
         "title": "Program 2020",
         "text": "A three-day hackaton challenge focusing on the Internet of Things (IoT)",
         "urlText": "See entire program",
-        "url": "/program"
+        "url": "/program",
+        "extraClass": "blue"
       }
-    ]
+    ],
+    "whyAbout": {
+      "id": "about-what",
+      "label": "Why",
+      "title": "Empower your brain... and",
+      "text": "A three-day hackaton challenge focusing on the Internet of Things (IoT)",
+      "urlText": "See entire program",
+      "url": "/program",
+      "extraClass": "yellow",
+      "list": [
+        {
+          "title": "...share knowledge and learn",
+          "text": "The challenge lasts for three days where we except your team to compete with determination. The winner will get a magnificent trophy, alongside honour and glory."
+        },
+        {
+          "title": "...talk to IoT experts",
+          "text": "The challenge lasts for three days where we except your team to compete with determination. The winner will get a magnificent trophy, alongside honour and glory."
+        },
+        {
+          "title": "...all them cool gadgets!",
+          "text": "The challenge lasts for three days where we except your team to compete with determination. The winner will get a magnificent trophy, alongside honour and glory."
+        },
+        {
+          "title": "...pride and glory",
+          "text": "The challenge lasts for three days where we except your team to compete with determination. The winner will get a magnificent trophy, alongside honour and glory."
+        },
+        {
+          "title": "...Best. Party. Ever. Really!",
+          "text": "The challenge lasts for three days where we except your team to compete with determination. The winner will get a magnificent trophy, alongside honour and glory."
+        }
+      ]
+    }
 }

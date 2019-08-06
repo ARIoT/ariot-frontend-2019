@@ -13,12 +13,12 @@ export default class JurySpeakers extends React.Component {
 		}
 	}
 
-	componentDidMount() {
-		let dataUrl = this.props.mainMenuUrl;
-		fetch(dataUrl)
-			.then(response => response.json())
-			.then(mainMenuItems => this.setState({mainMenuItems: mainMenuItems.reverse()}));			
-	}
+	// componentDidMount() {
+	// 	let dataUrl = this.props.mainMenuUrl;
+	// 	fetch(dataUrl)
+	// 		.then(response => response.json())
+	// 		.then(mainMenuItems => this.setState({mainMenuItems: mainMenuItems.reverse()}));
+	// }
 	
 
 	render() {

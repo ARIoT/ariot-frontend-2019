@@ -1,11 +1,10 @@
 @import '../../utils/_variables.scss';
 
 
-.c_blue-text-box {
+.c_label-text-box {
   position: relative;
   padding: 2.5em 3em 2em 1em;
   margin-bottom: 2em;
-  background-color: $blue;
   color: $black;
   @media (min-width: $break--med) {
     padding: 2.5em 2.5em 2em;
@@ -14,9 +13,17 @@
     margin-bottom: 1em;
   }
   a {
+    display: inline-block;
+    padding: 0.5em 1em;
+    margin-left: -1em;
     color: $black;
     font-weight: 700;
     font-size: 0.9em;
+    @media (min-width: $break--med) {
+      &:hover {
+        background-color: $yellow-2;
+      }
+    }
   }
   &__label {
     position: absolute;
@@ -29,7 +36,19 @@
     font-family: $heading-font;
     letter-spacing: 0.2em;
     @media (min-width: $break--med) {
-      left: 2em;
+      left: 1.5em;
     }
+  }
+  &--blue {
+    background-color: $blue;
+  }
+  &--yellow {
+    background-color: $yellow;
+  }
+  &--green {
+    background-color: $turquoise;
+  }
+  &--grey {
+    background-color: $greygreen;
   }
 }

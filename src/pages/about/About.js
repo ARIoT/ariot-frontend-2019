@@ -1,6 +1,7 @@
 import React from 'react';
-import Header from '../../components/header/Header';
-import BlueTextBox from '../../components/blueTextBox/BlueTextBox';
+import BigHeader from '../../components/bigHeader/BigHeader';
+import Nav from '../../components/nav/Nav';
+import LabelTextBox from '../../components/labelTextBox/LabelTextBox';
 import Prototype from '../../data/prototype.json';
 import './About.scss';
 
@@ -8,7 +9,8 @@ export default class About extends React.Component {
 	render() {
 		return (
 			<div className="t_about">
-				<Header />
+				<Nav />
+				<BigHeader />
 				<div className="t_about__intro">
 					<div className="g_center">
 						<h2>The challenge...</h2>
@@ -19,9 +21,8 @@ export default class About extends React.Component {
 
 				<div className="c_blue-boxes c_blue-boxes--three">
 					<div className="g_center">
-						{Prototype.whereWhenWhat.map(item => 
-						(
-							<BlueTextBox
+						{Prototype.whereWhenWhat.map(item => (
+							<LabelTextBox
 							item={item}
 							key={item.id}
 							/>

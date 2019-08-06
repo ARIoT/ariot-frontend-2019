@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
 // import Link from 'react-router';
 import { Link } from 'react-router-dom';
-import './BlueTextBox.scss';
+import './LabelTextBox.scss';
 
-class BlueTextBox extends Component {
+class LabelTextBox extends Component {
 
   render() {
 
@@ -12,12 +12,15 @@ class BlueTextBox extends Component {
     } = this.props;
 
     return (
-      <div className="c_blue-text-box">
-        <span className="c_blue-text-box__label">
+      <div className={`c_label-text-box  ${item.extraClass ? 'c_label-text-box--' + item.extraClass : ''}`}>
+        <span className="c_label-text-box__label">
           {item.label}
         </span>
         <h3>{item.title}</h3>
-        <p>{item.text}</p>
+        {item.text ? (
+          <p>{item.text}</p>
+        ) : undefined}
+
         {item.url ? (
           <Link to={item.url}>
             {item.urlText}
@@ -30,4 +33,4 @@ class BlueTextBox extends Component {
   }
 }
 
-export default BlueTextBox;
+export default LabelTextBox;

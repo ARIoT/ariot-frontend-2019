@@ -28,7 +28,8 @@
     {
       "name": "Sign up",
       "url": "sign-up",
-      "aria": "Sign up today!"
+      "aria": "Sign up today!",
+      "extraClass": "highlighted"
     }
   ]
 }
