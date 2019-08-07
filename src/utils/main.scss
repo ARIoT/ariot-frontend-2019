@@ -6,26 +6,27 @@
   box-sizing: border-box;
 }
 
+@font-face {
+  font-family: 'aqua_grotesqueregular';
+  src: url('../assets/fonts/aqua-webfont.woff2') format('woff2'),
+       url('../assets/fonts/aqua-webfont.woff') format('woff'),
+       url('../assets/fonts/aqua-webfont.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
 html {
   font-size: 16px;
 }
 
 body {
-  min-height: 100vh;
-  // font-size: 62.5%;
-  font-family: 'Noto Sans HK', sans-serif;
-  font-family: 'Open Sans', sans-serif;
-  // background: #FF8008;
-  // background: -webkit-linear-gradient(to bottom, #FFC837, #FF8008);
-  // background: linear-gradient(to bottom, #FFC837, #FF8008);
-  // background: $darkblue2;
-  // color: #fff;
+  min-height: 100%;
+  font-family: $main-font;
   background-color: $purplesuperdark;
 }
 
 .wrapper {
-  // padding: 0 0.5em;
-  
+  // padding: 0 0.5em;  
 }
 
 .g_center {

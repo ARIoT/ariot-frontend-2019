@@ -12,6 +12,7 @@ class Nav extends React.Component {
 			isLoading: true,
 			navOpen: false,
 		}
+		this.toggleMainMenu = this.toggleMainMenu.bind(this);
 	}
 
 	componentDidMount() {
@@ -22,16 +23,18 @@ class Nav extends React.Component {
 	}
 
   toggleMainMenu() {
-    this.setState({
-      navOpen: !this.state.navOpen
-    });
-  }
+		this.setState({
+			navOpen: !this.state.navOpen
+		});
+	}
 
 	render() {
 		return (
-			<nav className={`c_nav ${this.props.navOpen ? 'c_nav--open' : ''}`} role="navigation" aria-label="Hovedmeny">
-			
-  		<ul className="c_nav__main-menu">
+			<nav className="c_nav" role="navigation" aria-label="Hovedmeny">
+				<button className={`c_nav__toggle-menu-button ${this.state.navOpen ? 'c_nav__toggle-menu-button--clicked' : ''}`} aria-label="Åpne/lukke menyen" onClick={this.toggleMainMenu} tabIndex="1">
+					Menu
+				</button>
+  		<ul className={`c_nav__main-menu ${this.state.navOpen ? 'c_nav__main-menu--open' : ''}`}>
 				{SiteData.mainMenu.map(item => 
 				(
 					<li className={`c_nav__main-menu__item ${item.extraClass ? 'c_nav__main-menu__item--' + item.extraClass : ''}`}>

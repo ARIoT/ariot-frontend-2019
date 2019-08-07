@@ -1,66 +1,114 @@
 @import '../../utils/_variables.scss';
 
-.c_header {
-  padding: 2em 0;
-  margin-bottom: 2em;
+.c_mobile-top-header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  padding: 0.5em 0;
+  height: 2em;
+  min-height: 40px;
+  background: $greygreen;
   text-align: center;
-  overflow-x: hidden;
-  background-color: $greygreen;
-  h1 {
-    font-size: 2.4em;
-    text-transform: uppercase;
+  &__page-title {
+    font-size: 1.2em;
+    font-family: $heading-font;
+    color: $black;
+  }
+  @media (min-width: $break--med) {
+    display: none;
+    height: 0;
+    visibility: hidden;
+  }
+}
+
+.c_big-header {
+  padding: 4em 1em 6em;
+  color: $blue;
+  @media (min-width: $break--med) {
+    padding-top: 5em;
+    &__content {
+      position: relative;
+      border: 1px solid red;
+      display: flex;      
+    }
   }
   &__logo {
     display: inline-block;
-    text-decoration: none;
-    h1 {
-      // background: linear-gradient(to top, #ff8a00 0%, #da1b60 100%);
-      // background: linear-gradient(to bottom, $orange 0%, $purple 100%);
-      // -webkit-background-clip: text;
-      // -webkit-text-fill-color: transparent;
-      color: $blue;
+    margin-left: 1em;
+    height: 3em;
+    img {
+      display: block;
+      width: auto;
+      height: 100%;
+    }
+    @media (min-width: $break--med) {
+      position: absolute;
+      top: -4em;
+      left: 0;
+      height: 3.5em;
     }
   }
-  // @media (max-width: $break--med) {
-    &__toggle-menu-button {
-      position: fixed;
-      top: 1em;
-      right: 1em;
-      padding: 0;
-      width: 5em;
-      height: 3em;
-      display: inline-block;
-      border: none;
-      background: none;
-      -webkit-appearance: none;
-      color: #fff;
-      z-index: 60;
-      font-size: 1.2em;
-      &:focus {
-        // outline: 2px solid $orange;
+  &__title {
+    display: flex;
+    align-items: center;
+    font-family: $ariot-font;
+    font-weight: normal;
+    .anniversary {
+      display: flex;
+      align-items: flex-start;
+      &__year {
+        font-size: 3em;
       }
-      cursor: pointer;
-      
+      &__th {
+        line-height: 2.3em;
+        font-size: 0.8em;
+      }
       @media (min-width: $break--med) {
-        top: 2em;
-        right: 2em;
-        &:hover {
-          background-color: $darkblue;
+        &__year {
+          font-size: 5em;
+        }
+        &__th {
+          font-size: 1.4em;
         }
       }
-      &--clicked {
-        @media (min-width: $break--med) {
-          &:hover {
-            // background-color: $orange;
-          }
-        }        
+    }
+    .ariot-name {
+      margin-left: 0.5em;
+      &__ariot {
+        display: block;
+        font-size: 1.6em;
+        line-height: 0.5em;
+      }
+      &__slogan {
+        font-size: 0.5em;
+        font-family: $heading-font;
+      }
+      @media (min-width: $break--med) {
+        &__ariot {
+          font-size: 2.8em;
+        }
       }
     }
-  // }
-  @media (min-width: $break--med) {
-    h1 {
-      font-size: 4em;
-      width: auto;
+  }
+  &__date-note {
+    float: right;
+    margin-top: -0.8em;
+    padding: 0.8em 0.8em 0.8em 2em;
+    background: $yellow;
+    color: $black;
+    text-align: right;
+    font-family: $main-font;
+    font-weight: bold;
+    .date {
+      font-size: 1.2em;
+    }
+    span {
+      display: block;
+    }
+    @media (min-width: $break--med) {
+      float: none;
+      display: inline-block;
     }
   }
 }

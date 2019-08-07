@@ -10,7 +10,9 @@ export default class About extends React.Component {
 		return (
 			<div className="t_about">
 				<Nav />
-				<BigHeader />
+				<BigHeader
+					pageTitle="About"
+				/>
 				<div className="t_about__intro">
 					<div className="g_center">
 						<h2>The challenge...</h2>

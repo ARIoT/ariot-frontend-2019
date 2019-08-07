@@ -1,27 +1,18 @@
 import React, { Component } from 'react'
-import './Header.scss';
+import './MobileTopHeader.scss';
 import { Link } from 'react-router-dom';
-// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-// import { faBars } from '@fortawesome/pro-light-svg-icons';
-import Nav from '../../components/nav/Nav';
 
 class Header extends Component {
   constructor(props) {
-    super(props);
-    this.state = {
-      navOpen: false
-    }
-    this.toggleMainMenu = this.toggleMainMenu.bind(this);
-  }  
-
-  toggleMainMenu() {
-    // window.scrollTo(0, 0);
-    this.setState({
-      navOpen: !this.state.navOpen
-    });
+    super(props);    
   }
 
   render() {
+
+    const {
+      page
+    } = this.props;
+
     return (
       <header className="c_header">    
         <Link to="/" className="c_header__logo">

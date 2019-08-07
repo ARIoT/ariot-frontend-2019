@@ -1,10 +1,10 @@
 @import '../../utils/_variables.scss';
+@import '../../utils/_mixins.scss';
 
 .c_nav {
-  
-  background: $greygreen;
   font-family: $heading-font;
   &__main-menu {
+    list-style: none;
     &__item {
       a {
         display: inline-block;
@@ -13,10 +13,10 @@
         color: $black;
         transition: padding 150ms ease-in-out;
         &.active {
-          background: rgba($yellow, 0.5);
+          background: $blue;
         }
         &:focus {
-          outline: 2px solid $orange;
+          @include focusBorder($darkpurple);
         }
       }
       &--highlighted {
@@ -24,24 +24,62 @@
       }
     }
   }
+  &__toggle-menu-button {
+    display: inline-block;
+    position: fixed;
+    top: 0em;
+    right: 0em;
+    padding: 0;
+    width: 5em;
+    height: 2em;
+    min-height: 40px;
+    line-height: 2em;
+    border: none;
+    background: $purple;
+    -webkit-appearance: none;
+    z-index: 60;
+    font-size: 1.2em;
+    font-family: $heading-font;
+    color: $black;
+    transition: width 100ms ease-in-out;
+    cursor: pointer;
+    &:focus {
+      @include focusBorder($darkpurple);
+    }
+    
+    @media (min-width: $break--med) {
+      display: none;
+      height: 0;
+    }
+    &--clicked {
+      width: 80%;
+    }
+  }
   
   @media (max-width: $break--med) {
-    position: fixed;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    padding: 4em 0;
-    min-width: 15em;
-    width: 80%;
-    z-index: 50;
-    transition: transform 200ms ease-in-out, background-color 200ms ease-in-out;
-    transform: translateX(100%);
+    min-height: 44px;
     &__main-menu {
+      position: fixed;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      padding: 4em 0;
+      min-width: 15em;
+      width: 80%;
+      z-index: 50;
+      background-color: $greygreen;
+      visibility: hidden;
+      transition: transform 200ms ease-in-out, background-color 200ms ease-in-out;
+      transform: translateX(100%);
       &__item {
         display: block;
         padding-right: 0.8em;
         margin-bottom: 0.4em;
         text-align: right;
+      }
+      &--open {
+        transform: translate(0, 0);
+        visibility: visible;
       }
     }
     &--open {
@@ -49,19 +87,43 @@
     }
   }
   @media (min-width: $break--med) {
+    background-color: $greygreen;
     &__main-menu {
       display: flex;
-      padding: 1em 0;
+      justify-content: space-between;
+      align-items: stretch;
+      padding: 0;
       margin: 0 auto;
       max-width: 80em;
       width: 90%;
       &__item {
-        padding-right: 1.4em;
+        padding: 1em 0;
+        padding: 0;
+        margin: 0 0.3em;
+        text-align: center;
         a {
-          &:hover {
-            // padding-right: 0.8em;
-            text-decoration: underline;
+          display: block;
+          position: relative;
+          padding: 0.8em 1em;
+          height: 100%;
+          &:after {
+            background: $darkpurple;
+            position: absolute;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            height: 0;
+            transition: height 100ms ease-in-out ;
+            content: '';
           }
+          &:hover {
+            &:after {
+              height: 0.3em;
+            }
+          }
+        }
+        &--highlighted {
+          padding-right: 0;
         }
       }
     }
