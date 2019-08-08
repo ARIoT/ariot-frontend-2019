@@ -3,6 +3,7 @@
 
 .c_nav {
   font-family: $heading-font;
+  font-weight: bold;
   &__main-menu {
     list-style: none;
     &__item {
@@ -62,6 +63,7 @@
     font-size: 1.2em;
     font-family: $heading-font;
     color: $black;
+    font-weight: bold;
     transition: width 100ms ease-in-out;
     cursor: pointer;
     &:focus {
