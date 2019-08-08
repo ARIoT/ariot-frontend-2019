@@ -21,7 +21,7 @@ export default class About extends React.Component {
 					</div>
 				</div>
 
-				<div className="c_blue-boxes c_blue-boxes--three">
+				<div className="c_label-text-boxes c_label-text-boxes--three">
 					<div className="g_center">
 						{Prototype.whereWhenWhat.map(item => (
 							<LabelTextBox

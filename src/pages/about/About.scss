@@ -6,8 +6,19 @@
     margin-bottom: 3em;
     color: $blue;
     font-family: 'PT Mono';
+    line-height: 1.6em;
+    h2 {
+      margin-bottom: 0.4em;
+    }
     @media (min-width: $break--med) {
+      font-size: 1.2em;
+    }
+  }
+  .c_label-text-boxes {
+    &--three {
+      @media (min-width: $break--med) {
 
+      }
     }
   }
 }

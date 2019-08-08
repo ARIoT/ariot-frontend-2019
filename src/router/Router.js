@@ -17,7 +17,7 @@ import NoMatch from '../pages/noMatch/NoMatch';
 export default () => (
 	<Router>
 		<Switch>
-			<Route path="/" exact component={Home} />
+			<Route path="/" exact component={About} />
 			<Route path="/about" exact component={About} />
 			<Route path="/program-2020" exact component={Program} />
 			<Route path="/badges" exact component={Badges} />

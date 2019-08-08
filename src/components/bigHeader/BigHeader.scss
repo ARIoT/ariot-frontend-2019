@@ -26,11 +26,14 @@
   padding: 4em 1em 6em;
   color: $blue;
   @media (min-width: $break--med) {
-    padding-top: 5em;
+    padding-top: 6em;
     &__content {
       position: relative;
-      border: 1px solid red;
-      display: flex;      
+      // border: 1px solid red;
+      display: flex;
+      justify-content: space-between;
+      // align-items: stretch;
+      align-items: center;
     }
   }
   &__logo {
@@ -54,6 +57,9 @@
     align-items: center;
     font-family: $ariot-font;
     font-weight: normal;
+    @media (min-width: $break--big) {
+      // font-size: 120%;
+    }
     .anniversary {
       display: flex;
       align-items: flex-start;
@@ -66,10 +72,10 @@
       }
       @media (min-width: $break--med) {
         &__year {
-          font-size: 5em;
+          font-size: 4.5em;
         }
         &__th {
-          font-size: 1.4em;
+          font-size: 1.2em;
         }
       }
     }
@@ -87,6 +93,10 @@
       @media (min-width: $break--med) {
         &__ariot {
           font-size: 2.8em;
+          line-height: 0.8em;
+        }
+        &__slogan {
+          font-size: 0.65em;
         }
       }
     }
@@ -101,7 +111,11 @@
     font-family: $main-font;
     font-weight: bold;
     .date {
-      font-size: 1.2em;
+      font-size: 1.6em;
+      line-height: 1.6em;
+    }
+    .month {
+      font-size: 1em;
     }
     span {
       display: block;
@@ -109,6 +123,11 @@
     @media (min-width: $break--med) {
       float: none;
       display: inline-block;
+      font-size: 1.6em;
+      align-content: center;
+      .date {
+
+      }
     }
   }
 }

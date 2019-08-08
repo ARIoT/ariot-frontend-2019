@@ -5,58 +5,25 @@
   margin-bottom: 2em;
   text-align: center;
   overflow-x: hidden;
-  background-color: $greygreen;
+  border: 1px solid darken($blue, 35%);
   h1 {
     font-size: 2.4em;
-    text-transform: uppercase;
+    color: $blue;
+    font-family: $ariot-font;
+    font-weight: normal;
   }
-  &__logo {
-    display: inline-block;
-    text-decoration: none;
+  &--darkblue {
+    background-color: $purplesuperdark;
     h1 {
-      // background: linear-gradient(to top, #ff8a00 0%, #da1b60 100%);
-      // background: linear-gradient(to bottom, $orange 0%, $purple 100%);
-      // -webkit-background-clip: text;
-      // -webkit-text-fill-color: transparent;
       color: $blue;
     }
   }
-  // @media (max-width: $break--med) {
-    &__toggle-menu-button {
-      position: fixed;
-      top: 1em;
-      right: 1em;
-      padding: 0;
-      width: 5em;
-      height: 3em;
-      display: inline-block;
-      border: none;
-      background: none;
-      -webkit-appearance: none;
-      color: #fff;
-      z-index: 60;
-      font-size: 1.2em;
-      &:focus {
-        // outline: 2px solid $orange;
-      }
-      cursor: pointer;
-      
-      @media (min-width: $break--med) {
-        top: 2em;
-        right: 2em;
-        &:hover {
-          // background-color: $darkblue;
-        }
-      }
-      &--clicked {
-        @media (min-width: $break--med) {
-          &:hover {
-            // background-color: $orange;
-          }
-        }        
-      }
+  &--turquoise {
+    background-color: $turquoise;
+    h1 {
+      color: $blue;
     }
-  // }
+  }
   @media (min-width: $break--med) {
     h1 {
       font-size: 4em;
