@@ -1,41 +1,20 @@
 import React from 'react';
+import Nav from '../../components/nav/Nav';
 import Header from '../../components/header/Header';
+import './JurySpeakers.scss';
 
 export default class JurySpeakers extends React.Component {
-
-	// Liste ut jury, speakers og komitemedlemmer. Alle kommer nok i samme liste, men må kunne filtrere på type i tillegg, f. eks "vis alle juryer" osv
-
-	constructor(props) {
-		super(props);
-		this.state = {
-			people: [],
-			isLoading: true,
-		}
-	}
-
-	// componentDidMount() {
-	// 	let dataUrl = this.props.mainMenuUrl;
-	// 	fetch(dataUrl)
-	// 		.then(response => response.json())
-	// 		.then(mainMenuItems => this.setState({mainMenuItems: mainMenuItems.reverse()}));
-	// }
-	
-
 	render() {
 		return (
-			<div className="wrapper">
-				<Header />
-				<h2>The heroes</h2>
-				<ul>
-				{/* {this.state.mainMenuItems.map(item => 
-				(
-					<li className="c_nav__main-menu__item">
-						<NavLink exact to={item.acf.url} activeClassName="active">
-							{item.acf.title}
-						</NavLink>
-					</li>
-				))} */}
-				</ul>
+			<div className="t_jury-speakers t_page">
+				<Nav />
+				<Header
+					pageTitle="Our VIP's"
+					type="logo"
+					theme="darkblue-yellow" />
+				<div className="g_center">
+					<h2>PEOPLE</h2>
+				</div>
 			</div>
 		);
 	}

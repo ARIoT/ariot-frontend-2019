@@ -1,0 +1,8 @@
+@import '../../utils/_variables.scss';
+
+.c_footer {
+  color: $blue;
+  @media (min-width: $break--med) {
+    font-size: 1.8em;
+  }
+}

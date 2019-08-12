@@ -1,5 +1,30 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Up and running! (Kajas notes)
+
+After cloning the project, run
+
+### `npm install`
+
+...wait...mthe run
+
+### `yarn start`
+
+### Structure
+
+I have created folders for components, pages, assets, data (mostly for prototyping, but also for setup like the menu and page names etc.), router and utils. 
+
+### Editing
+
+(As it is now)
+
+Stuff that can be edited via WordPress:
+
+* People (jury, speaker and committee)
+* Text boxes 
+
+Stuff that can be edited via the frontend code:
+
 ## Available Scripts
 
 In the project directory, you can run:

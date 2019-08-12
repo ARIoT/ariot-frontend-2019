@@ -5,29 +5,114 @@
   margin-bottom: 2em;
   text-align: center;
   overflow-x: hidden;
-  border: 1px solid darken($blue, 35%);
   h1 {
     font-size: 2.4em;
     color: $blue;
     font-family: $ariot-font;
     font-weight: normal;
   }
-  &--darkblue {
+  &--darkblue-blue {
     background-color: $purplesuperdark;
     h1 {
       color: $blue;
     }
   }
-  &--turquoise {
+  &--turquoise-darkblue {
     background-color: $turquoise;
     h1 {
-      color: $blue;
+      color: $purplesuperdark;
+    }
+    .c_header__logo {
+      svg {
+        polygon {
+          fill: $purplesuperdark;
+        }
+      }
+    }
+  }
+  &--pink-darkblue {
+    background-color: $pink;
+    h1 {
+      color: $purplesuperdark;
+    }
+    .c_header__logo {
+      svg {
+        polygon {
+          fill: $purplesuperdark;
+        }
+      }
+    }
+  }
+  &--darkblue-yellow {
+    background-color: $purplesuperdark;
+    h1 {
+      color: $yellow;
+    }
+    .c_header__logo {
+      svg {
+        polygon {
+          fill: $yellow;
+        }
+      }
+    }
+  }
+  &--yellow-darkblue {
+    background-color: $yellow;
+    h1 {
+      color: $purplesuperdark;
+    }
+    .c_header__logo {
+      svg {
+        polygon {
+          fill: $purplesuperdark;
+        }
+      }
     }
   }
   @media (min-width: $break--med) {
     h1 {
       font-size: 4em;
       width: auto;
+    }
+  }
+  &__content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    @media (min-width: $break--med) {
+      justify-content: space-between;
+    }
+  }
+  &__logo {
+    margin-left: 1em;
+    height: 4em;
+    @media (min-width: $break--med) {
+      height: 6em;
+    }
+    svg {
+      height: 100%;
+      polygon {
+        fill: $purplesuperdark;
+      }
+    }
+  }
+  &__date-note {
+    color: $yellow;
+    text-align: right;
+    font-family: $main-font;
+    font-weight: 800;
+    .date {
+      font-size: 1.6em;
+      line-height: 1.6em;
+    }
+    .month {
+      font-size: 0.8em;
+    }
+    span {
+      display: block;
+    }
+    @media (min-width: $break--med) {
+      font-size: 1.8em;
     }
   }
 }
