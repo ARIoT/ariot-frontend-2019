@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import './Header.scss';
-import logo, { ReactComponent as AriotLogo } from '../../assets/icons/ariot-icon.svg';
+import { ReactComponent as AriotLogo } from '../../assets/icons/ariot-icon.svg';
 
 class Header extends Component {
 

@@ -5,7 +5,7 @@ import {
   Switch
 } from 'react-router-dom';
 
-import Home from '../pages/home/Home';
+// import Home from '../pages/home/Home';
 import About from '../pages/about/About';
 import Program from '../pages/program/Program';
 import Badges from '../pages/badges/Badges';

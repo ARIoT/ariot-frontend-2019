@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import { NavLink, Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 import './Footer.scss';
 // import logo, { ReactComponent as AriotLogo } from '../../assets/icons/ariot-icon.svg';
 

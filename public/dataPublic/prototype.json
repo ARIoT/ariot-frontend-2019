@@ -1,0 +1,160 @@
+{
+  "partnerRow": [
+    {
+      "id": "itera-partner",
+      "name": "Itera",
+      "url": "http://itera.no",
+      "logo": "itera-logo.png",
+      "ariaLabel": "Gå til itera.no, åpnes i ny fane"
+    },
+    {
+      "id": "inmeta-partner",
+      "name": "Inmeta",
+      "url": "http://inmeta.no",
+      "logo": "inmeta-logo.png",
+      "ariaLabel": "Gå til inmeta.no, åpnes i ny fane"
+    }
+  ],
+  "colors": [
+    {
+      "name": "purplesuperdark",
+      "hex": "#0b0323",
+      "dark": true
+    },
+    {
+      "name": "black",
+      "hex": "#002233",
+      "dark": true
+    },
+    {
+      "name": "purple",
+      "hex": "#a3a9ff"
+    },
+    {
+      "name": "darkpurple",
+      "hex": "#704a7b",
+      "dark": true
+    },
+    {
+      "name": "yellow",
+      "hex": "#ffffbf"
+    },
+    {
+      "name": "yellow-2",
+      "hex": "#eff088"
+    },
+    {
+      "name": "greygreen",
+      "hex": "#c4e2e8"
+    },
+    {
+      "name": "blue",
+      "hex": "#4bc1da"
+    },
+    {
+      "name": "turquoise",
+      "hex": "#4bdac7"
+    },
+    {
+      "name": "turquoise-2",
+      "hex": "#a3fff3"
+    },
+    {
+      "name": "pink",
+      "hex": "#df3692"
+    }
+  ],
+    "mainMenu": [
+      {
+        "name": "About",
+        "url": "about",
+        "aria": "Read all our info on the event"
+      },
+      {
+        "name": "Program 2020",
+        "url": "program-2020",
+        "aria": "See our program for the event"
+      },
+      {
+        "name": "Badges",
+        "url": "badges",
+        "aria": "Read up all the badges you can collect!"
+      },
+      {
+        "name": "Jury & speakers",
+        "url": "jury-speakers",
+        "aria": "See all out jury and speakers"
+      },
+      {
+        "name": "Past events",
+        "url": "past-events",
+        "aria": "Travel back in time and see our past events"
+      },
+      {
+        "name": "Sign up",
+        "url": "sign-up",
+        "aria": "Sign up today!"
+      }
+    ],
+    "whereWhenWhat": [
+      {
+        "id": "about-where",
+        "label": "Where",
+        "title": "Voksenåsen Hotel in Oslo",
+        "text": "The Arctic IoT Challenge is of course held among trees with an amazing view.",
+        "urlText": "Check out the facilites",
+        "url": "http://voksenaasen.no",
+        "newTab": true,
+        "extraClass": "blue"
+      },
+      {
+        "id": "about-when",
+        "label": "When",
+        "title": "12-15 of March 2020",
+        "text": "It all starts with you rigging your camp on Thursday 12th of March! Sign up before deadline 14th of February.",
+        "urlText": "Sign up for Ariot!",
+        "url": "/sign-up",
+        "extraClass": "blue"
+      },
+      {
+        "id": "about-what",
+        "label": "What",
+        "title": "Program 2020",
+        "text": "A three-day hackaton challenge focusing on the Internet of Things (IoT)",
+        "urlText": "See entire program",
+        "url": "/program",
+        "extraClass": "blue"
+      }
+    ],
+    "whyAbout": {
+      "id": "about-what",
+      "label": "Why",
+      "title": "Empower your brain... and",
+      "text": "A three-day hackaton challenge focusing on the Internet of Things (IoT)",
+      "urlText": "See entire program",
+      "url": "/program",
+      "extraClass": "yellow",
+      "list": [
+        {
+          "title": "...share knowledge and learn",
+          "text": "The challenge lasts for three days where we except your team to compete with determination. The winner will get a magnificent trophy, alongside honour and glory."
+        },
+        {
+          "title": "...talk to IoT experts",
+          "text": "The challenge lasts for three days where we except your team to compete with determination. The winner will get a magnificent trophy, alongside honour and glory."
+        },
+        {
+          "title": "...all them cool gadgets!",
+          "text": "The challenge lasts for three days where we except your team to compete with determination. The winner will get a magnificent trophy, alongside honour and glory."
+        },
+        {
+          "title": "...pride and glory",
+          "text": "The challenge lasts for three days where we except your team to compete with determination. The winner will get a magnificent trophy, alongside honour and glory."
+        },
+        {
+          "title": "...Best. Party. Ever. Really!",
+          "text": "The challenge lasts for three days where we except your team to compete with determination. The winner will get a magnificent trophy, alongside honour and glory."
+        }
+      ]
+    }
+}

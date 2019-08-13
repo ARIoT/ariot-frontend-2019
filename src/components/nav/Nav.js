@@ -37,7 +37,7 @@ class Nav extends React.Component {
   		<ul className={`c_nav__main-menu ${this.state.navOpen ? 'c_nav__main-menu--open' : ''}`}>
 				{SiteData.mainMenu.map(item => 
 				(
-					<li className={`c_nav__main-menu__item ${item.extraClass ? 'c_nav__main-menu__item--' + item.extraClass : ''}`}>
+					<li key={item.url} className={`c_nav__main-menu__item ${item.extraClass ? 'c_nav__main-menu__item--' + item.extraClass : ''}`}>
 						<NavLink exact to={`/` + item.url} activeClassName="active">
 							{item.name}
 						</NavLink>
