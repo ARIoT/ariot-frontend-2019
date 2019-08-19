@@ -3,8 +3,8 @@
 
 .c_label-text-box {
   position: relative;
-  padding: 2.5em 3em 2em 1em;
-  margin-bottom: 2em;
+  padding: 2.5em 3em 2em $gutter;
+  margin-bottom: 3em;
   color: $black;
   @media (min-width: $break--med) {
     padding: 2.5em 2.5em 2em;
@@ -30,15 +30,63 @@
     position: absolute;
     left: 0;
     top: -1em;
-    padding: 0.5em 1em;
+    padding: 0.5em 2.5em 0.5em $gutter;
     background-color: $darkpurple;
     color: #fff;
     text-transform: uppercase;
     font-family: $heading-font;
     letter-spacing: 0.2em;
     @media (min-width: $break--med) {
-      left: 1.5em;
+      left: $gutter;
     }
+  }
+  ul {
+    margin-bottom: 2em;
+    list-style: none;
+    li {
+      position: relative;
+      padding-left: 1.5em;
+      .list-item-title {        
+        font-family: $heading-font;
+        font-weight: bold;
+      }
+      &::before {
+        content: '';
+        position: absolute;
+        top: 0.5em;
+        left: 0;
+        width: 8px;
+        height: 4px;
+        background: $black;
+      }
+    }
+  }
+  &__important-note {
+    // margin-top: -2.2em;
+    background-color: $pink;
+    margin-left: -$gutter;
+    margin-right: -3em;
+    text-align: center;
+    font-size: 1.4em;
+    font-family: $heading-font;
+    font-weight: bold;
+    span {
+      display: block;
+      padding: 2em 0;
+      margin: 0 auto;
+      max-width: 40%;
+    }
+
+    @media (min-width: $break--big) {
+      position: absolute;
+      bottom: 0;
+      right: 0;
+      margin: 0;
+    }
+  }
+  &.has-important-note {
+    position: relative;
+    padding-bottom: 0;
   }
   &--blue {
     background-color: $blue;
@@ -46,10 +94,10 @@
   &--yellow {
     background-color: $yellow;
   }
-  &--green {
+  &--turquoise {
     background-color: $turquoise;
   }
-  &--grey {
+  &--greygreen {
     background-color: $greygreen;
   }
 }

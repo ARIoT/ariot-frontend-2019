@@ -12,8 +12,8 @@ class Footer extends Component {
           <div className="c_footer__content">
             <div className="c_footer__block c_footer__block--left">
               <h3>Contact us:</h3>
-              <NavLink exact to={`/sign-up`} className="button button--box-link button--arrow">Become our partner!</NavLink>
-              <a href="mailto:signup@ariot.no" className="button button--box-link" title="Send an e-mail to signup@ariot.no">Send us mail</a>
+              <NavLink exact to={`/sign-up`} className="button button--box-link button--arrow button--light-text">Become our partner!</NavLink>
+              <a href="mailto:signup@ariot.no" className="button button--box-link button--light-text" title="Send an e-mail to signup@ariot.no">Send us mail</a>
             </div>
             <div className="c_footer__block c_footer__block--right">
               <h3>Follow us:</h3>

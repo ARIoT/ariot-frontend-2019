@@ -126,35 +126,103 @@
         "extraClass": "blue"
       }
     ],
-    "whyAbout": {
-      "id": "about-what",
-      "label": "Why",
-      "title": "Empower your brain... and",
-      "text": "A three-day hackaton challenge focusing on the Internet of Things (IoT)",
-      "urlText": "See entire program",
-      "url": "/program",
-      "extraClass": "yellow",
-      "list": [
-        {
-          "title": "...share knowledge and learn",
-          "text": "The challenge lasts for three days where we except your team to compete with determination. The winner will get a magnificent trophy, alongside honour and glory."
-        },
-        {
-          "title": "...talk to IoT experts",
-          "text": "The challenge lasts for three days where we except your team to compete with determination. The winner will get a magnificent trophy, alongside honour and glory."
-        },
-        {
-          "title": "...all them cool gadgets!",
-          "text": "The challenge lasts for three days where we except your team to compete with determination. The winner will get a magnificent trophy, alongside honour and glory."
-        },
-        {
-          "title": "...pride and glory",
-          "text": "The challenge lasts for three days where we except your team to compete with determination. The winner will get a magnificent trophy, alongside honour and glory."
-        },
-        {
-          "title": "...Best. Party. Ever. Really!",
-          "text": "The challenge lasts for three days where we except your team to compete with determination. The winner will get a magnificent trophy, alongside honour and glory."
-        }
-      ]
-    }
+    "whyAbout": [
+      {
+        "id": "about-what",
+        "label": "Why",
+        "title": "Empower your brain... and",
+        "text": "A three-day hackaton challenge focusing on the Internet of Things (IoT)",
+        "extraClass": "yellow",
+        "list": [
+          {
+            "title": "...share knowledge and learn",
+            "text": "The challenge lasts for three days where we except your team to compete with determination. The winner will get a magnificent trophy, alongside honour and glory."
+          },
+          {
+            "title": "...talk to IoT experts",
+            "text": "The challenge lasts for three days where we except your team to compete with determination. The winner will get a magnificent trophy, alongside honour and glory."
+          },
+          {
+            "title": "...all them cool gadgets!",
+            "text": "The challenge lasts for three days where we except your team to compete with determination. The winner will get a magnificent trophy, alongside honour and glory."
+          },
+          {
+            "title": "...pride and glory",
+            "text": "The challenge lasts for three days where we except your team to compete with determination. The winner will get a magnificent trophy, alongside honour and glory."
+          },
+          {
+            "title": "...Best. Party. Ever. Really!",
+            "text": "The challenge lasts for three days where we except your team to compete with determination. The winner will get a magnificent trophy, alongside honour and glory."
+          }
+        ]
+      }
+    ],
+    "priceAbout": [
+      {
+        "id": "about-price",
+        "label": "Price",
+        "title": "Price NOK 7.500,- (ex. VAT pr. attendee)",
+        "extraClass": "turquoise has-important-note",
+        "listHeader": "This includes:",
+        "importantNote": "Max 7 persons on each team",
+        "list": [
+          {
+            "text": "Entry to the challenge"
+          },
+          {
+            "text": "Tasty breakfast, awesome lunch and fancy dinner. In short: food all day."
+          },
+          {
+            "text": "Comfy hotel room at Voksenåsen from Thursday Sunday"
+          }
+        ],
+        "listHeader2": "You also get:",
+        "list2": [
+          {
+            "text": "New nerdy friends and great laughs"
+          },
+          {
+            "text": "Fun badges and great challenges"
+          },
+          {
+            "text": "Get awesome talks about the amazing IoT universe. Check out our speakers!"
+          }
+        ]
+      }
+    ],
+    "howAbout": [
+      {
+        "id": "about-how",
+        "label": "How",
+        "title": "Sign up a team and...",
+        "extraClass": "greygreen",
+        "list": [
+          {
+            "title": "...bring your own ideas",
+            "text": "You have to have some sort of idea on what you want to make as a project when you arrive to the challenge. There are no rules on what you should make, "
+          },
+          {
+            "title": "...bring all your equipment",
+            "text": "Your team needs to bring all your computers, keyboards, soldering iron, screens or others stuff you might need during your project. There will be enough electrical outlets for each station and a deacent WiFi when you arrive"
+          }
+        ]
+      }
+    ],
+    "bottomBoxesAbout": [
+      {
+        "id": "about-out-mission",
+        "label": "Our mission",
+        "title": "#ariot20",
+        "text": "aims to stimulate collaborative learning, networking and stimulation of ideas for participants through hands-on, time-limited challenges. We are competitive, yet helpful and sharing (also across teams), realizing that collective learning is more important than personal gain.",
+        "extraClass": "blue"  
+      },
+      {
+        "id": "about-out-mission",
+        "label": "Our code of conduct",
+        "title": "Everyone is welcome",
+        "text": "Even though we don't expect this to be an issue, we're just making sure that you know: ARIoT is dedicated to providing a harassment-free conference experience for everyone, regardless of gender, sexual orientation, disability, physical appearance, body size, race, or religion. We do not tolerate harassment of conference participants in any form. Sexual language and imagery is not appropriate for any conference venue, including talks. Conference participants violating these rules may be sanctioned or expelled from the conference without a refund at the discretion of the conference organizers.",
+        "urlText": "Check out the facilites",
+        "extraClass": "blue double"  
+      }
+    ]
 }
