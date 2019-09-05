@@ -45,20 +45,26 @@
     list-style: none;
     li {
       position: relative;
-      padding-left: 1.5em;
       .list-item-title {        
         font-family: $heading-font;
         font-weight: bold;
       }
-      &::before {
-        content: '';
-        position: absolute;
-        top: 0.5em;
-        left: 0;
-        width: 8px;
-        height: 4px;
-        background: $black;
+      h4 {
+        margin-bottom: 10.5m;
       }
+      p {
+        position: relative;
+        padding-left: 1.5em;
+        &::before {
+          content: '';
+          position: absolute;
+          top: 0.6em;
+          left: 0;
+          width: 8px;
+          height: 4px;
+          background: $black;
+        }
+      }      
     }
   }
   &__important-note {
@@ -66,27 +72,38 @@
     background-color: $pink;
     margin-left: -$gutter;
     margin-right: -3em;
+    padding: 2em 3em;
     text-align: center;
     font-size: 1.4em;
     font-family: $heading-font;
     font-weight: bold;
     span {
       display: block;
-      padding: 2em 0;
       margin: 0 auto;
-      max-width: 40%;
+      max-width: 9em;
     }
-
-    @media (min-width: $break--big) {
+    @media (min-width: $break--med) {
       position: absolute;
-      bottom: 0;
-      right: 0;
+      bottom: -3em;
+      right: 2.5em;
       margin: 0;
+    }
+    @media (min-width: $break--mega) {
+      bottom: 3em;
+      right: -3em;
     }
   }
   &.has-important-note {
     position: relative;
     padding-bottom: 0;
+    @media (min-width: $break--med) {
+      padding-bottom: 5em;
+      margin-bottom: 7em;
+    }
+    @media (min-width: $break--mega) {
+      padding-bottom: 2em;
+      padding-right: 20em;
+    }
   }
   &--blue {
     background-color: $blue;
