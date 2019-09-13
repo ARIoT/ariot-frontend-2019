@@ -16,24 +16,30 @@
       .c_badge__content {
         flex-direction: row-reverse;
         .c_badge__text {
-          // order: 1;
-          // border: 2px solid red;
           @media (min-width: $break--big) {
             padding-right: 3em;
-          }
-        }
-        .c_badge__image {
-          
-          @media (min-width: $break--big) {
-            border: 1px solid red;
-            // padding-left: 2em;
           }
         }
       }
     }
     &:nth-of-type(even) {
       @media (min-width: $break--big) {
-        
+        .c_badge__text {
+          text-align: right;
+          .u_mega-bullet-list {
+            li p {
+              padding-left: 0;
+              padding-right: 1.5em;
+              &:before {
+                left: auto;
+                right: 0;
+              }
+            }
+          }
+        }
+        .c_badge__image {
+          margin-right: 3em;
+        }
       }
     }
   }
@@ -41,20 +47,19 @@
     .text__title {
       &__number {
         display: block;
-        font-size: 1.2em;
+        font-size: 0.9em;
       }
       &__name {
-        font-size: 1.2em;
+        font-size: 1em;
       }
       @media (min-width: $break--med) {
         &__name {
-          font-size: 1.8em;
+          font-size: 1.3em;
         }
       }
     }
   }
   &__image {
-    // border: 1px solid salmon;
     margin-bottom: 1em;
     figure {
       text-align: center;
@@ -70,29 +75,44 @@
 
   }
   &__criteria {
+    margin-top: 1em;
     max-height: 0;
     overflow: hidden;
     transition: max-height 250ms ease-in-out;
+    h3 {
+      margin: 1em 0;
+    }
+    .u_mega-bullet-list {
+      li p:before {
+        background-color: $turquoise;
+      }
+    }
     &--open {
       display: block;
       visibility: visible;
-      max-height: 10em;
+      max-height: 15em;
     }
   }
   &__toggle-criteria-button {
+    margin-top: 1em;
+    padding: 1em;
     width: 100%;
     border: 1px solid $blue;
     background-color: transparent;
     color: $blue;
-    padding: 1em;
     font-size: 1em;
     font-family: $heading-font;
+    cursor: pointer;
+    transition: background-color 100ms ease-in-out, color 100ms ease-in-out;
     &:focus {
-      background-color: $blue;
-      color: $purplesuperdark;
+      outline: 3px solid $purple;
     }
     @media (min-width: $break--med) {
       width: auto;
+      &:hover {
+        background-color: $blue;
+        color: $purplesuperdark;
+      }
     }
   }
 }

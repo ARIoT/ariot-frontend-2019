@@ -15,7 +15,9 @@ export default class Badges extends React.Component {
 					type="logo"
 					theme="turquoise-darkblue" />
 				<div className="g_center">
-					<h2>Badges</h2>
+					<div className="page-intro">
+						<p>Her kommer en kul tekst om badgene :))))</p>
+					</div>
 					<div className="badge-list">
 						{BadgesData.badges.map(item => 
 						(

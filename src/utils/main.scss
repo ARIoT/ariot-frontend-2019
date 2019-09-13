@@ -23,6 +23,7 @@ body {
   min-height: 100%;
   font-family: $main-font;
   background-color: $purplesuperdark;
+  color: #fff;
 }
 
 .wrapper {
@@ -35,6 +36,24 @@ body {
   @media (min-width: $break--med) {
     // padding: 0 1em;
     width: 90%;
+  }
+}
+
+.u_mega-bullet-list {
+  li {
+    p {
+      position: relative;
+      padding-left: 1.5em;
+      &::before {
+        content: '';
+        position: absolute;
+        top: 0.6em;
+        left: 0;
+        width: 8px;
+        height: 4px;
+        background: $black;
+      }
+    }
   }
 }
 

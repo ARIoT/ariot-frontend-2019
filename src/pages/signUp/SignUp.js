@@ -1,6 +1,7 @@
 import React from 'react';
 import Nav from '../../components/nav/Nav';
 import Header from '../../components/header/Header';
+import Countdown from '../../components/countdown/Countdown';
 import './SignUp.scss';
 
 export default class SignUp extends React.Component {
@@ -13,7 +14,10 @@ export default class SignUp extends React.Component {
 					type="logo"
 					theme="yellow-darkblue" />
 				<div className="g_center">
-					<h2>Sign up</h2>					
+					<Countdown />
+					<div className="page-intro">
+						fdf
+					</div>
 				</div>
 			</div>
 		);

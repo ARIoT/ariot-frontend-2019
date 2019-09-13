@@ -44,27 +44,13 @@
     margin-bottom: 2em;
     list-style: none;
     li {
-      position: relative;
       .list-item-title {        
         font-family: $heading-font;
         font-weight: bold;
       }
       h4 {
         margin-bottom: 10.5m;
-      }
-      p {
-        position: relative;
-        padding-left: 1.5em;
-        &::before {
-          content: '';
-          position: absolute;
-          top: 0.6em;
-          left: 0;
-          width: 8px;
-          height: 4px;
-          background: $black;
-        }
-      }      
+      }     
     }
   }
   &__important-note {

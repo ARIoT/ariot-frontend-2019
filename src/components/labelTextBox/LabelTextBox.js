@@ -30,7 +30,7 @@ class LabelTextBox extends Component {
           {item.listHeader && <h3>{item.listHeader}</h3>}
 
           {item.list && (
-            <ul>
+            <ul className="u_mega-bullet-list">
             {item.list.map(item => (
             <li>
               {item.title && <h4 className="list-item-title">{item.title}</h4>}
@@ -43,7 +43,7 @@ class LabelTextBox extends Component {
           {item.listHeader2 && <h3>{item.listHeader2}</h3>}
 
           {item.list2 && (
-            <ul>
+            <ul className="u_mega-bullet-list">
             {item.list2.map(item => (
             <li>
               {item.title && <h4 className="list-item-title">{item.title}</h4>}

@@ -2,10 +2,14 @@
 @import '../../utils/_mixins.scss';
 
 .t_badges {
+  .page-intro {
+    margin: 1em 0 2em;
+    color: $turquoise;
+  }
   .badge-list {
     padding: 0 1.5em;
-  }
-  @media (min-width: $break--big) {
-    // padding: 0;
+    @media (min-width: $break--big) {
+      padding: 0;
+    }
   }
 }
