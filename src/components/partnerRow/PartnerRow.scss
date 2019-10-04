@@ -1,9 +1,53 @@
 @import '../../utils/_variables.scss';
+@import '../../utils/_mixins.scss';
 
 .c_partner-row {
+  padding: 2em 0;
   color: $purplesuperdark;
   background-color: $greygreen;
-  @media (min-width: $break--med) {
+  text-align: center;
+  ul {
+    display: flex;
+    margin: 2em 0;
+    justify-content: center;
+    flex-wrap: wrap;
+    list-style: none;
+    li {
+      width: 100%;
+      a {
+        display: block;
+        img {
+          display: block;
+          margin: 0 auto;
+          width: 100%;
+          max-width: 7em;
+        }
+        span {
+          display: block;
+          text-indent: -9000px;
+        }
+        &:focus {
+          @include focusBorder($darkpurple);
+        }
+      }
+      @media (min-width: $break--med) {
+        width: auto;
+      }
+    }
+  }
+ 
     // font-size: 1.8em;
+    &__content {
+      @media (min-width: $break--big) {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        ul {
+          margin: 0;
+          li {
+            margin: 0 0.5em;
+          }
+      }
+    }
   }
 }

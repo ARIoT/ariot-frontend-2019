@@ -31,7 +31,7 @@ body {
 
 .g_center {
   margin: 0 auto;
-  max-width: 80em;
+  max-width: 1000px;
   @media (min-width: $break--med) {
     // padding: 0 1em;
     width: 90%;
@@ -46,8 +46,38 @@ h3 {
 
 h2 {
   margin-bottom: 1.6em;
+  font-size: 2em;
+}
+
+h3 {
+  font-size: 1.6em;
+}
+
+h4 {
+  font-size: 1.2em;
 }
 
 p {
   margin-bottom: 1em;
+}
+
+// Denne bør helt sikkert legges ut i en egen komponent
+.button {
+  -webkit-appearance: none;
+  border: none;
+  font-size: 1em;
+  text-decoration: none;
+  &--box-link {
+    border: 1px solid red;
+    display: block;
+    width: 100%;
+  }
+  &--dark-text {
+    color: $purplesuperdark;
+    background: transparent;
+  }
+  &--light-text {
+    color: $blue;
+    background: transparent;
+  }
 }

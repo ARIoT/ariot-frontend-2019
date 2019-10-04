@@ -1,0 +1,136 @@
+@import '../../utils/_variables.scss';
+
+.c_mobile-top-header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  padding: 0.5em 0;
+  height: 2em;
+  min-height: 40px;
+  background: $greygreen;
+  text-align: center;
+  &__page-title {
+    font-size: 1.2em;
+    font-family: $heading-font;
+    color: $black;
+    font-weight: bold;
+  }
+  @media (min-width: $break--med) {
+    display: none;
+    height: 0;
+    visibility: hidden;
+  }
+}
+
+.c_big-header {
+  padding: 4em 1em 6em;
+  color: $blue;
+  @media (min-width: $break--med) {
+    padding-top: 6em;
+    &__content {
+      position: relative;
+      // border: 1px solid red;
+      display: flex;
+      justify-content: space-between;
+      // align-items: stretch;
+      align-items: center;
+    }
+  }
+  &__logo {
+    display: inline-block;
+    margin-left: 1em;
+    height: 3em;
+    img {
+      display: block;
+      width: auto;
+      height: 100%;
+    }
+    @media (min-width: $break--med) {
+      position: absolute;
+      top: -4em;
+      left: 0;
+      height: 3.5em;
+    }
+  }
+  &__title {
+    display: flex;
+    align-items: center;
+    font-family: $ariot-font;
+    font-weight: normal;
+    @media (min-width: $break--big) {
+      // font-size: 120%;
+    }
+    .anniversary {
+      display: flex;
+      align-items: flex-start;
+      font-weight: bold;
+      font-family: $heading-font;
+      &__year {
+        font-size: 3em;
+      }
+      &__th {
+        line-height: 2.3em;
+        font-size: 0.8em;
+      }
+      @media (min-width: $break--med) {
+        &__year {
+          font-size: 4.5em;
+        }
+        &__th {
+          font-size: 1.2em;
+        }
+      }
+    }
+    .ariot-name {
+      margin-left: 0.5em;
+      &__ariot {
+        display: block;
+        font-size: 1.6em;
+        line-height: 0.5em;
+      }
+      &__slogan {
+        font-size: 0.5em;
+        font-family: $heading-font;
+      }
+      @media (min-width: $break--med) {
+        &__ariot {
+          font-size: 2.8em;
+          line-height: 0.8em;
+        }
+        &__slogan {
+          font-size: 0.65em;
+        }
+      }
+    }
+  }
+  &__date-note {
+    float: right;
+    margin-top: -0.8em;
+    padding: 0.8em 0.8em 0.8em 2em;
+    background: $yellow;
+    color: $black;
+    text-align: right;
+    font-family: $main-font;
+    font-weight: 800;
+    .date {
+      font-size: 1.6em;
+      line-height: 1.6em;
+    }
+    .month {
+      font-size: 1em;
+    }
+    span {
+      display: block;
+    }
+    @media (min-width: $break--med) {
+      float: none;
+      display: inline-block;
+      font-size: 1.6em;
+      align-content: center;
+      .date {
+
+      }
+    }
+  }
+}
