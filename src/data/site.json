@@ -31,5 +31,21 @@
       "aria": "Sign up today!",
       "extraClass": "highlighted"
     }
+  ],
+  "partnerRow": [
+    {
+      "id": "itera-partner",
+      "name": "Itera",
+      "url": "http://itera.no",
+      "logo": "itera-logo.png",
+      "ariaLabel": "Gå til itera.no, åpnes i ny fane"
+    },
+    {
+      "id": "inmeta-partner",
+      "name": "Inmeta",
+      "url": "http://inmeta.no",
+      "logo": "inmeta-logo.png",
+      "ariaLabel": "Gå til inmeta.no, åpnes i ny fane"
+    }
   ]
 }

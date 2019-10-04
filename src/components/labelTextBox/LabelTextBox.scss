@@ -3,8 +3,8 @@
 
 .c_label-text-box {
   position: relative;
-  padding: 2.5em 3em 2em 1em;
-  margin-bottom: 2em;
+  padding: 2.5em 3em 2em $gutter;
+  margin-bottom: 3em;
   color: $black;
   @media (min-width: $break--med) {
     padding: 2.5em 2.5em 2em;
@@ -30,14 +30,79 @@
     position: absolute;
     left: 0;
     top: -1em;
-    padding: 0.5em 1em;
+    padding: 0.5em 2.5em 0.5em $gutter;
     background-color: $darkpurple;
     color: #fff;
     text-transform: uppercase;
     font-family: $heading-font;
     letter-spacing: 0.2em;
     @media (min-width: $break--med) {
-      left: 1.5em;
+      left: $gutter;
+    }
+  }
+  ul {
+    margin-bottom: 2em;
+    list-style: none;
+    li {
+      position: relative;
+      .list-item-title {        
+        font-family: $heading-font;
+        font-weight: bold;
+      }
+      h4 {
+        margin-bottom: 10.5m;
+      }
+      p {
+        position: relative;
+        padding-left: 1.5em;
+        &::before {
+          content: '';
+          position: absolute;
+          top: 0.6em;
+          left: 0;
+          width: 8px;
+          height: 4px;
+          background: $black;
+        }
+      }      
+    }
+  }
+  &__important-note {
+    // margin-top: -2.2em;
+    background-color: $pink;
+    margin-left: -$gutter;
+    margin-right: -3em;
+    padding: 2em 3em;
+    text-align: center;
+    font-size: 1.4em;
+    font-family: $heading-font;
+    font-weight: bold;
+    span {
+      display: block;
+      margin: 0 auto;
+      max-width: 9em;
+    }
+    @media (min-width: $break--med) {
+      position: absolute;
+      bottom: -3em;
+      right: 2.5em;
+      margin: 0;
+    }
+    @media (min-width: $break--mega) {
+      bottom: 3em;
+      right: -3em;
+    }
+  }
+  &.has-important-note {
+    position: relative;
+    padding-bottom: 0;
+    @media (min-width: $break--med) {
+      padding-bottom: 5em;
+      margin-bottom: 7em;
+    }
+    @media (min-width: $break--mega) {
+      padding-bottom: 2em;
+      padding-right: 20em;
     }
   }
   &--blue {
@@ -46,10 +111,10 @@
   &--yellow {
     background-color: $yellow;
   }
-  &--green {
+  &--turquoise {
     background-color: $turquoise;
   }
-  &--grey {
+  &--greygreen {
     background-color: $greygreen;
   }
 }

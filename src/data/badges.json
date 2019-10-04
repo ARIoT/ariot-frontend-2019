@@ -3,7 +3,8 @@
     {
       "id": "01",
       "title": "[Description here]",
-      "image": "",
+      "intro": "Deliver a solution before lunch the first day of the event! [Descriptopn here] does not count.",
+      "image": "http://ariot.no/img/badges/badge-business-case.png",
       "points": "100",
       "criteria": [
         {
@@ -20,7 +21,8 @@
     {
       "id": "02",
       "title": "First brunch",
-      "image": "",
+      "intro": "Sketch out the solution your team is making. The concept, the technology and more",
+      "image": "http://ariot.no/img/badges/badge-early-delivery.png",
       "points": "100",
       "criteria": [
         {
@@ -37,7 +39,62 @@
     {
       "id": "03",
       "title": "AckWard",
-      "image": "",
+      "intro": "Using IoT for the most awkward things.",
+      "image": "http://ariot.no/img/badges/badge-awkward.png",
+      "points": "100",
+      "criteria": [
+        {
+          "text": "Using IoT for the most awkward things"
+        },
+        {
+          "text": "Toilet humor comes a long way on this badge..."
+        },
+        {
+          "text": "#noshame #nofilter"
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "title": "[Description here]",
+      "intro": "Deliver a solution before lunch the first day of the event! [Descriptopn here] does not count.",
+      "image": "http://ariot.no/img/badges/badge-business-case.png",
+      "points": "100",
+      "criteria": [
+        {
+          "text": "Sketch out the solution your team are making"
+        },
+        {
+          "text": "Can include things like the concept, technology, sketches, blueprints etc."
+        },
+        {
+          "text": "This is the only badge you can prepare for in advance (we still want an awesome blog post)."
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "title": "First brunch",
+      "intro": "Sketch out the solution your team is making. The concept, the technology and more",
+      "image": "http://ariot.no/img/badges/badge-early-delivery.png",
+      "points": "100",
+      "criteria": [
+        {
+          "text": "Apply for a badge before lunch on the first day of the event"
+        },
+        {
+          "text": "[Description here] does not count"
+        },
+        {
+          "text": "You don't need to have the badge approved before lunch, but it has to be submitted in time. We can see timestamp!"
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "title": "AckWard",
+      "intro": "Using IoT for the most awkward things.",
+      "image": "http://ariot.no/img/badges/badge-awkward.png",
       "points": "100",
       "criteria": [
         {
