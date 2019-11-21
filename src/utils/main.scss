@@ -30,6 +30,18 @@ body {
   // padding: 0 0.5em;  
 }
 
+.u_hidden-mobile {
+  display: none;
+  @media (min-width: $break--med) {
+    display: block;
+  }
+}
+.u_hidden-desktop {
+  @media (min-width: $break--med) {
+    display: none !important;
+  }
+}
+
 .g_center {
   margin: 0 auto;
   max-width: 1000px;

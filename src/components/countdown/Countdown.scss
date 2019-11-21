@@ -1,5 +1,17 @@
 @import '../../utils/_variables.scss';
 
 .c_countdown {
-  border: 1px solid red;
+  
+  &__numbers {
+    border: 1px solid red;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: $blue;
+    font-family: $heading-font;
+    >div {
+      width: 33%;
+      text-align: center;
+    }
+  }
 }

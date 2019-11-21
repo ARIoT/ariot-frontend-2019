@@ -26,7 +26,7 @@ class Countdown extends Component {
     // const countdown = moment(then - now);
 
     const { days, hours, minutes } = this.state;
-    // const today = moment();
+    const today = moment();
     return (
       <div className="c_countdown">
       
