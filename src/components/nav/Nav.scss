@@ -2,8 +2,11 @@
 @import '../../utils/_mixins.scss';
 
 .c_nav {
+  position: sticky;
+  top: 0;
   font-family: $heading-font;
   font-weight: bold;
+  z-index: 30;
   &__main-menu {
     list-style: none;
     &__item {

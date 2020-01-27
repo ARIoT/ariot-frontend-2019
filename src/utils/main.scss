@@ -16,7 +16,7 @@
 }
 
 html {
-  font-size: 16px;
+  font-size: 18px;
 }
 
 body {
@@ -52,10 +52,15 @@ body {
 }
 
 .u_mega-bullet-list {
+  margin-bottom: 2em;
+  list-style: none;
   li {
     p {
       position: relative;
       padding-left: 1.5em;
+      a {
+        color: inherit;
+      }
       &::before {
         content: '';
         position: absolute;
@@ -63,7 +68,16 @@ body {
         left: 0;
         width: 8px;
         height: 4px;
-        background: $black;
+        background-color: $black;
+      }
+    }
+  }
+  &--dark {
+    li {
+      p {
+        &::before {
+          background-color: $yellow;
+        }
       }
     }
   }
@@ -86,6 +100,7 @@ h3 {
 
 h4 {
   font-size: 1.2em;
+  font-weight: normal;
 }
 
 p {
@@ -93,7 +108,8 @@ p {
 }
 
 // Denne bør helt sikkert legges ut i en egen komponent
-.button {
+.button,
+.c_button {
   -webkit-appearance: none;
   border: none;
   font-size: 1em;
@@ -110,5 +126,38 @@ p {
   &--light-text {
     color: $blue;
     background: transparent;
+  }
+}
+
+.c_round-button {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  -webkit-appearance: none;
+  border: none;
+  font-size: 2em;
+  font-family: $main-font;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.c_input {
+  // border: 1px solid blue;
+  label {
+  }
+  input {
+    padding: 0.75em 0.8em;
+    width: 100%;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    font-size: 1em;
+    font-family: $heading-font;
+  }
+  span.c_input-label-text {
+    display: block;
+    margin-bottom: 0.5em;
+    font-weight: bold;
+    font-family: $heading-font;
   }
 }
