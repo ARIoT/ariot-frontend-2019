@@ -1,0 +1,26 @@
+@import '../../utils/_variables.scss';
+@import '../../utils/_mixins.scss';
+
+.c_image {
+  margin-bottom: 3em;
+  img {
+    display: block;
+    width: 100%;
+  }
+  figcaption {
+    padding: $gutter;
+    font-style: italic;
+  }
+  @media (min-width: $break--med) {
+    figcaption {
+      padding: $gutter 0;
+    }
+   
+    
+  }
+  @media (min-width: $break--mega) {
+    margin-left: -15%;
+    margin-bottom: 5em;
+    width: 130%;
+  }
+}

@@ -1,7 +1,34 @@
 @import '../../utils/_variables.scss';
 
 .c_footer {
+  padding: 2em $gutter;
   color: $blue;
+  h3 {
+    margin: 1em 0;
+  }
+  .button {
+    margin-bottom: 1em;
+  }
+  &__some-links {
+    display: block;
+    list-style-type: none;
+    li {
+      display: inline-block;
+      margin-right: 1.5em;
+      overflow: hidden;
+      &:last-of-type {
+        margin-right: 0;
+      }
+      a {
+        
+        span {
+          display: block;
+          height: 0;
+          text-indent: -8000px;
+        }
+      }
+    }
+  }
   @media (min-width: $break--med) {
     font-size: 1.8em;
   }

@@ -1,4 +1,4 @@
-import React, { Component, Fragment } from 'react';
+import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 import './LabelTextBox.scss';
 
@@ -31,8 +31,8 @@ class LabelTextBox extends Component {
 
           {item.list && (
             <ul className="u_mega-bullet-list">
-            {item.list.map(item => (
-            <li>
+            {item.list.map((item, index) => (
+            <li key={`bulletListItem-${index}`}>
               {item.title && <h4 className="list-item-title">{item.title}</h4>}
               {item.text && <p>{item.text}</p>}
             </li> 
@@ -44,8 +44,8 @@ class LabelTextBox extends Component {
 
           {item.list2 && (
             <ul className="u_mega-bullet-list">
-            {item.list2.map(item => (
-            <li>
+            {item.list2.map((item, index) => (
+            <li key={`bulletList2Item-${index}`}>
               {item.title && <h4 className="list-item-title">{item.title}</h4>}
               {item.text && <p>{item.text}</p>}
             </li> 

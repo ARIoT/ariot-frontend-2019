@@ -115,9 +115,10 @@ p {
   font-size: 1em;
   text-decoration: none;
   &--box-link {
-    border: 1px solid red;
     display: block;
+    padding: 1em 1em;
     width: 100%;
+    border: 1px solid $blue;
   }
   &--dark-text {
     color: $purplesuperdark;
@@ -128,6 +129,11 @@ p {
     background: transparent;
   }
 }
+
+.c_icon-link {
+  border: 1px solid red;
+}
+
 
 .c_round-button {
   width: 60px;

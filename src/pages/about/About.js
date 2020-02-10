@@ -3,8 +3,13 @@ import BigHeader from '../../components/bigHeader/BigHeader';
 import Nav from '../../components/nav/Nav';
 import PartnerRow from '../../components/partnerRow/PartnerRow';
 import Footer from '../../components/footer/Footer';
+import Image from '../../components/image/Image';
 import LabelTextBox from '../../components/labelTextBox/LabelTextBox';
 import Prototype from '../../data/prototype.json';
+import Visma2019Image from '../../assets/images/visma2019.jpg';
+import SpyDogImage from '../../assets/images/spyDog2019.jpg';
+import Busy2018Image from '../../assets/images/busy2018.jpg';
+import NiceViewImage from '../../assets/images/niceView.jpg';
 import './About.scss';
 
 export default class About extends React.Component {
@@ -17,22 +22,26 @@ export default class About extends React.Component {
 		}
 	}
 
+	// Fetch feiler pga CORS-feil, og jeg får det ikke til akkurat nå
 	componentDidMount() {
-		let dataUrl = 'http://ariot-cms.azurewebsites.net/wp-json/acf/v3/colored_text_box?_embed';
-		fetch(dataUrl)
-			.then(response => response.json())
-			.then(allData => this.setState({allData: allData}));
+		// let dataUrl = 'http://ariot-cms.azurewebsites.net/wp-json/acf/v3/colored_text_box?_embed';
+		// fetch(dataUrl)
+		// 	.then(response => response.json())
+		// 	.then(allData => this.setState({allData: allData}));
 	}
 
 	// Denne skal bruke allData, og hente ut alle som har placement : about_where_when_what og returnere det i en <LabelTextBox />
 	renderWhereWhenWhat() {
 		let allArrays = this.state.allData;
+		const filterValue = 'about_where_when_what';
+
+		const newCoolArray = allArrays.filter(hepp => hepp.acf.placement === filterValue);
+		console.log(allArrays);
 		return (
 			<div className="c_label-text-boxes c_label-text-boxes--three">
 				Jeg er renderWhereWhenWhat
 				{allArrays.map( item => (
-					Object.values(item.acf)
-					// DETTE GÅR IKKE
+						Object.values(item.acf)
 				))}
 			</div>
 		)
@@ -68,6 +77,11 @@ export default class About extends React.Component {
 								/>
 							))}
 						</div>
+						
+						<Image
+							imgUrl={Visma2019Image}
+							imgAlt="The ever so happy Visma team"
+						/>
 
 						<div className="c_label-text-boxes c_label-text-boxes--one c_label-text-boxes--why">						
 								{Prototype.whyAbout.map(item => (
@@ -77,6 +91,11 @@ export default class About extends React.Component {
 									/>
 								))}
 						</div>
+						
+						<Image
+							imgUrl={SpyDogImage}
+							imgAlt="A vicious spy, or a good protector?"
+						/>
 
 						
 						<div className="c_label-text-boxes c_label-text-boxes--one c_label-text-boxes--price">
@@ -88,6 +107,11 @@ export default class About extends React.Component {
 							))}
 						</div>
 						
+						<Image
+							imgUrl={Busy2018Image}
+							imgAlt="Concentrated work"
+						/>
+						
 						<div className="c_label-text-boxes c_label-text-boxes--one c_label-text-boxes--how">
 							{Prototype.howAbout.map(item => (
 								<LabelTextBox
@@ -96,6 +120,11 @@ export default class About extends React.Component {
 								/>
 							))}
 						</div>
+						
+						<Image
+							imgUrl={NiceViewImage}
+							imgAlt="Very nice view from Voksenåsen Hotell"
+						/>
 						
 						<div className="c_label-text-boxes c_label-text-boxes--one c_label-text-boxes--bottom-boxes-about">
 							{Prototype.bottomBoxesAbout.map(item => (
