@@ -25,7 +25,7 @@ class PartnerRow extends Component {
   render() {
 
     return (
-      <header className="c_partner-row">       
+      <div className="c_partner-row">       
         <div className="g_center">
           <div className="c_partner-row__content">
           <h3 className="c_partner-row__heading">Our awesome partners:</h3>
@@ -42,7 +42,7 @@ class PartnerRow extends Component {
             <h3 className="c_partner-row__heading">Thank you so much!</h3>
           </div>
         </div>
-      </header>
+      </div>
     );
   }
 }

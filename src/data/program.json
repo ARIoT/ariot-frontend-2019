@@ -1,0 +1,159 @@
+[
+    {
+        "date": "12",
+        "day": "Thursday",
+        "stops": [
+            {
+                "time": "08:30",
+                "activity": "Check-in and rigging of your team camp"
+            },
+            {
+                "time": "10:00",
+                "activity": "Welcome keynote w/ Christian Nesmark",
+                "type": "talk"
+            },
+            {
+                "time": "10:30",
+                "activity": "Challenge kick-off",
+                "type": "hacktime"
+            },
+            {
+                "time": "12:00",
+                "activity": "Lunch"
+            },
+            {
+                "time": "13:30",
+                "activity": "Challenge session",
+                "type": "hacktime"
+            },
+            {
+                "time": "15:00",
+                "activity": "Fika"
+            },
+            {
+                "time": "19:00",
+                "activity": "Dinner",
+                "type": "social"
+            }
+        ]
+    },
+    {
+        "date": "13",
+        "day": "Friday",
+        "stops": [
+            {
+                "time": "07:00 - 10:00",
+                "activity": "Breakfast"
+            },
+            {
+                "time": "08:00",
+                "activity": "Challenge session",
+                "type": "hacktime"
+            },
+            {
+                "time": "12:00",
+                "activity": "Lunch"
+            },
+            {
+                "time": "13:00",
+                "activity": "Lightning talks",
+                "type": "talk"
+            },
+            {
+                "time": "14:30",
+                "activity": "Challenge session",
+                "type": "hacktime"
+            },
+            {
+                "time": "15:00",
+                "activity": "Fika"
+            },
+            {
+                "time": "18:45",
+                "activity": "Friday 13th Kahoot!",
+                "type": "social"
+            },
+            {
+                "time": "19:00",
+                "activity": "Pizza + geekbeer",
+                "type": "social"
+            }
+        ]
+    },
+    {
+        "date": "14",
+        "day": "Saturday",
+        "stops": [
+            {
+                "time": "07:00 - 10:00",
+                "activity": "Breakfast"
+            },
+            {
+                "time": "08:00",
+                "activity": "Challenge session",
+                "type": "hacktime"
+            },
+            {
+                "time": "12:00",
+                "activity": "Lunch"
+            },
+            {
+                "time": "13:00",
+                "activity": "LAST SUBMISSION"
+            },
+            {
+                "time": "13:05",
+                "activity": "Jury pitch (max 10 min each team)",
+                "type": "talk"
+            },
+            {
+                "time": "14:30 ish",
+                "activity": "Clean out"
+            },
+            {
+                "time": "15:00",
+                "activity": "Free time / prepare your talk / get a beer / sleep",
+                "type": "social"
+            },
+            {
+                "time": "18:00",
+                "activity": "Pre-drinks and high-fives",
+                "type": "social"
+            },
+            {
+                "time": "19:00",
+                "activity": "Dinner (dress semi-formal)",
+                "type": "social"
+            },
+            {
+                "time": "21:00",
+                "activity": "Demos, final scoreboard update and award ceremony!",
+                "type": "social"
+            },
+            {
+                "time": "22:00",
+                "activity": "Party! Let's make ARIOT!",
+                "type": "social"
+            },
+            {
+                "time": "01:30",
+                "activity": "Bar closes"
+            }
+        ]
+    },  
+    {
+        "date": "15",
+        "day": "Sunday",
+        "text": "There is no official program for Sunday. Just sleep and get som rest and get home safely.",
+        "stops": [
+            {
+                "time": "07:00 - 10:00",
+                "activity": "Breakfast"
+            },
+            {
+                "time": "07:00 - 12:00",
+                "activity": "Wake up and smell the coffee! And then leave. Thanks for this year!"
+            }
+        ]
+    }
+]

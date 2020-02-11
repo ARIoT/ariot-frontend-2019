@@ -2,3 +2,11 @@
   box-shadow: inset 0 0 0 0.2em $color;
   outline: none;
 }
+
+@mixin hover {
+  @media (min-width: $break--med) {
+    &:hover {
+      @content;
+    }
+  }
+}

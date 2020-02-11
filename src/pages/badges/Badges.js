@@ -19,10 +19,11 @@ export default class Badges extends React.Component {
 						<p>Her kommer en kul tekst om badgene :))))</p>
 					</div>
 					<div className="badge-list">
-						{BadgesData.badges.map(item => 
+						{BadgesData.badges.map((item, index) => 
 						(
 							<Badge
-								item={item}
+								key = {`badge-${index}`}
+								item = {item}
 							/>
 						))}
 					</div>

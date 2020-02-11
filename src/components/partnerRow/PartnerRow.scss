@@ -2,10 +2,15 @@
 @import '../../utils/_mixins.scss';
 
 .c_partner-row {
-  padding: 2em 0;
-  color: $purplesuperdark;
-  background-color: $greygreen;
   text-align: center;
+  &__content {
+    padding: 2em;
+    color: $purplesuperdark;
+    background-color: $greygreen;
+  }
+  h3 {
+    font-size: 1.4em;;
+  }
   ul {
     display: flex;
     margin: 2em 0;

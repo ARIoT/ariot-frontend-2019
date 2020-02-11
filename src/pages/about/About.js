@@ -79,8 +79,8 @@ export default class About extends React.Component {
 						</div>
 						
 						<Image
-							imgUrl={Visma2019Image}
-							imgAlt="The ever so happy Visma team"
+							imgUrl={SpyDogImage}
+							imgAlt="A vicious spy, or a good protector?"
 						/>
 
 						<div className="c_label-text-boxes c_label-text-boxes--one c_label-text-boxes--why">						
@@ -91,12 +91,12 @@ export default class About extends React.Component {
 									/>
 								))}
 						</div>
+
 						
 						<Image
-							imgUrl={SpyDogImage}
-							imgAlt="A vicious spy, or a good protector?"
+							imgUrl={Visma2019Image}
+							imgAlt="The ever so happy Visma team"
 						/>
-
 						
 						<div className="c_label-text-boxes c_label-text-boxes--one c_label-text-boxes--price">
 							{Prototype.priceAbout.map(item => (

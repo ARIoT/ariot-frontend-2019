@@ -1,0 +1,9 @@
+@import '../../utils/_variables.scss';
+@import '../../utils/_mixins.scss';
+
+.c_day {
+  
+  &__program {
+    border: 1px solid blue;
+  }
+}

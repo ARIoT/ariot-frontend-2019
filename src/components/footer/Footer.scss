@@ -1,10 +1,20 @@
 @import '../../utils/_variables.scss';
+@import '../../utils/_mixins.scss';
 
 .c_footer {
   padding: 2em $gutter;
   color: $blue;
   h3 {
     margin: 1em 0;
+  }
+  h4 {
+    margin-top: 2em;
+    text-align: right;
+    font-family: $ariot-font;
+    span {
+      display: block;
+      margin-top: 0.3em;
+    }
   }
   .button {
     margin-bottom: 1em;
@@ -14,22 +24,54 @@
     list-style-type: none;
     li {
       display: inline-block;
-      margin-right: 1.5em;
-      overflow: hidden;
+      margin-right: 1em;
       &:last-of-type {
         margin-right: 0;
       }
       a {
-        
+        display: block;
         span {
           display: block;
           height: 0;
           text-indent: -8000px;
         }
+        svg {
+          display: block;
+          width: auto;
+          height: 50px;
+          path {
+            transition: fill 150ms ease-in;
+          }
+          @include hover() {
+            path {
+              fill: $yellow;
+            }
+          }
+        }
+        &:focus {
+            outline: 3px solid $yellow;
+        }
       }
     }
   }
   @media (min-width: $break--med) {
-    font-size: 1.8em;
+    padding-left: 0;
+    padding-right: 0;
+    &__content {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+    }
+    &__block {
+      width: calc(50% - #{$gutter});
+      &--right {        
+        text-align: right;        
+        a {
+          span {
+            text-align: initial;
+          }
+        }
+      }
+    }
   }
 }

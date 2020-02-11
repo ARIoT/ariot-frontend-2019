@@ -1,8 +1,8 @@
 import React, { Component } from 'react'
 import { NavLink } from 'react-router-dom';
-import FacebookIcon from '../../assets/icons/facebook-icon.svg';
-import TwitterIcon from '../../assets/icons/twitter-icon.svg';
-import InstagramIcon from '../../assets/icons/instagram-icon.svg';
+import { ReactComponent as FacebookIcon} from '../../assets/icons/facebook-icon.svg';
+import { ReactComponent as TwitterIcon } from '../../assets/icons/twitter-icon.svg';
+import { ReactComponent as InstagramIcon } from '../../assets/icons/instagram-icon.svg';
 import './Footer.scss';
 // import logo, { ReactComponent as AriotLogo } from '../../assets/icons/ariot-icon.svg';
 
@@ -32,7 +32,7 @@ class Footer extends Component {
                     title="Visit our Instagram page"
                     rel="noopener noreferrer">
                     <span>Instagram</span>
-                    <img src={InstagramIcon} alt="Instagram icon" />
+                    <InstagramIcon />
                   </a>
                 </li>
                 <li>
@@ -42,7 +42,7 @@ class Footer extends Component {
                     title="Visit our Facebook page"
                     rel="noopener noreferrer">
                     <span>Facebook</span>
-                    <img src={FacebookIcon} alt="Facebook icon" />
+                    <FacebookIcon />
                   </a>
                 </li>
                 <li>
@@ -51,13 +51,13 @@ class Footer extends Component {
                     target="_blank" 
                     title="Visit our Twitter page"
                     rel="noopener noreferrer">
-                    <span>Twitter</span>
-                    <img src={TwitterIcon} alt="Twitter icon" />
+                    <span>Twitter</span>                    
+                    <TwitterIcon />
                   </a>
                 </li>
               </ul>
-            </div>
-            
+              <h4>Ariot <span>Arctic IoT Challenge 2020</span></h4>   
+            </div>  
           </div>
         </div>
       </header>
