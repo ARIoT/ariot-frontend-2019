@@ -3,7 +3,7 @@ import Nav from '../../components/nav/Nav';
 import Header from '../../components/header/Header';
 import Footer from '../../components/footer/Footer';
 import PartnerRow from '../../components/partnerRow/PartnerRow';
-import Image from '../../components/image/Image';
+// import Image from '../../components/image/Image';
 import './SignUp.scss';
 
 export default class SignUp extends React.Component {

@@ -15,4 +15,33 @@
           "text": ""
         }
       ]
-    }
+    },
+    
+    {
+      "name": "Kaja Helene Kristiansen",
+      "title": "",
+      "image": "",
+      "lookingFor": [
+          {
+              "value": ""                        
+          },
+          {
+              "value": ""
+          },
+          {
+              "value": ""
+          }
+      ],
+      "bio": [
+          {
+              "value": ""
+          },
+          
+          {
+              "value": ""
+          },
+          {
+              "value": ""
+          }
+      ]
+  }

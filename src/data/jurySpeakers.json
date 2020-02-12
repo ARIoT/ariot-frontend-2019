@@ -1,0 +1,81 @@
+{
+    "jury": [
+        {
+            "name": "Ragnhild Mjønner",
+            "title": "Service designer at Finn",
+            "image": "ragnhild.mjoenner.jpg",
+            "type": "Jury",
+            "lookingFor": [
+                {
+                    "value": "Solutions that look at a greater picture and work holistically to reach a clear goal"                        
+                },
+                {
+                    "value": "Get to know and empathise with your user"
+                },
+                {
+                    "value": "Don't \"just\" make MVPs make a MLP (Most lovable solution)"
+                }
+            ],
+            "bio": [
+                {
+                    "value": "Currently working as service design lead at FINN.no"
+                },
+                
+                {
+                    "value": "Loves people, they can be so weird"
+                },
+                {
+                    "value": "Have Shiba named Link"
+                }
+            ]
+        },
+        {
+            "name": "Kaja Helene Kristiansen",
+            "title": "Developer at EGGS Design",
+            "image": "kaja.helene.kristiansen.jpg",
+            "type": "Jury",
+            "lookingFor": [
+                {
+                    "value": "Geeky and fun stuff! If you like what you are doing, it shows in the product!"
+                },
+                {
+                    "value": "Noe veldig smart her"
+                },
+                {
+                    "value": "Good craftmanship. Take bride in what you create"
+                }
+            ],
+            "bio": [
+                {
+                    "value": "Has newly started a new job as a developer in EGGS Design"
+                },
+                {
+                    "value": "Glem ikke noe her da"
+                },
+                {
+                    "value": "Also have a shiba, but he's named Momo"
+                }
+            ]
+        }
+    ],
+    "comittee": [
+        {
+            "name": "Maria Karlsen",
+            "title": "UX Designer at Northern Beat",
+            "image": "maria.karlsen.jpg",
+            "type": "Comittee",
+            "bio": [
+                {
+                    "value": "Noe bra her"
+                },
+                
+                {
+                    "value": "Og enda bedre her! Puh, jeg bare klarer ikke komme på noe lurt akkurat nå"
+                },
+                {
+                    "value": "Hoho, så runder vi av med en skikkelig bra setning her. Maria er dødsbra, så Ariot er veldig heldige som har hatt henne med på laget i år."
+                }
+            ]
+        }
+    ]
+}
