@@ -50,6 +50,13 @@ body {
     // padding: 0 1em;
     width: 90%;
   }
+  &--text {
+    max-width: 600px;
+    ul,
+    ol {
+      padding-left: 20px;
+    }
+  }
 }
 
 .u_mega-bullet-list {
@@ -86,7 +93,8 @@ body {
 
 h1,
 h2,
-h3 {
+h3,
+h4 {
   font-family: $heading-font;
 }
 
@@ -100,12 +108,29 @@ h3 {
 }
 
 h4 {
+  margin-bottom: 0.8em;
   font-size: 1.2em;
-  font-weight: normal;
+  @media (min-width: $break--med) {
+    font-size: 1.4em;
+  }
 }
 
 p {
   margin-bottom: 1em;
+  a {
+    color: $purple;
+    transition: color 100ms ease-in;
+    @include hover() {
+      color: $pink;
+    }
+    &:focus {
+      outline: 2px solid $blue;
+    }
+  }
+  &.u_sidenote {
+    font-size: 0.8em;
+    font-style: italic;
+  }
 }
 
 // Denne bør helt sikkert legges ut i en egen komponent

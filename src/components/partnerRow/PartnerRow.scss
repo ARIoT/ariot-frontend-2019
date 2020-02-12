@@ -2,14 +2,20 @@
 @import '../../utils/_mixins.scss';
 
 .c_partner-row {
+  padding: 2em;
+  margin-top: 4em;
   text-align: center;
+  background-color: $greygreen;
   &__content {
-    padding: 2em;
     color: $purplesuperdark;
-    background-color: $greygreen;
+    @media (min-width: $break--big) {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
   }
   h3 {
-    font-size: 1.4em;;
+    font-size: 1.2em;;
   }
   ul {
     display: flex;
@@ -17,15 +23,27 @@
     justify-content: center;
     flex-wrap: wrap;
     list-style: none;
+    @media (min-width: $break--med) {
+      margin: 0;
+    }
     li {
+      margin-bottom: 0.6em;
       width: 100%;
+      @media (min-width: $break--med) {
+        padding: 0 2em;
+        width: auto;
+      }
       a {
-        display: block;
-        img {
+        display: inline-block;
+        img,
+        svg {
           display: block;
-          margin: 0 auto;
-          width: 100%;
+          max-height: 80px;
           max-width: 7em;
+        }
+        svg,
+        svg path {
+          fill: $purplesuperdark;
         }
         span {
           display: block;
@@ -35,24 +53,10 @@
           @include focusBorder($darkpurple);
         }
       }
-      @media (min-width: $break--med) {
-        width: auto;
-      }
     }
   }
  
-    // font-size: 1.8em;
     &__content {
-      @media (min-width: $break--big) {
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        ul {
-          margin: 0;
-          li {
-            margin: 0 0.5em;
-          }
-      }
-    }
+      
   }
 }

@@ -36,16 +36,16 @@
     {
       "id": "itera-partner",
       "name": "Itera",
-      "url": "http://itera.no",
+      "url": "https://itera.no",
       "logo": "itera-logo.png",
       "ariaLabel": "Gå til itera.no, åpnes i ny fane"
     },
     {
-      "id": "inmeta-partner",
-      "name": "Inmeta",
-      "url": "http://inmeta.no",
-      "logo": "inmeta-logo.png",
-      "ariaLabel": "Gå til inmeta.no, åpnes i ny fane"
+      "id": "microsoft-partner",
+      "name": "Microsoft",
+      "url": "https://www.microsoft.com/nb-no",
+      "logo": "microsoft-logo.svg",
+      "ariaLabel": "Gå til microsoft.com/no, åpnes i ny fane"
     }
   ]
 }
