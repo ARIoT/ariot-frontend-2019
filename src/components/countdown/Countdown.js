@@ -1,5 +1,5 @@
-import React, { PropTypes, Component } from 'react';
-import moment from 'moment';
+import React, { Component } from 'react';
+// import moment from 'moment';
 import './Countdown.scss';
 
 class Countdown extends Component {
@@ -25,7 +25,7 @@ class Countdown extends Component {
     // const now = moment();
     // const countdown = moment(then - now);
 
-    const { days, hours, minutes } = this.state;
+    const { hours, minutes } = this.state;
     // const today = moment();
     return (
       <div className="c_countdown">

@@ -1,13 +1,8 @@
-import React, { Component, Fragment } from 'react';
+import React, { Component } from 'react';
 import './Day.scss';
 // import SiteData from '../../data/site.json';
 
 class Day extends Component {
-
-  constructor() {
-      super();
-  }
-
 
   render() {
     const {
@@ -19,12 +14,12 @@ class Day extends Component {
     
     return (
       <div className="c_day">
-        <h3>
-          <span className="c_day__date">{date}</span>
-          <span className="c_day__day">{day}</span>
+        <h3 className="c_day__name">
+          <span className="c_day__name__date">{date}</span>
+          <span className="c_day__name__day">{day}</span>
         </h3>
         {text && (
-          <p>{text}</p>
+          <p className="c_day__text">{text}</p>
         )}
         <div className="c_day__program">
           <ul>
@@ -32,7 +27,7 @@ class Day extends Component {
             (
               <li key={`programItem-${index}`}>
                 {item.type && (
-                  <span className="program-item__type" />
+                  <span className={`program-item__type program-item__type--${item.type}`} />
                 )}
                 <span className="program-item__time">
                   {item.time}

@@ -1,4 +1,4 @@
-import React, { Component, Fragment } from 'react';
+import React, { Component } from 'react';
 import './SignupForm.scss';
 // import SiteData from '../../data/site.json';
 

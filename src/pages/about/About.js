@@ -33,10 +33,10 @@ export default class About extends React.Component {
 	// Denne skal bruke allData, og hente ut alle som har placement : about_where_when_what og returnere det i en <LabelTextBox />
 	renderWhereWhenWhat() {
 		let allArrays = this.state.allData;
-		const filterValue = 'about_where_when_what';
+		// const filterValue = 'about_where_when_what';
 
-		const newCoolArray = allArrays.filter(hepp => hepp.acf.placement === filterValue);
-		console.log(allArrays);
+		// const newCoolArray = allArrays.filter(hepp => hepp.acf.placement === filterValue);
+		// console.log(allArrays);
 		return (
 			<div className="c_label-text-boxes c_label-text-boxes--three">
 				Jeg er renderWhereWhenWhat

@@ -2,6 +2,7 @@ import React, { Fragment } from 'react';
 import Nav from '../../components/nav/Nav';
 import Header from '../../components/header/Header';
 import Day from '../../components/day/Day';
+import PartnerRow from '../../components/partnerRow/PartnerRow';
 import ProgramData from '../../data/program.json';
 import Footer from '../../components/footer/Footer';
 import './Program.scss';
@@ -37,6 +38,7 @@ export default class Program extends React.Component {
 						))}
 					</div>
 				</div>
+				<PartnerRow />
 				<Footer />
 			</Fragment>
 		);
