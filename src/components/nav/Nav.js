@@ -19,7 +19,10 @@ class Nav extends React.Component {
 		let dataUrl = this.props.mainMenuUrl;
 		fetch(dataUrl)
 			.then(response => response.json())
-			.then(mainMenuItems => this.setState({mainMenuItems: mainMenuItems.reverse()}));			
+			.then(mainMenuItems => this.setState({
+				mainMenuItems: mainMenuItems.reverse()
+			})
+			.catch(error => console.log(error)));			
 	}
 
   toggleMainMenu() {

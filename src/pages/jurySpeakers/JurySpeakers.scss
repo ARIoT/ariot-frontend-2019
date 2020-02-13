@@ -6,6 +6,8 @@
 	color: $purplesuperdark;
 	.c_people-section {
 		padding: 0 $gutter;
+		margin: 0 auto;
+		max-width: 800px;
 		&__intro {
 			margin: 0 auto 2em;
 			width: 90%;

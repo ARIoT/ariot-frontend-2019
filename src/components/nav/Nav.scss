@@ -57,7 +57,7 @@
     padding: 0;
     width: 5em;
     height: 2em;
-    min-height: 40px;
+    min-height: 44px;
     line-height: 2em;
     border: none;
     background: $purple;
@@ -94,7 +94,9 @@
       width: 80%;
       z-index: 50;
       background-color: $greygreen;
-      visibility: hidden;
+      background: $yellow;
+      animation: removeVisibilty 200ms forwards;
+      animation-delay: 250ms;
       transition: transform 200ms ease-in-out, background-color 200ms ease-in-out;
       transform: translateX(100%);
       &__item {
@@ -105,7 +107,7 @@
       }
       &--open {
         transform: translate(0, 0);
-        visibility: visible;
+        animation: addVisibilty 200ms forwards;
       }
     }
     &--open {
@@ -153,5 +155,23 @@
         }
       }
     }
+  }
+}
+
+@keyframes addVisibilty {
+  from {
+    visibility: hidden;
+  }
+  to {
+    visibility: visible;
+  }
+}
+
+@keyframes removeVisibilty {
+  from {
+    visibility: visible;
+  }
+  to {
+    visibility: hidden;
   }
 }

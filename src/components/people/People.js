@@ -31,8 +31,8 @@ class People extends Component {
           {type && <span className="c_people__type">{type}</span>}
         </div>
         <div className="c_people__intro">
-          {title && <h3 className="c_people__title">{title}</h3>}
-          {name && <h4 className="c_people__name">{name}</h4>}
+          {name && <h3 className="c_people__name">{name}</h3>}
+          {title && <h4 className="c_people__title">{title}</h4>}
         </div>
         <div className="c_people__text">
           {bio && (
