@@ -30,6 +30,34 @@
             ]
         },
         {
+            "name": "Dimitrios Platis",
+            "title": "Nice title",
+            "image": "dimitrios.platis.jpg",
+            "type": "Jury",
+            "lookingFor": [
+                {
+                    "value": "Lorem ipsum"                        
+                },
+                {
+                    "value": "Lorem ipsum is so great"
+                },
+                {
+                    "value": "Even more lorem ipsuom yaaz"
+                }
+            ],
+            "bio": [
+                {
+                    "value": "Lorem ipsum"                        
+                },
+                {
+                    "value": "Lorem ipsum is so great"
+                },
+                {
+                    "value": "Even more lorem ipsuom yaaz"
+                }
+            ]
+        },
+        {
             "name": "Kaja Helene Kristiansen",
             "title": "Developer at EGGS Design",
             "image": "kaja.helene.kristiansen.jpg",
@@ -47,13 +75,41 @@
             ],
             "bio": [
                 {
-                    "value": "Has newly started a new job as a developer in EGGS Design"
+                    "value": "Forth year helping out with Ariot"
                 },
                 {
-                    "value": "Glem ikke noe her da"
+                    "value": "Has newly started a new job as a developer in EGGS Design, working in the Creative Tech department"
                 },
                 {
-                    "value": "Also have a shiba, but he's named Momo"
+                    "value": "Also have a shiba inu, he's named Momo. Momo means 'peach' in Japanese"
+                }
+            ]
+        },
+        {
+            "name": "Christian Nesmark",
+            "title": "Developer in CNAS",
+            "image": "christian.nesmark.jpg",
+            "type": "Jury",
+            "lookingFor": [
+                {
+                    "value": "Lorem ipsum"                        
+                },
+                {
+                    "value": "Lorem ipsum is so great"
+                },
+                {
+                    "value": "Even more lorem ipsuom yaaz"
+                }
+            ],
+            "bio": [
+                {
+                    "value": "Lorem ipsum"                        
+                },
+                {
+                    "value": "Lorem ipsum is so great"
+                },
+                {
+                    "value": "Even more lorem ipsuom yaaz"
                 }
             ]
         }
@@ -74,6 +130,74 @@
                 },
                 {
                     "value": "Hoho, så runder vi av med en skikkelig bra setning her. Maria er dødsbra, så Ariot er veldig heldige som har hatt henne med på laget i år."
+                }
+            ]
+        },
+        {
+            "name": "Angeliqa Axelsson",
+            "title": "Kul tittel",
+            "image": "angeliqa.axelsson.jpg",
+            "type": "Committee",
+            "bio": [
+                {
+                    "value": "Lorem ipsum"                        
+                },
+                {
+                    "value": "Lorem ipsum is so great"
+                },
+                {
+                    "value": "Even more lorem ipsuom yaaz"
+                }
+            ]
+        },
+        {
+            "name": "Jan Ole Skotterud",
+            "title": "System developer at Visma Consulting",
+            "image": "jan.ole.skotterud.jpg",
+            "type": "Committee",
+            "bio": [
+                {
+                    "value": "After participating at Ariot for two years, he snuck himself into the committee"                        
+                },
+                {
+                    "value": "In his spare time he tinker a little with electronics, things that light up and makes noise are his favorites"
+                },
+                {
+                    "value": "Regular panel member in a disfunctional (yet funny!) podcast"
+                }
+            ]
+        },
+        {
+            "name": "Kaja Helene Kristiansen",
+            "title": "Developer at EGGS Design",
+            "image": "kaja.helene.kristiansen.jpg",
+            "type": "Comittee",
+            "bio": [
+                {
+                    "value": "Forth year helping out with Ariot"
+                },
+                {
+                    "value": "Has newly started a new job as a developer in EGGS Design, working in the Creative Tech department"
+                },
+                {
+                    "value": "Also have a shiba inu, he's named Momo. Momo means 'peach' in Japanese"
+                }
+            ]
+        },
+        {
+            "name": "Christian Nesmark",
+            "title": "Kul tittel",
+            "image": "christian.nesmark.jpg",
+            "type": "Committee",
+            "bio": [
+                {
+                    "value": "Lorem ipsum"                        
+                },
+                {
+                    "value": "Lorem ipsum is so great"
+                },
+                {
+                    "value": "Even more lorem ipsuom yaaz"
                 }
             ]
         }

@@ -18,14 +18,33 @@ export default class JurySpeakers extends React.Component {
 						type="logo"
 						theme="darkblue-yellow" />
 					<div className="g_center">
-						<h2>Jury</h2>
-						{PeopleData.jury.map((item, index) => 
-						(
-							<People
-								key = {`people-${index}`}
-								item = {item}
-							/>
-						))}
+						<section className="c_people-section">
+							<div className="c_people-section__intro">
+								<h2>Jury</h2>
+								<p>Some new, some returning!</p>
+							</div>
+							{PeopleData.jury.map((item, index) => 
+							(
+								<People
+									key = {`people-${index}`}
+									item = {item}
+								/>
+							))}
+						</section>
+
+						<section className="c_people-section">
+							<div className="c_people-section__intro">
+								<h2>Committee</h2>
+								<p>There would be no Ariot without it's committee! And we're always looking for more people to help us out.</p>
+							</div>							
+							{PeopleData.comittee.map((item, index) => 
+							(
+								<People
+									key = {`people-${index}`}
+									item = {item}
+								/>
+							))}
+						</section>
 					</div>
 				</div>
 				<PartnerRow />

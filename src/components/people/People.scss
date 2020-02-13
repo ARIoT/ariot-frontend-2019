@@ -1,82 +1,74 @@
 @import '../../utils/_variables.scss';
 @import '../../utils/_mixins.scss';
 
-.c_day {
-  margin-bottom: 3em;
-  padding: 0 $gutter;
-  @media (min-width: $break--med) {
-    margin-bottom: 5em;
+.c_people {
+  display: block;
+  padding: 0 $gutter 1em;
+  margin-bottom: 4em;
+  border-bottom: 1px solid $purplesuperdark;
+  &:last-of-type {
+    border: none;
   }
-  &__name {
-    display: flex;
-    padding-bottom: 0.5em;
-    justify-content: space-between;
-    align-items: flex-end;
-    border-bottom: 1px solid $purplesuperdark;
-    font-family:  $heading-font;
-    &__date {
-      margin-bottom: -0.2em;
-      font-size: 1.4em;
-      @media (min-width: $break--med) {
-        font-size: 3em;
-      }
-      &:after {
-        display: inline-block;
-        padding-top: 4px;
-        content: 'th';
-        font-size: 0.6em;
-        vertical-align: top;
-      }
+  &__intro {
+    margin-bottom: 2em;    
+  }
+  &__image {
+    margin: 0 auto 1.6em;
+    width: 60%;  
+    .c_image {
+      margin-bottom: 0;
     }
-    &__day {
-      text-transform: uppercase;
-      @media (min-width: $break--med) {
-        font-size: 1.2em;
-      }
+    span {
+      display: block;
+      margin-top: 1em;
+      font-size: 1.2em;
+      text-align: center;
+      font-weight: bold;
+      font-family: $heading-font;
     }
   }
   &__text {
-    padding-left: 25px;
-  }
-  &__program {
-    max-width: 700px;
+    h4 {
+      font-family: $heading-font;
+    }
     ul {
-      padding-left: 0;
-      list-style: none;
-      li {
-        position: relative;
-        padding: 0.5em 0 0.5em 25px;
-        border-bottom: 1px solid darken($greygreen, 5%);
-        @media (min-width: $break--med) {
-          padding-left: 40px;          
-        }
-        .program-item__type {
-          display: block;
-          position: absolute;
-          top: 50%;
-          left: 0;
-          transform: translateY(-50%);
-          width: 15px;
-          height: 6px;
-          @media (min-width: $break--med) {
-            width: 25px;
-          }
-          &--talk {
-            background-color: $pink;
-          }
-          &--social {
-            background-color: $blue;
-          }
-          &--hacktime {
-            background-color: $purplesuperdark;
-          }
-        }
-        .program-item__time {
-          margin-right: 1em;
-          font-weight: bold;
-          font-family: $heading-font;
-        }
+      margin-bottom: 2em;
+      max-width: 500px;
+    }
+  }
+  @media (min-width: $break--med) {
+    display: flex;
+    padding: 0;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    &:nth-of-type(odd) {
+      // border: 1px solid blue;
+      .c_people__intro {
+        text-align: right;
       }
+    }
+    &:nth-of-type(even) {
+      // border: 1px solid red;
+      .c_people__image {
+        order: 2;
+      }
+      .c_people__intro {
+        order: 1;
+      }
+      .c_people__text {
+        order: 3;
+      }
+    }
+    &__image {
+      margin: 0;
+      width: 43%;
+    }
+    &__intro {
+      width: 55%;
+      align-self: center;
+    }
+    &__text {
+      width: 100%;
     }
   }
 }
