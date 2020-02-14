@@ -1,26 +1,34 @@
 import React, { Component } from 'react';
 import './Image.scss';
 
-class Image extends Component {
+  const renderClassNames = (props) => {
+    let cN = `c_image`;
+    if (props.overlayQuote) {
+      cN = `${cN} c_image--has-overlay`
+    }
+    if (props.alignCenter) {
+      cN = `${cN} c_image--align-center`
+    }
+    return cN;
+  }
 
-
-  render() {
-    
+  const Image = (props) => {    
     return (
-      <figure className={`c_image ${this.props.overlayQuote ? 'c_image__has-overlay' : ''}`}>
-        <img src={this.props.imgUrl} alt={this.props.imgAlt} />
-        {this.props.figcaption && (
-          <figcaption className="c_image__figcaption">{this.props.figcaption}</figcaption>
-        )}
-        {this.props.overlayQuote && (
-          <figcaption className="c_figre__figcaption">
-            {this.props.overlayQuote}
-            {this.props.quoteName && <span>{this.props.quoteName}</span>}
+      <figure className={renderClassNames(props)}>
+        <div className="c_image__img-wrapper">
+          <img src={props.imgUrl} alt={props.imgAlt} />
+          {props.figcaption && (
+            <figcaption className="c_image__figcaption">{props.figcaption}</figcaption>
+          )}
+        </div>
+        {props.overlayQuote && (
+          <figcaption className="c_image__figcaption">
+            {props.overlayQuote}
+            {props.quoteName && <span>{props.quoteName}</span>}
           </figcaption>
         )}
       </figure>
     );
   }
-}
 
 export default Image;

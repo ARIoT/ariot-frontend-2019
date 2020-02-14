@@ -13,6 +13,7 @@ class People extends Component {
     const {
       name,
       title,
+      intro,
       image,
       lookingFor,
       bio,
@@ -33,32 +34,37 @@ class People extends Component {
         <div className="c_people__intro">
           {name && <h3 className="c_people__name">{name}</h3>}
           {title && <h4 className="c_people__title">{title}</h4>}
+          {intro && <p className="c_people__mini-intro">{intro}</p>}
         </div>
         <div className="c_people__text">
           {bio && (
             <Fragment>
-              <h4>Bio</h4>
-              <ul className="u_mega-bullet-list">
-                {bio.map((item, index) => 
-                (
-                  <li key={`programItem-${index}`}>
-                    <p>{item.value}</p>
-                  </li>
-                ))}  
-              </ul>
+              <div>
+                <h4>Bio</h4>
+                <ul className="u_mega-bullet-list">
+                  {bio.map((item, index) => 
+                  (
+                    <li key={`programItem-${index}`}>
+                      <p>{item.value}</p>
+                    </li>
+                  ))}  
+                </ul>
+              </div>
             </Fragment>
           )}
           {lookingFor && (
             <Fragment>
-              <h4>Looking for</h4>
-            <ul className="u_mega-bullet-list">
-              {lookingFor.map((item, index) => 
-              (
-                <li key={`programItem-${index}`}>
-                  <p>{item.value}</p>
-                </li>
-              ))}
-            </ul>
+              <div>
+                <h4>Looking for</h4>
+                <ul className="u_mega-bullet-list">
+                  {lookingFor.map((item, index) => 
+                  (
+                    <li key={`programItem-${index}`}>
+                      <p>{item.value}</p>
+                    </li>
+                  ))}
+                </ul>
+              </div>
             </Fragment>
           )}
         </div>

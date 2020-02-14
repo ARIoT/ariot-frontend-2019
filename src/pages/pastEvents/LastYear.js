@@ -11,6 +11,7 @@ export default class PastEvents extends React.Component {
         super(props);
     }
 
+
 	render() {
 		return (
 			<Fragment>
@@ -21,7 +22,8 @@ export default class PastEvents extends React.Component {
                         type="logo"
                         theme="pink-darkblue" />
                     <div className="g_center">
-                        <h2>So last dsdyear</h2>
+                        <h2>jeg er child</h2>
+                        {/* <h3>Match {this.match}</h3> */}
                     </div>
                 </div>
                 <PartnerRow />

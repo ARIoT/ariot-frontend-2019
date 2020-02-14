@@ -20,7 +20,16 @@
     }
   }
   h2 {
+    &.big-blue {
+      margin-top: 1.5em;
+      margin-bottom: 1em;
+      font-size: 3em;
+    }
     margin-bottom: 1em;
   }
-  
+  .signup-button {
+    display: inline-block;
+    margin: 1em auto;
+    font-size: 1.4em;
+  }
 }

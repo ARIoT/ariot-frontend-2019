@@ -3,7 +3,8 @@ import Nav from '../../components/nav/Nav';
 import Header from '../../components/header/Header';
 import Footer from '../../components/footer/Footer';
 import PartnerRow from '../../components/partnerRow/PartnerRow';
-// import Image from '../../components/image/Image';
+import Image from '../../components/image/Image';
+import VenueImage from '../../assets/images/venueImage.jpg';
 import './SignUp.scss';
 
 export default class SignUp extends React.Component {
@@ -17,8 +18,13 @@ export default class SignUp extends React.Component {
 						type="logo"
 						theme="yellow-darkblue" />
 					<div className="g_center g_center--text">
+						
+						<h2 className="big-blue">
+							En kul overskrift
+						</h2>
 						<h2>Come and join us!</h2>
-						<p>All you need to do is to send us an e-mail at <a href="mailto:signup@ariot.no" title="Send us an e-mail if you have any questions">signup@ariot.no</a>. What we need to know from you is:</p>
+						<p className="u_ingress">All you need to do is to send us an e-mail at <a href="mailto:signup@ariot.no" title="Send us an e-mail if you have any questions">signup@ariot.no</a>.</p>
+						<h4>What we need from you</h4>
 						<ul>
 							<li>
 								<p>Team name</p>
@@ -55,11 +61,10 @@ export default class SignUp extends React.Component {
 						<h4>The venue</h4>
 						<p><a href="http://voksenaasen.no" target="_blank" rel="noopener noreferrer">Voksenåsen Hotel</a> is located west of Oslo city centre, on the border of the woods. It has a fantastic view over Oslo and the Oslofjord, and provides a perfect environment for focusing on teamwork and creating cool solutions.</p>
 
-						<p>ET STILIG BILDE AV HOTELLET I SNØEN KANSKJE</p>
-						{/* <Image
+						<Image
 							imgUrl={VenueImage}
 							imgAlt="A nice view"
-						/> */}
+						/>
 
 						<h4>Some nitty-gritties</h4>
 						<ul>
@@ -72,6 +77,10 @@ export default class SignUp extends React.Component {
 						</ul>
 
 						<p><em>By signing up, you commit to the non-refundable signup fee. You can still change members after signing up, but not reduce the number of attendees. (In Norwegian: Påmeldingen er bindende).</em></p>
+						<a 
+							className="c_cta c_cta--blue signup-button"
+							href="mailto:signup@ariot.no" 
+							title="Write us an e-mail and sign up for Ariot todat!">Sign up!</a>
 					</div>
 				</div>
 				<PartnerRow />

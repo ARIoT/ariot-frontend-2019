@@ -133,6 +133,9 @@ p {
     font-size: 0.8em;
     font-style: italic;
   }
+  &.u_ingress {
+    font-size: 1.2em;
+  }
 }
 
 // Denne bør helt sikkert legges ut i en egen komponent
@@ -169,6 +172,38 @@ p {
 
 .c_icon-link {
   border: 1px solid red;
+}
+
+.c_cta {
+  position: relative;
+  padding: 1em 2em;
+  text-decoration: none;
+  font-family: $heading-font;
+  font-weight: bold;
+  transition: background-color 100ms ease-in;
+  &:focus {
+    outline: 3px solid $yellow;
+  }
+  &--blue {
+    background-color: $blue;
+    color: $purplesuperdark;
+    &:after {
+      position: absolute;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      height: 0;
+      content: '';
+      transition: height 100ms ease-in;
+      background-color: $darkpurple;
+    }
+    @include hover() {
+      background-color: darken($blue, 15);
+      &:after {
+        height: 0.5em;
+      }
+    }
+  }
 }
 
 

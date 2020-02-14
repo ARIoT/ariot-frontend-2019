@@ -3,6 +3,7 @@
 
 .c_image {
   margin-bottom: 3em;
+  
   img {
     display: block;
     width: 100%;
@@ -18,9 +19,40 @@
    
     
   }
-  @media (min-width: $break--mega) {
-    margin-left: -15%;
-    margin-bottom: 5em;
-    width: 130%;
+  &--has-overlay {
+    position: relative;
+    .c_image__figcaption {
+      position: absolute;
+      left: 0;
+      bottom: 0;
+      right: 0;
+      background-color: rgba($pink, 0.8);
+      color: $yellow-2;
+      font-family: $heading-font;
+      font-style: normal;
+      span {
+        display: block;
+        margin-top: 1.4em;
+        text-align: right;
+        font-style: italic;
+      }
+      @media (min-width: $break--med) {
+        bottom: 3em;
+        left: -$gutter;
+        padding: calc(#{$gutter} * 2);
+        width: 60%;
+      }
+      @media (min-width: $break--mega) {
+        left: -5em;
+      }
+    }
+  }
+  &--align-center {
+    .c_image__img-wrapper {
+      display: flex;
+      max-height: 700px;
+      overflow: hidden;
+      align-items: center;
+    }
   }
 }

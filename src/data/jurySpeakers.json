@@ -4,6 +4,7 @@
             "name": "Ragnhild Mjønner",
             "title": "Service designer at Finn",
             "image": "ragnhild.mjoenner.jpg",
+            "intro": "Lorem ipsum, a short n cool intro. Not to many characters, but some is fine. It's Friday and I wanna go home.",
             "type": "Jury",
             "lookingFor": [
                 {
@@ -33,6 +34,7 @@
             "name": "Dimitrios Platis",
             "title": "Nice title",
             "image": "dimitrios.platis.jpg",
+            "intro": "This is the second time Dimitrios join us for jury duty! Thank you! Lorem ipsum, a short n cool intro. Not to many characters, but some is fine. It's Friday and I wanna go home.",
             "type": "Jury",
             "lookingFor": [
                 {
@@ -61,6 +63,7 @@
             "name": "Kaja Helene Kristiansen",
             "title": "Developer at EGGS Design",
             "image": "kaja.helene.kristiansen.jpg",
+            "intro": "Been in the committee for four years now. Such old lady. Lorem ipsum, a short n cool intro. Not to many characters, but some is fine. It's Friday and I wanna go home.",
             "type": "Jury",
             "lookingFor": [
                 {
@@ -88,6 +91,7 @@
         {
             "name": "Christian Nesmark",
             "title": "Developer in CNAS",
+            "intro": "Co-founder of Ariot. Lorem ipsum, a short n cool intro. Not to many characters, but some is fine. It's Friday and I wanna go home.",
             "image": "christian.nesmark.jpg",
             "type": "Jury",
             "lookingFor": [
@@ -119,6 +123,7 @@
             "name": "Maria Karlsen",
             "title": "UX Designer at Northern Beat",
             "image": "maria.karlsen.jpg",
+            "intro": "Lorem ipsum, a short n cool intro. Not to many characters, but some is fine. It's Friday and I wanna go home.",
             "type": "Comittee",
             "bio": [
                 {
@@ -137,6 +142,7 @@
             "name": "Angeliqa Axelsson",
             "title": "Kul tittel",
             "image": "angeliqa.axelsson.jpg",
+            "intro": "Lorem ipsum, a short n cool intro. Not to many characters, but some is fine. It's Friday and I wanna go home.",
             "type": "Committee",
             "bio": [
                 {
@@ -154,6 +160,7 @@
             "name": "Jan Ole Skotterud",
             "title": "System developer at Visma Consulting",
             "image": "jan.ole.skotterud.jpg",
+            "intro": "Lorem ipsum, a short n cool intro. Not to many characters, but some is fine. It's Friday and I wanna go home.",
             "type": "Committee",
             "bio": [
                 {
@@ -164,40 +171,6 @@
                 },
                 {
                     "value": "Regular panel member in a disfunctional (yet funny!) podcast"
-                }
-            ]
-        },
-        {
-            "name": "Kaja Helene Kristiansen",
-            "title": "Developer at EGGS Design",
-            "image": "kaja.helene.kristiansen.jpg",
-            "type": "Comittee",
-            "bio": [
-                {
-                    "value": "Forth year helping out with Ariot"
-                },
-                {
-                    "value": "Has newly started a new job as a developer in EGGS Design, working in the Creative Tech department"
-                },
-                {
-                    "value": "Also have a shiba inu, he's named Momo. Momo means 'peach' in Japanese"
-                }
-            ]
-        },
-        {
-            "name": "Christian Nesmark",
-            "title": "Kul tittel",
-            "image": "christian.nesmark.jpg",
-            "type": "Committee",
-            "bio": [
-                {
-                    "value": "Lorem ipsum"                        
-                },
-                {
-                    "value": "Lorem ipsum is so great"
-                },
-                {
-                    "value": "Even more lorem ipsuom yaaz"
                 }
             ]
         }

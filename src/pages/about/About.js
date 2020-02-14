@@ -95,6 +95,7 @@ export default class About extends React.Component {
 						
 						<Image
 							imgUrl={Visma2019Image}
+							alignCenter
 							imgAlt="The ever so happy Visma team"
 						/>
 						
@@ -123,6 +124,7 @@ export default class About extends React.Component {
 						
 						<Image
 							imgUrl={NiceViewImage}
+							alignCenter
 							imgAlt="Very nice view from Voksenåsen Hotell"
 						/>
 						

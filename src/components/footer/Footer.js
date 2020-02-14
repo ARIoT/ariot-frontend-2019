@@ -10,7 +10,7 @@ class Footer extends Component {
 
   render() {
     return (
-      <header className="c_footer">       
+      <footer className="c_footer">       
         <div className="g_center">
           <div className="c_footer__content">
             <div className="c_footer__block c_footer__block--left">
@@ -60,7 +60,7 @@ class Footer extends Component {
             </div>  
           </div>
         </div>
-      </header>
+      </footer>
     );
   }
 }
