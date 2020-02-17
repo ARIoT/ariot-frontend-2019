@@ -1,0 +1,55 @@
+@import '../../utils/_variables.scss';
+@import '../../utils/_mixins.scss';
+
+.c_leaderboard {
+  position: relative;
+  padding: 2.5em 3em 2em $gutter;
+  background-color: $yellow;
+  &__label {
+    position: absolute;
+    left: 0;
+    top: -1em;
+    padding: 0.5em 2.5em 0.5em $gutter;
+    background-color: $black;
+    color: #fff;
+    text-transform: uppercase;
+    font-family: $heading-font;
+    letter-spacing: 0.2em;
+    @media (min-width: $break--med) {
+      left: $gutter;
+    }
+  }
+  .u_table {
+    font-family: $heading-font;
+  }
+  @media (max-width: $break--med) {
+    td {
+      display: block;             
+    }
+    &__position {      
+      font-size: 2em;
+      font-weight: bold;
+    }
+    &__team {
+      font-size: 1.4em;;
+    }
+    &__badges,
+    &__points {
+      text-transform: none;
+      &:before {
+        padding-right: 10px;
+      }
+    }
+  }
+  @media (min-width: $break--med) {
+    &__position {
+      text-align: center;
+    }
+    &__position,
+    &__badges,
+    &__points {
+      font-size: 1.6em;
+      font-weight: bold;
+    }
+  }
+}
