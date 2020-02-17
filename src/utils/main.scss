@@ -1,5 +1,6 @@
 @import './_variables.scss';
 @import './mixins.scss';
+@import './utils.scss';
 
 * {
   margin: 0;
@@ -25,23 +26,9 @@ body {
   font-family: $main-font;
   background-color: $purplesuperdark;
   color: #fff;
+  overflow-x: hidden;
 }
 
-.wrapper {
-  // padding: 0 0.5em;  
-}
-
-.u_hidden-mobile {
-  display: none;
-  @media (min-width: $break--med) {
-    display: block;
-  }
-}
-.u_hidden-desktop {
-  @media (min-width: $break--med) {
-    display: none !important;
-  }
-}
 
 .g_center {
   margin: 0 auto;
@@ -50,43 +37,23 @@ body {
     // padding: 0 1em;
     width: 90%;
   }
+  &--text {
+    max-width: 600px;
+    ul,
+    ol {
+      padding-left: 20px;
+    }
+  }
 }
 
-.u_mega-bullet-list {
-  margin-bottom: 2em;
-  list-style: none;
-  li {
-    p {
-      position: relative;
-      padding-left: 1.5em;
-      a {
-        color: inherit;
-      }
-      &::before {
-        content: '';
-        position: absolute;
-        top: 0.6em;
-        left: 0;
-        width: 8px;
-        height: 4px;
-        background-color: $black;
-      }
-    }
-  }
-  &--dark {
-    li {
-      p {
-        &::before {
-          background-color: $yellow;
-        }
-      }
-    }
-  }
+.t_page {
+  padding-bottom: 4em;
 }
 
 h1,
 h2,
-h3 {
+h3,
+h4 {
   font-family: $heading-font;
 }
 
@@ -100,12 +67,32 @@ h3 {
 }
 
 h4 {
+  margin-bottom: 0.8em;
   font-size: 1.2em;
-  font-weight: normal;
+  @media (min-width: $break--med) {
+    font-size: 1.4em;
+  }
 }
 
 p {
   margin-bottom: 1em;
+  a {
+    color: $purple;
+    transition: color 100ms ease-in;
+    @include hover() {
+      color: $pink;
+    }
+    &:focus {
+      outline: 2px solid $blue;
+    }
+  }
+  &.u_sidenote {
+    font-size: 0.8em;
+    font-style: italic;
+  }
+  &.u_ingress {
+    font-size: 1.2em;
+  }
 }
 
 // Denne bør helt sikkert legges ut i en egen komponent
@@ -144,6 +131,37 @@ p {
   border: 1px solid red;
 }
 
+.c_cta {
+  position: relative;
+  padding: 1em 2em;
+  text-decoration: none;
+  font-family: $heading-font;
+  font-weight: bold;
+  transition: background-color 100ms ease-in;
+  &:focus {
+    outline: 3px solid $yellow;
+  }
+  &--blue {
+    background-color: $blue;
+    color: $purplesuperdark;
+    &:after {
+      position: absolute;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      height: 0;
+      content: '';
+      transition: height 100ms ease-in;
+      background-color: $darkpurple;
+    }
+    @include hover() {
+      background-color: darken($blue, 15);
+      &:after {
+        height: 0.5em;
+      }
+    }
+  }
+}
 
 .c_round-button {
   width: 60px;
@@ -158,7 +176,6 @@ p {
 }
 
 .c_input {
-  // border: 1px solid blue;
   label {
   }
   input {
@@ -177,3 +194,4 @@ p {
     font-family: $heading-font;
   }
 }
+

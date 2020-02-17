@@ -1,8 +1,8 @@
 import React, { Component } from 'react'
 import { NavLink } from 'react-router-dom';
-import { ReactComponent as FacebookIcon} from '../../assets/icons/facebook-icon.svg';
-import { ReactComponent as TwitterIcon } from '../../assets/icons/twitter-icon.svg';
-import { ReactComponent as InstagramIcon } from '../../assets/icons/instagram-icon.svg';
+import { ReactComponent as FacebookIcon} from '../../../assets/icons/facebook-icon.svg';
+import { ReactComponent as TwitterIcon } from '../../../assets/icons/twitter-icon.svg';
+import { ReactComponent as InstagramIcon } from '../../../assets/icons/instagram-icon.svg';
 import './Footer.scss';
 // import logo, { ReactComponent as AriotLogo } from '../../assets/icons/ariot-icon.svg';
 
@@ -10,7 +10,7 @@ class Footer extends Component {
 
   render() {
     return (
-      <header className="c_footer">       
+      <footer className="c_footer">       
         <div className="g_center">
           <div className="c_footer__content">
             <div className="c_footer__block c_footer__block--left">
@@ -60,7 +60,7 @@ class Footer extends Component {
             </div>  
           </div>
         </div>
-      </header>
+      </footer>
     );
   }
 }

@@ -1,4 +1,5 @@
 @import '../../utils/_variables.scss';
+@import '../../utils/_mixins.scss';
 
 
 .c_label-text-box {
@@ -22,11 +23,9 @@
     color: $black;
     font-weight: 700;
     font-size: 0.9em;
-    @media (min-width: $break--med) {
-      transition: background-color 100ms ease-in-out;
-      &:hover {
-        background-color: $yellow-2;
-      }
+    transition: background-color 100ms ease-in-out;
+    @include hover() {
+      background-color: $yellow-2;
     }
   }
   &__label {

@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 import './PartnerRow.scss';
 import SiteData from '../../data/site.json';
-import Itera from '../../assets/images/logos/itera-logo.png';
-import Inmeta from '../../assets/images/logos/inmeta-logo.png';
+import { ReactComponent as IteraLogo } from '../../assets/images/logos/itera-logo.svg';
+import { ReactComponent as MicrosoftLogo } from '../../assets/images/logos/microsoft-logo.svg';
 
 class PartnerRow extends Component {
 
@@ -14,9 +14,9 @@ class PartnerRow extends Component {
   getIcon(logo) {
     switch (logo) {
     case 'itera-partner':
-        return Itera;
-    case 'inmeta-partner':
-        return Inmeta;
+        return <IteraLogo />;
+    case 'microsoft-partner':
+        return <MicrosoftLogo />;
     default:
         return null;
     }
@@ -34,7 +34,7 @@ class PartnerRow extends Component {
             (
               <li key={item.id}>
                 <a href="http://itera.no" aria-label="Visit Itera.no" target="_blank" rel="noopener noreferrer">
-                  <img src={this.getIcon(item.id)} alt="Itera logo" />
+                  {this.getIcon(item.id)}
                 </a>
               </li>
             ))}

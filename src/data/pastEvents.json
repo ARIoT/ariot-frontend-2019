@@ -1,0 +1,152 @@
+{
+	"2019": {
+		"topBoxes": [
+			{
+					"label": "Winner",
+					"title": "Modern Family by Babyshark Ultd from Computas",
+					"text": "Creating a smart baby monitor system preventing sleepdepriventing in parents",
+					"urlText": "Check out the winning project",
+					"url": "#",
+					"extraClass": "greygreen"
+			},
+			{
+					"label": "Teams",
+					"title": "7 IoT teams",
+					"text": "Seven brainy teams with three intense days to create their IoT projects = pure awesomeness",
+					"urlText": "Check out the teams blogposts",
+					"url": "#",
+					"extraClass": "greygreen"
+			},
+			{
+					"label": "What",
+					"title": "??",
+					"text": "Her må det være noe annet enn programmet for året, for det er stort sett det samme hvert år og ikke så interessant å lese",
+					"urlText": "Check out this cool link",
+					"url": "#",
+					"extraClass": "greygreen"
+			}
+		],
+		"leaderboard": [
+			{
+					"position": "01",
+					"name": "Modern Family by Babyshark Ultd",
+					"badges": "27",
+					"points": "2700"
+			},
+			{
+					"position": "02",
+					"name": "Kernel Panic 3.0",
+					"badges": "22",
+					"points": "2700"
+			},
+			{
+					"position": "03",
+					"name": "Private Constructors",
+					"badges": "22",
+					"points": "2700"
+			},
+			{
+					"position": "04",
+					"name": "Skogvokterne",
+					"badges": "20",
+					"points": "2500"
+			},
+			{
+					"position": "05",
+					"name": "Case Closed",
+					"badges": "19",
+					"points": "2400"
+			},
+			{
+					"position": "06",
+					"name": "Code Constructors",
+					"badges": "23",
+					"points": "2300"
+			}
+		]
+		},
+    "2018": {
+			"topBoxes": [
+					{
+					"label": "Winner",
+					"title": "Visma",
+					"text": "Skiing has never been more fun!",
+					"urlText": "Check out the winning project",
+					"url": "#",
+					"extraClass": "greygreen"
+				},
+				{
+					"label": "Teams",
+					"title": "6 IoT teams",
+					"text": "Six brainy teams with three intense days to create their IoT projects = pure awesomeness",
+					"urlText": "Check out the teams blogposts",
+					"url": "#",
+					"extraClass": "greygreen"
+				},
+				{
+					"label": "What",
+					"title": "??",
+					"text": "Her må det være noe annet enn programmet for året, for det er stort sett det samme hvert år og ikke så interessant å lese",
+					"urlText": "Check out this cool link",
+					"url": "#",
+					"extraClass": "greygreen"
+				}
+			],       
+			"leaderboard": [
+                {
+                    "position": "01",
+                    "name": "",
+                    "badges": "",
+                    "points": ""
+                },
+                {
+                    "position": "01",
+                    "name": "",
+                    "badges": "",
+                    "points": ""
+                },
+                {
+                    "position": "01",
+                    "name": "",
+                    "badges": "",
+                    "points": ""
+                },
+                {
+                    "position": "01",
+                    "name": "",
+                    "badges": "",
+                    "points": ""
+                },
+                {
+                    "position": "01",
+                    "name": "",
+                    "badges": "",
+                    "points": ""
+                },
+                {
+                    "position": "01",
+                    "name": "",
+                    "badges": "",
+                    "points": ""
+                },
+                {
+                    "position": "01",
+                    "name": "",
+                    "badges": "",
+                    "points": ""
+                },
+                {
+                    "position": "01",
+                    "name": "",
+                    "badges": "",
+                    "points": ""
+                }
+			]
+		},
+		"2017": [
+
+		],
+		"2016": [
+			
+		]
+}

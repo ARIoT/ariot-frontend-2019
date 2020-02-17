@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import './BigHeader.scss';
 import { Link } from 'react-router-dom';
-import Logo from '../../assets/images/blue-logo.png';
+import Logo from '../../../assets/images/blue-logo.png';
 
 class BigHeader extends Component {
 

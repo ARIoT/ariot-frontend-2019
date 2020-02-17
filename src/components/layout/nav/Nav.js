@@ -1,7 +1,7 @@
 import React from 'react'
 import { NavLink } from 'react-router-dom';
 import './Nav.scss';
-import SiteData from '../../data/site.json';
+import SiteData from '../../../data/site.json';
 
 class Nav extends React.Component {
 
@@ -19,7 +19,10 @@ class Nav extends React.Component {
 		let dataUrl = this.props.mainMenuUrl;
 		fetch(dataUrl)
 			.then(response => response.json())
-			.then(mainMenuItems => this.setState({mainMenuItems: mainMenuItems.reverse()}));			
+			.then(mainMenuItems => this.setState({
+				mainMenuItems: mainMenuItems.reverse()
+			})
+			.catch(error => console.log(error)));			
 	}
 
   toggleMainMenu() {

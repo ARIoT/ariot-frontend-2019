@@ -1,6 +1,35 @@
 @import '../../utils/_variables.scss';
 
-.t_sign-up {
-  // border: 1px solid red;
+.t_sign-up {  
   color: $yellow;
+  .g_center--text {
+    padding: 0 $gutter;
+    @media (min-width: $break--med) {
+      padding: 0;
+    }
+    ul {
+      margin-bottom: 3em;
+    }
+  }
+  .big-blue {
+    margin-bottom: 1.6em;    
+    font-size: 1.6em;
+    color: $blue;
+    @media (min-width: $break--med) {
+      width: 120%;
+    }
+  }
+  h2 {
+    &.big-blue {
+      margin-top: 1.5em;
+      margin-bottom: 1em;
+      font-size: 3em;
+    }
+    margin-bottom: 1em;
+  }
+  .signup-button {
+    display: inline-block;
+    margin: 1em auto;
+    font-size: 1.4em;
+  }
 }

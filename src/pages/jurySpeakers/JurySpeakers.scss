@@ -1,0 +1,23 @@
+@import '../../utils/_variables.scss';
+@import '../../utils/_mixins.scss';
+
+.t_jury-speakers {    
+	background-color: $blue;
+	color: $purplesuperdark;
+	.c_people-section {
+		padding: 0 $gutter;
+		margin: 0 auto;
+		max-width: 800px;
+		&__intro {
+			margin: 0 auto 2em;
+			width: 90%;
+			text-align: center;
+			h2 {
+				margin-bottom: 0.4em;
+				@media (min-width: $break--med) {
+					font-size: 3em;
+				}
+			}
+		}
+	}
+}

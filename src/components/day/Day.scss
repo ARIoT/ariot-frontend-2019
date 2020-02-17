@@ -10,7 +10,6 @@
   &__name {
     display: flex;
     padding-bottom: 0.5em;
-    margin-bottom: 0.5em;
     justify-content: space-between;
     align-items: flex-end;
     border-bottom: 1px solid $purplesuperdark;
@@ -37,17 +36,18 @@
     }
   }
   &__text {
-    padding-left: 25px;
+    padding-top: 1em;
   }
   &__program {
     max-width: 700px;
     ul {
       padding-left: 0;
+      margin-top: 1em;
       list-style: none;
       li {
         position: relative;
-        padding: 0.5em 0 0.5em 25px;
-        border-bottom: 1px solid darken($greygreen, 5%);
+        padding: 0.6em 0 0.6em 25px;
+        // border-bottom: 1px solid rgba($purplesuperdark, 0.15);
         @media (min-width: $break--med) {
           padding-left: 40px;          
         }
@@ -73,7 +73,10 @@
           }
         }
         .program-item__time {
+          display: inline-block;
           margin-right: 1em;
+          width: 50px;
+          text-align: center;
           font-weight: bold;
           font-family: $heading-font;
         }

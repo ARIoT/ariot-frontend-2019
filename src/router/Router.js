@@ -2,7 +2,8 @@ import React from 'react';
 import {
   BrowserRouter as Router,
   Route,
-  Switch
+  Switch,
+  useParams
 } from 'react-router-dom';
 
 // import Home from '../pages/home/Home';
@@ -12,6 +13,7 @@ import Badges from '../pages/badges/Badges';
 import JurySpeakers from '../pages/jurySpeakers/JurySpeakers';
 import SignUp from '../pages/signUp/SignUp';
 import PastEvents from '../pages/pastEvents/PastEvents';
+import LastYear from '../pages/pastEvents/LastYear';
 import NoMatch from '../pages/noMatch/NoMatch'; 
 
 export default () => (
@@ -23,8 +25,9 @@ export default () => (
 			<Route path="/badges" exact component={Badges} />
 			<Route path="/jury-speakers" exact component={JurySpeakers} />
 			<Route path="/past-events" exact component={PastEvents} />
+			<Route path="/last-year/:year" component={LastYear} />
 			<Route path="/sign-up" exact component={SignUp} />
-      <Route component={NoMatch} />
+      		<Route component={NoMatch} />
 		</Switch>
 	</Router>
 );

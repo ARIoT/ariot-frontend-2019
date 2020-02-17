@@ -1,6 +1,8 @@
-import React from 'react';
-import Nav from '../../components/nav/Nav';
-import Header from '../../components/header/Header';
+import React, { Fragment } from 'react';
+import Nav from '../../components/layout/nav/Nav';
+import Header from '../../components/layout/header/Header';
+import Footer from '../../components/layout/footer/Footer';
+import PartnerRow from '../../components/partnerRow/PartnerRow';
 import BadgesData from '../../data/badges.json';
 import Badge from '../../components/badge/Badge';
 import './Badges.scss';
@@ -8,6 +10,7 @@ import './Badges.scss';
 export default class Badges extends React.Component {
 	render() {
 		return (
+		<Fragment>
 			<div className="t_badges t_page">
 				<Nav />
 				<Header
@@ -29,6 +32,9 @@ export default class Badges extends React.Component {
 					</div>
 				</div>
 			</div>
+			<PartnerRow />
+			<Footer />
+		</Fragment>
 		);
 	}
 }

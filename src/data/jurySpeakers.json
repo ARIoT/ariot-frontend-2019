@@ -1,0 +1,178 @@
+{
+    "jury": [
+        {
+            "name": "Ragnhild Mjønner",
+            "title": "Service designer at Finn",
+            "image": "ragnhild.mjoenner.jpg",
+            "intro": "Lorem ipsum, a short n cool intro. Not to many characters, but some is fine. It's Friday and I wanna go home.",
+            "type": "Jury",
+            "lookingFor": [
+                {
+                    "value": "Solutions that look at a greater picture and work holistically to reach a clear goal"                        
+                },
+                {
+                    "value": "Get to know and empathise with your user"
+                },
+                {
+                    "value": "Don't \"just\" make MVPs make a MLP (Most lovable solution)"
+                }
+            ],
+            "bio": [
+                {
+                    "value": "Currently working as service design lead at FINN.no"
+                },
+                
+                {
+                    "value": "Loves people, they can be so weird"
+                },
+                {
+                    "value": "Have Shiba named Link"
+                }
+            ]
+        },
+        {
+            "name": "Dimitrios Platis",
+            "title": "Nice title",
+            "image": "dimitrios.platis.jpg",
+            "intro": "This is the second time Dimitrios join us for jury duty! Thank you! Lorem ipsum, a short n cool intro. Not to many characters, but some is fine. It's Friday and I wanna go home.",
+            "type": "Jury",
+            "lookingFor": [
+                {
+                    "value": "Lorem ipsum"                        
+                },
+                {
+                    "value": "Lorem ipsum is so great"
+                },
+                {
+                    "value": "Even more lorem ipsuom yaaz"
+                }
+            ],
+            "bio": [
+                {
+                    "value": "Lorem ipsum"                        
+                },
+                {
+                    "value": "Lorem ipsum is so great"
+                },
+                {
+                    "value": "Even more lorem ipsuom yaaz"
+                }
+            ]
+        },
+        {
+            "name": "Kaja Helene Kristiansen",
+            "title": "Developer at EGGS Design",
+            "image": "kaja.helene.kristiansen.jpg",
+            "intro": "Been in the committee for four years now. Such old lady. Lorem ipsum, a short n cool intro. Not to many characters, but some is fine. It's Friday and I wanna go home.",
+            "type": "Jury",
+            "lookingFor": [
+                {
+                    "value": "Geeky and fun stuff! If you like what you are doing, it shows in the product!"
+                },
+                {
+                    "value": "Noe veldig smart her"
+                },
+                {
+                    "value": "Good craftmanship. Take bride in what you create"
+                }
+            ],
+            "bio": [
+                {
+                    "value": "Forth year helping out with Ariot"
+                },
+                {
+                    "value": "Has newly started a new job as a developer in EGGS Design, working in the Creative Tech department"
+                },
+                {
+                    "value": "Also have a shiba inu, he's named Momo. Momo means 'peach' in Japanese"
+                }
+            ]
+        },
+        {
+            "name": "Christian Nesmark",
+            "title": "Developer in CNAS",
+            "intro": "Co-founder of Ariot. Lorem ipsum, a short n cool intro. Not to many characters, but some is fine. It's Friday and I wanna go home.",
+            "image": "christian.nesmark.jpg",
+            "type": "Jury",
+            "lookingFor": [
+                { 
+                    "value": "Lorem ipsum"                         
+                },
+                {
+                    "value": "Lorem ipsum is so great"
+                },
+                {
+                    "value": "Even more lorem ipsuom yaaz"
+                }
+            ],
+            "bio": [
+                {
+                    "value": "Lorem ipsum"                        
+                },
+                {
+                    "value": "Lorem ipsum is so great"
+                },
+                {
+                    "value": "Even more lorem ipsuom yaaz"
+                }
+            ]
+        }
+    ],
+    "comittee": [
+        {
+            "name": "Maria Karlsen",
+            "title": "UX Designer at Northern Beat",
+            "image": "maria.karlsen.jpg",
+            "intro": "Lorem ipsum, a short n cool intro. Not to many characters, but some is fine. It's Friday and I wanna go home.",
+            "type": "Comittee",
+            "bio": [
+                {
+                    "value": "Noe bra her"
+                },
+                
+                {
+                    "value": "Og enda bedre her! Puh, jeg bare klarer ikke komme på noe lurt akkurat nå"
+                },
+                {
+                    "value": "Hoho, så runder vi av med en skikkelig bra setning her. Maria er dødsbra, så Ariot er veldig heldige som har hatt henne med på laget i år."
+                }
+            ]
+        },
+        {
+            "name": "Angeliqa Axelsson",
+            "title": "Kul tittel",
+            "image": "angeliqa.axelsson.jpg",
+            "intro": "Lorem ipsum, a short n cool intro. Not to many characters, but some is fine. It's Friday and I wanna go home.",
+            "type": "Committee",
+            "bio": [
+                {
+                    "value": "Lorem ipsum"                        
+                },
+                {
+                    "value": "Lorem ipsum is so great"
+                },
+                {
+                    "value": "Even more lorem ipsuom yaaz"
+                }
+            ]
+        },
+        {
+            "name": "Jan Ole Skotterud",
+            "title": "System developer at Visma Consulting",
+            "image": "jan.ole.skotterud.jpg",
+            "intro": "Lorem ipsum, a short n cool intro. Not to many characters, but some is fine. It's Friday and I wanna go home.",
+            "type": "Committee",
+            "bio": [
+                {
+                    "value": "After participating at Ariot for two years, he snuck himself into the committee"                        
+                },
+                {
+                    "value": "In his spare time he tinker a little with electronics, things that light up and makes noise are his favorites"
+                },
+                {
+                    "value": "Regular panel member in a disfunctional (yet funny!) podcast"
+                }
+            ]
+        }
+    ]
+}
