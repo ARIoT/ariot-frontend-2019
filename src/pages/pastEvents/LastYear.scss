@@ -1,0 +1,14 @@
+@import '../../utils/_variables.scss';
+@import '../../utils/_mixins.scss';
+
+.t_last-year {
+    background-color: $blue;
+    color: $purplesuperdark;
+    .year-title {
+        @media (min-width: $break--med) {
+            margin: 0.8em 0 1em;
+            font-size: 5em;
+            text-align: center;
+        }
+    }
+}

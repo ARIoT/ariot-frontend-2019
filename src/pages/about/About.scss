@@ -15,16 +15,6 @@
     }
   }
   .c_label-text-boxes {
-    margin-bottom: 4em;
-    &--three {
-      @media (min-width: $break--big) {
-        display: flex;
-        justify-content: space-between;
-        .c_label-text-box {
-          width: calc(33% - 1em);
-        }
-      }
-    }
     &--bottom-boxes-about {
       @media (min-width: $break--big) {
         display: flex;

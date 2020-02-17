@@ -47,5 +47,19 @@
       "logo": "microsoft-logo.svg",
       "ariaLabel": "Gå til microsoft.com/no, åpnes i ny fane"
     }
+  ],
+  "pastYears": [
+    {
+      "value": "2016"
+    },
+    {
+      "value": "2017"
+    },
+    {
+      "value": "2018"
+    },
+    {
+      "value": "2019"
+    }
   ]
 }

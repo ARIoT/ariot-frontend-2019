@@ -25,9 +25,9 @@ export default () => (
 			<Route path="/badges" exact component={Badges} />
 			<Route path="/jury-speakers" exact component={JurySpeakers} />
 			<Route path="/past-events" exact component={PastEvents} />
-			<Route path="/past-events/:year" component={PastEvents} />
+			<Route path="/last-year/:year" component={LastYear} />
 			<Route path="/sign-up" exact component={SignUp} />
-      <Route component={NoMatch} />
+      		<Route component={NoMatch} />
 		</Switch>
 	</Router>
 );

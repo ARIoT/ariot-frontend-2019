@@ -1,0 +1,134 @@
+@import './_variables.scss';
+@import './mixins.scss';
+
+.u_label-text-boxes {
+  margin-bottom: 4em;
+  &--three {
+    @media (min-width: $break--big) {
+      display: flex;
+      justify-content: space-between;
+      .c_label-text-box {
+        width: calc(33% - 1em);
+      }
+    }
+  }
+}
+
+.u_big-link-list {
+  padding: 0;
+  list-style: none;
+  li {
+    margin-bottom: 1em;
+    a {
+      display: block;
+      position: relative;
+      padding: 1em;
+      font-size: 1.2em;
+      background-color: $blue;
+      transition: background-color 150ms ease-in;
+      text-decoration: none;
+      font-family: $heading-font;
+      color: $purplesuperdark;
+      font-weight: bold;
+      @include hover() {
+        background-color: darken($blue, 18%);
+        text-decoration: underline;
+        .u_big-link-list__icon {
+          right: calc(#{$gutter} - 10px);
+        }
+      }
+      &:focus {
+        outline: 3px solid $yellow;
+      }
+    }
+  }
+  &__text {
+  }
+  &__icon {
+    display: block;
+    position: absolute;
+    top: 50%;
+    right: $gutter;
+    transform: translateY(-50%);
+    width: 28px;
+    height: 20px;
+    transition: right 100ms ease-in;
+    fill: $purplesuperdark;
+  }
+}
+
+.u_hidden-mobile {
+    display: none;
+    @media (min-width: $break--med) {
+      display: block;
+    }
+  }
+  .u_hidden-desktop {
+    @media (min-width: $break--med) {
+      display: none !important;
+    }
+  }
+  
+  .u_mega-bullet-list {
+    margin-bottom: 2em;
+    list-style: none;
+    li {
+      margin-bottom: calc(#{$gutter} / 2);
+      p {
+        position: relative;
+        padding-left: 1.5em;
+        a {
+          color: inherit;
+        }
+        &::before {
+          content: '';
+          position: absolute;
+          top: 0.6em;
+          left: 0;
+          width: 8px;
+          height: 4px;
+          background-color: $black;
+        }
+      }
+    }
+    &--dark {
+      li {
+        p {
+          &::before {
+            background-color: $yellow;
+          }
+        }
+      }
+    }
+  }
+
+  .fade-enter {
+    opacity: 0.01;
+    z-index: 20;
+    &-active {
+      transition: opacity 1000ms ease-in;
+      opacity: 1;
+      transition: all 500ms;
+    }
+    &-done {
+  
+    }
+  }
+  
+  .fade-enter.fade-enter-active {
+    
+  }
+  
+  .fade-leave {
+    opacity: 0;
+    opacity: 1;
+    transform: scale(1);
+    &-active {
+      opacity: 0.01;
+      transition: opacity 800ms ease-in;
+      border-color: teal;
+      opacity: 0.01;
+      transform: scale(1.1);
+      transition: all 300ms;
+    }
+  }

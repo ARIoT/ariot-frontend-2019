@@ -1,7 +1,7 @@
 import React from 'react'
 import { NavLink } from 'react-router-dom';
 import './Nav.scss';
-import SiteData from '../../data/site.json';
+import SiteData from '../../../data/site.json';
 
 class Nav extends React.Component {
 

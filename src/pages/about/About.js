@@ -1,8 +1,8 @@
 import React, { Fragment } from 'react';
-import BigHeader from '../../components/bigHeader/BigHeader';
-import Nav from '../../components/nav/Nav';
+import BigHeader from '../../components/layout/bigHeader/BigHeader';
+import Nav from '../../components/layout/nav/Nav';
 import PartnerRow from '../../components/partnerRow/PartnerRow';
-import Footer from '../../components/footer/Footer';
+import Footer from '../../components/layout/footer/Footer';
 import Image from '../../components/image/Image';
 import LabelTextBox from '../../components/labelTextBox/LabelTextBox';
 import Prototype from '../../data/prototype.json';
@@ -69,11 +69,11 @@ export default class About extends React.Component {
 
 					{/* Hardkodet for nå, men skal jo bruke data fra WP */}
 					<div className="g_center">
-						<div className="c_label-text-boxes c_label-text-boxes--three c_label-text-boxes--wherewhenwhat">						
-							{Prototype.whereWhenWhat.map(item => (
+						<div className="u_label-text-boxes u_label-text-boxes--three c_label-text-boxes--wherewhenwhat">						
+							{Prototype.whereWhenWhat.map((item, index) => (
 								<LabelTextBox
 								item={item}
-								key={item.id}
+								key={`wherewhenwhat-${item.id}-${index}`}
 								/>
 							))}
 						</div>
@@ -84,10 +84,10 @@ export default class About extends React.Component {
 						/>
 
 						<div className="c_label-text-boxes c_label-text-boxes--one c_label-text-boxes--why">						
-								{Prototype.whyAbout.map(item => (
+								{Prototype.whyAbout.map((item, index) => (
 									<LabelTextBox
 									item={item}
-									key={item.id}
+									key={`why-${item.id}-${index}`}
 									/>
 								))}
 						</div>
@@ -100,10 +100,10 @@ export default class About extends React.Component {
 						/>
 						
 						<div className="c_label-text-boxes c_label-text-boxes--one c_label-text-boxes--price">
-							{Prototype.priceAbout.map(item => (
+							{Prototype.priceAbout.map((item, index) => (
 								<LabelTextBox
 								item={item}
-								key={item.id}
+								key={`price-${index}`}
 								/>
 							))}
 						</div>
@@ -114,10 +114,10 @@ export default class About extends React.Component {
 						/>
 						
 						<div className="c_label-text-boxes c_label-text-boxes--one c_label-text-boxes--how">
-							{Prototype.howAbout.map(item => (
+							{Prototype.howAbout.map((item, index) => (
 								<LabelTextBox
 								item={item}
-								key={item.id}
+								key={`how-${item.id}-${index}`}
 								/>
 							))}
 						</div>
@@ -129,10 +129,10 @@ export default class About extends React.Component {
 						/>
 						
 						<div className="c_label-text-boxes c_label-text-boxes--one c_label-text-boxes--bottom-boxes-about">
-							{Prototype.bottomBoxesAbout.map(item => (
+							{Prototype.bottomBoxesAbout.map((item, index) => (
 								<LabelTextBox
 								item={item}
-								key={item.id}
+								key={`about-${index}`}
 								/>
 							))}
 						</div>

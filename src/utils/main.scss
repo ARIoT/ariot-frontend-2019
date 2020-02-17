@@ -1,5 +1,6 @@
 @import './_variables.scss';
 @import './mixins.scss';
+@import './utils.scss';
 
 * {
   margin: 0;
@@ -28,21 +29,6 @@ body {
   overflow-x: hidden;
 }
 
-.wrapper {
-  // padding: 0 0.5em;  
-}
-
-.u_hidden-mobile {
-  display: none;
-  @media (min-width: $break--med) {
-    display: block;
-  }
-}
-.u_hidden-desktop {
-  @media (min-width: $break--med) {
-    display: none !important;
-  }
-}
 
 .g_center {
   margin: 0 auto;
@@ -60,37 +46,8 @@ body {
   }
 }
 
-.u_mega-bullet-list {
-  margin-bottom: 2em;
-  list-style: none;
-  li {
-    margin-bottom: calc(#{$gutter} / 2);
-    p {
-      position: relative;
-      padding-left: 1.5em;
-      a {
-        color: inherit;
-      }
-      &::before {
-        content: '';
-        position: absolute;
-        top: 0.6em;
-        left: 0;
-        width: 8px;
-        height: 4px;
-        background-color: $black;
-      }
-    }
-  }
-  &--dark {
-    li {
-      p {
-        &::before {
-          background-color: $yellow;
-        }
-      }
-    }
-  }
+.t_page {
+  padding-bottom: 4em;
 }
 
 h1,
@@ -206,7 +163,6 @@ p {
   }
 }
 
-
 .c_round-button {
   width: 60px;
   height: 60px;
@@ -220,7 +176,6 @@ p {
 }
 
 .c_input {
-  // border: 1px solid blue;
   label {
   }
   input {
@@ -239,3 +194,4 @@ p {
     font-family: $heading-font;
   }
 }
+
