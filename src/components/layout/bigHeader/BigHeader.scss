@@ -10,6 +10,7 @@
   min-height: 44px;
   background: $greygreen;
   text-align: center;
+  z-index: 25;
   &__page-title {
     font-size: 1.2em;
     font-family: $heading-font;
