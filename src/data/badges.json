@@ -37,6 +37,78 @@
       ]
     },
     {
+      "id": "35",
+      "title": "Foodie",
+      "intro": "",
+      "image": "http://ariot.no/img/badges/badge-business-case.png",
+      "points": "100",
+      "criteria": [
+        {
+          "text": ""
+        },
+        {
+          "text": ""
+        },
+        {
+          "text": ""
+        }
+      ]
+    },
+    {
+      "id": "36",
+      "title": "C-C-C-Combobadge",
+      "intro": "Oh, it's a well-kept hidden secret...",
+      "image": "http://ariot.no/img/badges/badge-business-case.png",
+      "points": "100",
+      "criteria": [
+        {
+          "text": ""
+        },
+        {
+          "text": ""
+        },
+        {
+          "text": ""
+        }
+      ]
+    },
+    {
+      "id": "37",
+      "title": "Off the wire",
+      "intro": "Use four or more wireless transmission technologies in your solution",
+      "image": "http://ariot.no/img/badges/badge-business-case.png",
+      "points": "100",
+      "criteria": [
+        {
+          "text": "It should be used for a reason"
+        },
+        {
+          "text": ""
+        },
+        {
+          "text": ""
+        }
+      ]
+    },
+    {
+      "id": "38",
+      "title": "Rubberduckin'",
+      "intro": "",
+      "image": "http://ariot.no/img/badges/badge-business-case.png",
+      "points": "100",
+      "criteria": [
+        {
+          "text": ""
+        },
+        {
+          "text": ""
+        },
+        {
+          "text": ""
+        }
+      ]
+    },
+    {
       "id": "03",
       "title": "AckWard",
       "intro": "Using IoT for the most awkward things.",
@@ -44,67 +116,574 @@
       "points": "100",
       "criteria": [
         {
-          "text": "Using IoT for the most awkward things"
+          "text": "No need for this one to be useful, as long as it's aaaawkward"
         },
         {
           "text": "Toilet humor comes a long way on this badge..."
         },
         {
           "text": "#noshame #nofilter"
+        },
+        {
+          "text": "Do you blush when writing this blog post? Then it’s probably AckWard worthy"
         }
       ]
     },
     {
       "id": "04",
-      "title": "[Description here]",
-      "intro": "Deliver a solution before lunch the first day of the event! [Descriptopn here] does not count.",
+      "title": "Attack of the drones",
+      "intro": "",
       "image": "http://ariot.no/img/badges/badge-business-case.png",
       "points": "100",
       "criteria": [
         {
-          "text": "Sketch out the solution your team are making"
+          "text": ""
         },
         {
-          "text": "Can include things like the concept, technology, sketches, blueprints etc."
+          "text": ""
         },
         {
-          "text": "This is the only badge you can prepare for in advance (we still want an awesome blog post)."
+          "text": ""
         }
       ]
     },
     {
       "id": "05",
-      "title": "First brunch",
-      "intro": "Sketch out the solution your team is making. The concept, the technology and more",
-      "image": "http://ariot.no/img/badges/badge-early-delivery.png",
+      "title": "Babelfish",
+      "intro": "",
+      "image": "http://ariot.no/img/badges/badge-business-case.png",
       "points": "100",
       "criteria": [
         {
-          "text": "Apply for a badge before lunch on the first day of the event"
+          "text": ""
         },
         {
-          "text": "[Description here] does not count"
+          "text": ""
         },
         {
-          "text": "You don't need to have the badge approved before lunch, but it has to be submitted in time. We can see timestamp!"
+          "text": ""
         }
       ]
     },
     {
       "id": "06",
-      "title": "AckWard",
-      "intro": "Using IoT for the most awkward things.",
-      "image": "http://ariot.no/img/badges/badge-awkward.png",
+      "title": "Cloud city",
+      "intro": "",
+      "image": "http://ariot.no/img/badges/badge-business-case.png",
       "points": "100",
       "criteria": [
         {
-          "text": "Using IoT for the most awkward things"
+          "text": ""
         },
         {
-          "text": "Toilet humor comes a long way on this badge..."
+          "text": ""
         },
         {
-          "text": "#noshame #nofilter"
+          "text": ""
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "title": "Dr. Who",
+      "intro": "",
+      "image": "http://ariot.no/img/badges/badge-business-case.png",
+      "points": "100",
+      "criteria": [
+        {
+          "text": ""
+        },
+        {
+          "text": ""
+        },
+        {
+          "text": ""
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "title": "Eyes wide shutter",
+      "intro": "",
+      "image": "http://ariot.no/img/badges/badge-business-case.png",
+      "points": "100",
+      "criteria": [
+        {
+          "text": ""
+        },
+        {
+          "text": ""
+        },
+        {
+          "text": ""
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "title": "Force field",
+      "intro": "",
+      "image": "http://ariot.no/img/badges/badge-business-case.png",
+      "points": "100",
+      "criteria": [
+        {
+          "text": ""
+        },
+        {
+          "text": ""
+        },
+        {
+          "text": ""
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "title": "HUD",
+      "intro": "",
+      "image": "http://ariot.no/img/badges/badge-business-case.png",
+      "points": "100",
+      "criteria": [
+        {
+          "text": ""
+        },
+        {
+          "text": ""
+        },
+        {
+          "text": ""
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "title": "I fixed it!",
+      "intro": "",
+      "image": "http://ariot.no/img/badges/badge-business-case.png",
+      "points": "100",
+      "criteria": [
+        {
+          "text": ""
+        },
+        {
+          "text": ""
+        },
+        {
+          "text": ""
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "title": "Instant",
+      "intro": "",
+      "image": "http://ariot.no/img/badges/badge-business-case.png",
+      "points": "100",
+      "criteria": [
+        {
+          "text": ""
+        },
+        {
+          "text": ""
+        },
+        {
+          "text": ""
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "title": "It's alive!",
+      "intro": "",
+      "image": "http://ariot.no/img/badges/badge-business-case.png",
+      "points": "100",
+      "criteria": [
+        {
+          "text": ""
+        },
+        {
+          "text": ""
+        },
+        {
+          "text": ""
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "title": "Make love, not war",
+      "intro": "",
+      "image": "http://ariot.no/img/badges/badge-business-case.png",
+      "points": "100",
+      "criteria": [
+        {
+          "text": ""
+        },
+        {
+          "text": ""
+        },
+        {
+          "text": ""
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "title": "Native",
+      "intro": "",
+      "image": "http://ariot.no/img/badges/badge-business-case.png",
+      "points": "100",
+      "criteria": [
+        {
+          "text": ""
+        },
+        {
+          "text": ""
+        },
+        {
+          "text": ""
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "title": "Race condition",
+      "intro": "",
+      "image": "http://ariot.no/img/badges/badge-business-case.png",
+      "points": "100",
+      "criteria": [
+        {
+          "text": ""
+        },
+        {
+          "text": ""
+        },
+        {
+          "text": ""
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "title": "Shiny pixels",
+      "intro": "",
+      "image": "http://ariot.no/img/badges/badge-business-case.png",
+      "points": "100",
+      "criteria": [
+        {
+          "text": ""
+        },
+        {
+          "text": ""
+        },
+        {
+          "text": ""
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "title": "SmartCamp",
+      "intro": "",
+      "image": "http://ariot.no/img/badges/badge-business-case.png",
+      "points": "100",
+      "criteria": [
+        {
+          "text": ""
+        },
+        {
+          "text": ""
+        },
+        {
+          "text": ""
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "title": "Smooth object",
+      "intro": "",
+      "image": "http://ariot.no/img/badges/badge-business-case.png",
+      "points": "100",
+      "criteria": [
+        {
+          "text": ""
+        },
+        {
+          "text": ""
+        },
+        {
+          "text": ""
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "title": "The analyst",
+      "intro": "",
+      "image": "http://ariot.no/img/badges/badge-business-case.png",
+      "points": "100",
+      "criteria": [
+        {
+          "text": ""
+        },
+        {
+          "text": ""
+        },
+        {
+          "text": ""
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "title": "The assembler",
+      "intro": "",
+      "image": "http://ariot.no/img/badges/badge-business-case.png",
+      "points": "100",
+      "criteria": [
+        {
+          "text": ""
+        },
+        {
+          "text": ""
+        },
+        {
+          "text": ""
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "title": "The presenter",
+      "intro": "",
+      "image": "http://ariot.no/img/badges/badge-business-case.png",
+      "points": "100",
+      "criteria": [
+        {
+          "text": ""
+        },
+        {
+          "text": ""
+        },
+        {
+          "text": ""
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "title": "Solder soldier",
+      "intro": "",
+      "image": "http://ariot.no/img/badges/badge-business-case.png",
+      "points": "100",
+      "criteria": [
+        {
+          "text": ""
+        },
+        {
+          "text": ""
+        },
+        {
+          "text": ""
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "title": "Three dimensions",
+      "intro": "",
+      "image": "http://ariot.no/img/badges/badge-business-case.png",
+      "points": "100",
+      "criteria": [
+        {
+          "text": ""
+        },
+        {
+          "text": ""
+        },
+        {
+          "text": ""
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "title": "Wear me!",
+      "intro": "",
+      "image": "http://ariot.no/img/badges/badge-business-case.png",
+      "points": "100",
+      "criteria": [
+        {
+          "text": ""
+        },
+        {
+          "text": ""
+        },
+        {
+          "text": ""
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "title": "This is intense",
+      "intro": "",
+      "image": "http://ariot.no/img/badges/badge-business-case.png",
+      "points": "100",
+      "criteria": [
+        {
+          "text": ""
+        },
+        {
+          "text": ""
+        },
+        {
+          "text": ""
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "title": "Leave no one behind",
+      "intro": "",
+      "image": "http://ariot.no/img/badges/badge-business-case.png",
+      "points": "100",
+      "criteria": [
+        {
+          "text": ""
+        },
+        {
+          "text": ""
+        },
+        {
+          "text": ""
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "title": "Savvy",
+      "intro": "",
+      "image": "http://ariot.no/img/badges/badge-business-case.png",
+      "points": "100",
+      "criteria": [
+        {
+          "text": ""
+        },
+        {
+          "text": ""
+        },
+        {
+          "text": ""
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "title": "Under construction",
+      "intro": "",
+      "image": "http://ariot.no/img/badges/badge-business-case.png",
+      "points": "100",
+      "criteria": [
+        {
+          "text": ""
+        },
+        {
+          "text": ""
+        },
+        {
+          "text": ""
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "title": "Treehugger",
+      "intro": "",
+      "image": "http://ariot.no/img/badges/badge-business-case.png",
+      "points": "100",
+      "criteria": [
+        {
+          "text": ""
+        },
+        {
+          "text": ""
+        },
+        {
+          "text": ""
+        }
+      ]
+    },
+    {
+      "id": "31",
+      "title": "Buttception",
+      "intro": "",
+      "image": "http://ariot.no/img/badges/badge-business-case.png",
+      "points": "100",
+      "criteria": [
+        {
+          "text": ""
+        },
+        {
+          "text": ""
+        },
+        {
+          "text": ""
+        }
+      ]
+    },
+    {
+      "id": "32",
+      "title": "Traveller",
+      "intro": "",
+      "image": "http://ariot.no/img/badges/badge-business-case.png",
+      "points": "100",
+      "criteria": [
+        {
+          "text": ""
+        },
+        {
+          "text": ""
+        },
+        {
+          "text": ""
+        }
+      ]
+    },
+    {
+      "id": "33",
+      "title": "We are the robots",
+      "intro": "",
+      "image": "http://ariot.no/img/badges/badge-business-case.png",
+      "points": "100",
+      "criteria": [
+        {
+          "text": ""
+        },
+        {
+          "text": ""
+        },
+        {
+          "text": ""
+        }
+      ]
+    },
+    {
+      "id": "34",
+      "title": "Rubby ducky",
+      "intro": "",
+      "image": "http://ariot.no/img/badges/badge-business-case.png",
+      "points": "100",
+      "criteria": [
+        {
+          "text": ""
+        },
+        {
+          "text": ""
+        },
+        {
+          "text": ""
         }
       ]
     }

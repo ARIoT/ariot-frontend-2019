@@ -20,7 +20,6 @@ class Badge extends Component {
 
   render() {
     const {
-      id,
       title,
       intro,
       image,
@@ -29,7 +28,7 @@ class Badge extends Component {
   } = this.props.item;
     
     return (
-      <div className="c_badge">       
+      <div className={`c_badge c_badge--${this.props.viewedIn}`}>       
        <div className="c_badge__content">
         <div className="c_badge__image">
           <figure>
@@ -37,15 +36,15 @@ class Badge extends Component {
             <figcaption>{points} points</figcaption>
           </figure>
         </div>
-        <div className="c_badge__text">
+          <div className="c_badge__text">
           <h2 className="text__title">
-            <span className="text__title__number">{id}</span>
+            <span className="text__title__number">{this.props.index + 1}</span>
             <span className="text__title__name">{title}</span>
           </h2>
           <p className="text__intro">{intro}</p>
           {criteria && (
             <Fragment>
-              <button className="c_badge__toggle-criteria-button" onClick={this.toggleCriteria}>
+              <button className="c_badge__toggle-criteria-button c_button--light-text" onClick={this.toggleCriteria}>
                 Show criteria
               </button>
               <div className={`c_badge__criteria ${this.state.criteriaOpen ? 'c_badge__criteria--open' : ''}`}>
@@ -62,6 +61,7 @@ class Badge extends Component {
             </Fragment>
           )}
         </div>
+        
        </div>
       </div>
     );

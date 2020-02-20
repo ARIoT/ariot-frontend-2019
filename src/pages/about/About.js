@@ -21,14 +21,17 @@ export default class About extends React.Component {
 			whereWhenWhat : []
 		}
 	}
+	componentDidMount() {
+		window.scrollTo(0, 0)
+	}
 
 	// Fetch feiler pga CORS-feil, og jeg får det ikke til akkurat nå
-	componentDidMount() {
+	// componentDidMount() {
 		// let dataUrl = 'http://ariot-cms.azurewebsites.net/wp-json/acf/v3/colored_text_box?_embed';
 		// fetch(dataUrl)
 		// 	.then(response => response.json())
 		// 	.then(allData => this.setState({allData: allData}));
-	}
+	// }
 
 	// Denne skal bruke allData, og hente ut alle som har placement : about_where_when_what og returnere det i en <LabelTextBox />
 	renderWhereWhenWhat() {

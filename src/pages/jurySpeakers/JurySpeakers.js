@@ -8,6 +8,10 @@ import PeopleData from '../../data/jurySpeakers.json';
 import './JurySpeakers.scss';
 
 export default class JurySpeakers extends React.Component {
+	
+	componentDidMount() {
+		window.scrollTo(0, 0)
+	}
 	render() {
 		return (
 			<Fragment>

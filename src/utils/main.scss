@@ -98,13 +98,16 @@ p {
 // Denne bør helt sikkert legges ut i en egen komponent
 .button,
 .c_button {
+  padding: 1em;
   -webkit-appearance: none;
   border: none;
   font-size: 1em;
+  font-family: $heading-font;
   text-decoration: none;
+  transition: background-color 100ms ease-in, color 100ms ease-in;
+  cursor: pointer;
   &--box-link {
     display: block;
-    padding: 1em;
     width: 100%;
     border: 1px solid $blue;
     transition: background-color 100ms ease-in, color 100ms ease-in;
@@ -120,6 +123,12 @@ p {
   &--light-text {
     color: $blue;
     background: transparent;
+    border: 1px solid $blue;
+    &:focus {
+      outline: 1px solid $pink;
+      border-color: $pink;
+      text-decoration: underline;
+    }
     @include hover() {
       background-color: $blue;
       color: $purplesuperdark;
