@@ -63,25 +63,25 @@
             "name": "Kaja Helene Kristiansen",
             "title": "Developer at EGGS Design",
             "image": "kaja.helene.kristiansen.jpg",
-            "intro": "Been in the committee for four years now. Such old lady. Lorem ipsum, a short n cool intro. Not to many characters, but some is fine. It's Friday and I wanna go home.",
+            "intro": "Forth year helping out with Ariot, and are ready to make this the best year yet.",
             "type": "Jury",
             "lookingFor": [
                 {
-                    "value": "Geeky and fun stuff! If you like what you are doing, it shows in the product!"
+                    "value": "Geeky and fun stuff! This is a place where you can create want YOU want, and not what the typical client want. "
                 },
                 {
-                    "value": "Noe veldig smart her"
+                    "value": "Good design. Would love to see more design in this competition, service, interaction and graphic. Bring it!"
                 },
                 {
-                    "value": "Good craftmanship. Take bride in what you create"
+                    "value": "Good craftmanship. Take pride in what you create. If you like what you are doing, it shows in the product!"
                 }
             ],
             "bio": [
                 {
-                    "value": "Forth year helping out with Ariot"
+                    "value": "Can most probably name all the Pokemons, but has problem with remembering how to write media queries without looking it up first."
                 },
                 {
-                    "value": "Has newly started a new job as a developer in EGGS Design, working in the Creative Tech department"
+                    "value": "Has newly started a new job as a frontend developer in EGGS Design, working in the Creative Tech department"
                 },
                 {
                     "value": "Also have a shiba inu, he's named Momo. Momo means 'peach' in Japanese"
@@ -123,18 +123,28 @@
             "name": "Maria Karlsen",
             "title": "UX Designer at Northern Beat",
             "image": "maria.karlsen.jpg",
-            "intro": "Lorem ipsum, a short n cool intro. Not to many characters, but some is fine. It's Friday and I wanna go home.",
+            "intro": "It's her first year in the Ariot comitee and her agenda is to bring some design into the challenge",
             "type": "Comittee",
             "bio": [
                 {
-                    "value": "Noe bra her"
-                },
-                
-                {
-                    "value": "Og enda bedre her! Puh, jeg bare klarer ikke komme på noe lurt akkurat nå"
+                    "value": "She is a weird designer potato – a hybrid between interaction-, product- and service designer"
                 },
                 {
-                    "value": "Hoho, så runder vi av med en skikkelig bra setning her. Maria er dødsbra, så Ariot er veldig heldige som har hatt henne med på laget i år."
+                    "value": "Loves to learn new stuff and can find inspiration in all things"
+                },
+                {
+                    "value": "She loves the forest, and to walk with a dog among the trees"
+                }
+            ],
+            "canHelpWith": [
+                {
+                    "value": "...a way to help out with practical stuff if you need it during the event"
+                },
+                {
+                    "value": "Great energy and comradeship in the teams"
+                },
+                {
+                    "value": "Those corky solutions that makes her laugh"
                 }
             ]
         },

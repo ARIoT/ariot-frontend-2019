@@ -36,7 +36,7 @@ export default class Badges extends React.Component {
 					theme="turquoise-darkblue" />
 				<div className="g_center">
 					<div className="page-intro">
-						<p>Vi pratet om å ha en introtekst om badgene, jeg husker jammen ikke hva det skulle stå her!</p>
+						<p>We want to see a underlying theme, a thread throughout your project. Each badge should have it's place in the solution.</p>
 						<div className="page-intro__actions">
 							<button
 								type="button"

@@ -10,6 +10,7 @@ class Badge extends Component {
         criteriaOpen: false,
       }
       this.toggleCriteria = this.toggleCriteria.bind(this);
+      this.badgeImages = require.context('../../assets/images/badges', true);
   }
 
   toggleCriteria() {
@@ -22,17 +23,22 @@ class Badge extends Component {
     const {
       title,
       intro,
-      image,
+      badge,
       points,
       criteria
   } = this.props.item;
+
+  
+    let badgeImage = this.badgeImages(`./${badge}`);
+    
     
     return (
       <div className={`c_badge c_badge--${this.props.viewedIn}`}>       
        <div className="c_badge__content">
         <div className="c_badge__image">
           <figure>
-            <img src={image} alt={`The ${title} badge`}/>
+            <img src={badgeImage} alt={`The ${title} badge`}/>        
+            
             <figcaption>{points} points</figcaption>
           </figure>
         </div>
