@@ -16,6 +16,7 @@ class People extends Component {
       intro,
       image,
       lookingFor,
+      canHelpWith,
       bio,
       type
   } = this.props.item;
@@ -58,6 +59,21 @@ class People extends Component {
                 <h4>Looking for</h4>
                 <ul className="u_mega-bullet-list">
                   {lookingFor.map((item, index) => 
+                  (
+                    <li key={`programItem-${index}`}>
+                      <p>{item.value}</p>
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            </Fragment>
+          )}
+          {canHelpWith && (
+            <Fragment>
+              <div>
+                <h4>Can help with</h4>
+                <ul className="u_mega-bullet-list">
+                  {canHelpWith.map((item, index) => 
                   (
                     <li key={`programItem-${index}`}>
                       <p>{item.value}</p>

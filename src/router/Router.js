@@ -2,11 +2,9 @@ import React from 'react';
 import {
   BrowserRouter as Router,
   Route,
-  Switch,
-  useParams
+  Switch
 } from 'react-router-dom';
 
-// import Home from '../pages/home/Home';
 import About from '../pages/about/About';
 import Program from '../pages/program/Program';
 import Badges from '../pages/badges/Badges';

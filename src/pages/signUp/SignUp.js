@@ -8,6 +8,11 @@ import VenueImage from '../../assets/images/venueImage.jpg';
 import './SignUp.scss';
 
 export default class SignUp extends React.Component {
+
+	componentDidMount() {
+		window.scrollTo(0, 0)
+	}
+
 	render() {
 		return (
 			<Fragment>

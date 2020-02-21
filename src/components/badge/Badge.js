@@ -10,6 +10,7 @@ class Badge extends Component {
         criteriaOpen: false,
       }
       this.toggleCriteria = this.toggleCriteria.bind(this);
+      this.badgeImages = require.context('../../assets/images/badges', true);
   }
 
   toggleCriteria() {
@@ -20,32 +21,36 @@ class Badge extends Component {
 
   render() {
     const {
-      id,
       title,
       intro,
-      image,
+      badge,
       points,
       criteria
   } = this.props.item;
+
+  
+    let badgeImage = this.badgeImages(`./${badge}`);
+    
     
     return (
-      <div className="c_badge">       
+      <div className={`c_badge c_badge--${this.props.viewedIn}`}>       
        <div className="c_badge__content">
         <div className="c_badge__image">
           <figure>
-            <img src={image} alt={`The ${title} badge`}/>
+            <img src={badgeImage} alt={`The ${title} badge`}/>        
+            
             <figcaption>{points} points</figcaption>
           </figure>
         </div>
-        <div className="c_badge__text">
+          <div className="c_badge__text">
           <h2 className="text__title">
-            <span className="text__title__number">{id}</span>
+            <span className="text__title__number">{this.props.index + 1}</span>
             <span className="text__title__name">{title}</span>
           </h2>
           <p className="text__intro">{intro}</p>
           {criteria && (
             <Fragment>
-              <button className="c_badge__toggle-criteria-button" onClick={this.toggleCriteria}>
+              <button className="c_badge__toggle-criteria-button c_button--light-text" onClick={this.toggleCriteria}>
                 Show criteria
               </button>
               <div className={`c_badge__criteria ${this.state.criteriaOpen ? 'c_badge__criteria--open' : ''}`}>
@@ -62,6 +67,7 @@ class Badge extends Component {
             </Fragment>
           )}
         </div>
+        
        </div>
       </div>
     );

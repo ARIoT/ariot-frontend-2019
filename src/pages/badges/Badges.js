@@ -8,6 +8,23 @@ import Badge from '../../components/badge/Badge';
 import './Badges.scss';
 
 export default class Badges extends React.Component {
+	constructor(props) {
+		super(props);
+		this.state = {
+			badgeView: 'list'
+		}
+	}
+	
+	componentDidMount() {
+		window.scrollTo(0, 0)
+	}
+
+	changeBadgeView(newLIstView) {
+		this.setState(
+			{badgeView: newLIstView}
+		)
+	}
+
 	render() {
 		return (
 		<Fragment>
@@ -19,14 +36,33 @@ export default class Badges extends React.Component {
 					theme="turquoise-darkblue" />
 				<div className="g_center">
 					<div className="page-intro">
-						<p>Her kommer en kul tekst om badgene :))))</p>
+						<p>We want to see a underlying theme, a thread throughout your project. Each badge should have it's place in the solution.</p>
+						<div className="page-intro__actions">
+							<button
+								type="button"
+								className={`c_button c_button--change-view c_button--light-text ${this.state.badgeView === 'list' ? 'c_button--active' : ''}`}
+								onClick={() => this.changeBadgeView('list')}
+							>
+								List
+							</button>
+							<button
+								type="button"
+								className={`c_button c_button--change-view c_button--light-text ${this.state.badgeView === 'grid' ? 'c_button--active' : ''}`}
+								onClick={() => this.changeBadgeView('grid')}
+							>
+								Grid
+							</button>
+						</div>
 					</div>
-					<div className="badge-list">
+					
+					<div className={`badge-list badge-list--${this.state.badgeView}`}>
 						{BadgesData.badges.map((item, index) => 
 						(
 							<Badge
 								key = {`badge-${index}`}
+								index = {index}
 								item = {item}
+								viewedIn = {this.state.badgeView}
 							/>
 						))}
 					</div>

@@ -8,6 +8,11 @@ import Footer from '../../components/layout/footer/Footer';
 import './Program.scss';
 
 export default class Program extends React.Component {
+	
+	componentDidMount() {
+		window.scrollTo(0, 0)
+	}
+	
 	render() {
 		return (
 			<Fragment>

@@ -1,28 +1,166 @@
 {
   "badges": [
     {
-      "id": "01",
       "title": "[Description here]",
-      "intro": "Deliver a solution before lunch the first day of the event! [Descriptopn here] does not count.",
+      "intro": "Tell us what you are making! Sketch out what you are making.",
       "image": "http://ariot.no/img/badges/badge-business-case.png",
+      "badge": "description.here.png",
       "points": "100",
       "criteria": [
-        {
-          "text": "Sketch out the solution your team are making"
-        },
         {
           "text": "Can include things like the concept, technology, sketches, blueprints etc."
         },
         {
           "text": "This is the only badge you can prepare for in advance (we still want an awesome blog post)."
+        },
+        {
+          "text": "No need to show us a finished product, but we would like a grasp and plan of what you are making, the underlying theme."
         }
       ]
     },
     {
-      "id": "02",
+      "title": "AckWard",
+      "intro": "Using IoT for the most awkward things.",
+      "image": "http://ariot.no/img/badges/badge-awkward.png",
+      "badge": "ackward.png",
+      "points": "100",
+      "criteria": [
+        {
+          "text": "No need for this one to be useful, as long as it's aaaawkward"
+        },
+        {
+          "text": "Toilet humor comes a long way on this badge..."
+        },
+        {
+          "text": "#noshame #nofilter"
+        },
+        {
+          "text": "Do you blush when writing this blog post? Then it’s probably AckWard worthy"
+        }
+      ]
+    },
+    {
+      "title": "Attack of the drones",
+      "intro": "At least one drone doing something useful. Friendly drones!",
+      "image": "http://ariot.no/img/badges/badge-business-case.png",
+      "badge": "attack.of.the.drones.png",
+      "points": "150",
+      "criteria": [
+        {
+          "text": "It needs to fly in the air"
+        },
+        {
+          "text": "Make sure to think of safety precautions"
+        },
+        {
+          "text": "Safety first. Don't use it for something hazardous"
+        }
+      ]
+    },
+    {
+      "title": "Babelfish",
+      "intro": "Utilize 5 programming/scripting languages or more",
+      "image": "http://ariot.no/img/badges/badge-business-case.png",
+      "badge": "babelfish.png",
+      "points": "100",
+      "criteria": [
+        {
+          "text": "HTML and CSS does not count"
+        },
+        {
+          "text": "Assembly does not count (it has it's own badge)"
+        }
+      ]
+    },
+    {
+      "title": "Buttception",
+      "intro": "Create an awesome button with an awesome action!",
+      "image": "http://ariot.no/img/badges/badge-business-case.png",
+      "badge": "buttception.png",
+      "points": "100",
+      "criteria": [
+        {
+          "text": "The button must be PHYSICAL, not a digital one"
+        },
+        {
+          "text": "Something has to happen when you click it"
+        }
+      ]
+    },
+    {
+      "title": "Cloud city",
+      "intro": "Make good use of cloud services",
+      "image": "http://ariot.no/img/badges/badge-business-case.png",
+      "badge": "cloud.city.png",
+      "points": "100",
+      "criteria": [
+        {
+          "text": "It needs a reason to be in the cloud, don’t just put it there because we say so"
+        },
+        {
+          "text": "Just a simple VM isn't really good use of the cloud"
+        }
+      ]
+    },
+    {
+      "title": "C-C-C-Combobadge",
+      "intro": "Badge bingo-RAMA! Get given bingo on badge sheet and earn your Combobadge",
+      "image": "http://ariot.no/img/badges/badge-business-case.png",
+      "badge": "placeholder.png",
+      "points": "100",
+      "criteria": [
+        {
+          "text": "Look at your badge sheet"
+        },
+        {
+          "text": "The badges needed can be earned any given time during the event"
+        }
+      ]
+    },
+    {
+      "title": "Dr. Who",
+      "intro": "Use IoT in a clever way which can help in medical purposes, assist in diagnostics or general health impovment",
+      "image": "http://ariot.no/img/badges/badge-business-case.png",
+      "badge": "dr.who.png",
+      "points": "100",
+      "criteria": [
+        {
+          "text": "If you put the device on the body, it needs to be non-intrusive for the user"
+        }
+      ]
+    },
+    {
+      "title": "Eyes wide shutter",
+      "intro": "Use cameras for something useful",
+      "image": "http://ariot.no/img/badges/badge-business-case.png",
+      "badge": "eyes.wide.shutter.png",
+      "points": "100",
+      "criteria": [
+        {
+          "text": "And use the image output for something too"
+        },
+        {
+          "text": "Respect others' privacy"
+        }
+      ]
+    },
+    {
+      "title": "Force field",
+      "intro": "Adding proper security measures to your IoT solution",
+      "image": "http://ariot.no/img/badges/badge-business-case.png",
+      "badge": "force.field.png",
+      "points": "100",
+      "criteria": [
+        {
+          "text": "And not just security by obscurity"
+        }
+      ]
+    },
+    {
       "title": "First brunch",
       "intro": "Sketch out the solution your team is making. The concept, the technology and more",
       "image": "http://ariot.no/img/badges/badge-early-delivery.png",
+      "badge": "first.brunch.png",
       "points": "100",
       "criteria": [
         {
@@ -37,74 +175,398 @@
       ]
     },
     {
-      "id": "03",
-      "title": "AckWard",
-      "intro": "Using IoT for the most awkward things.",
-      "image": "http://ariot.no/img/badges/badge-awkward.png",
-      "points": "100",
-      "criteria": [
-        {
-          "text": "Using IoT for the most awkward things"
-        },
-        {
-          "text": "Toilet humor comes a long way on this badge..."
-        },
-        {
-          "text": "#noshame #nofilter"
-        }
-      ]
-    },
-    {
-      "id": "04",
-      "title": "[Description here]",
-      "intro": "Deliver a solution before lunch the first day of the event! [Descriptopn here] does not count.",
+      "title": "Foodie",
+      "intro": "Make smart use of IoT in cooking or something food or drink related",
       "image": "http://ariot.no/img/badges/badge-business-case.png",
-      "points": "100",
+      "badge": "foodie.png",
+      "points": "150",
       "criteria": [
         {
-          "text": "Sketch out the solution your team are making"
+          "text": "Bring out your inner food nerd and combine it with IoT"
         },
         {
-          "text": "Can include things like the concept, technology, sketches, blueprints etc."
+          "text": "Cannot create food waste!"
         },
         {
-          "text": "This is the only badge you can prepare for in advance (we still want an awesome blog post)."
+          "text": "Show us your love for both food and IoT"
         }
       ]
     },
     {
-      "id": "05",
-      "title": "First brunch",
-      "intro": "Sketch out the solution your team is making. The concept, the technology and more",
-      "image": "http://ariot.no/img/badges/badge-early-delivery.png",
+      "title": "HUD",
+      "intro": "Create a dashboard that lets you make good decisions",
+      "image": "http://ariot.no/img/badges/badge-business-case.png",
+      "badge": "hud.png",
       "points": "100",
       "criteria": [
         {
-          "text": "Apply for a badge before lunch on the first day of the event"
+          "text": "A real dashboard, with useful informatio"
         },
         {
-          "text": "[Description here] does not count"
+          "text": "Show off your data inn a nice and meaningful way"
         },
         {
-          "text": "You don't need to have the badge approved before lunch, but it has to be submitted in time. We can see timestamp!"
+          "text": "A dashboard contains more than one graph"
         }
       ]
     },
     {
-      "id": "06",
-      "title": "AckWard",
-      "intro": "Using IoT for the most awkward things.",
-      "image": "http://ariot.no/img/badges/badge-awkward.png",
+      "title": "I fixed it!",
+      "intro": "",
+      "image": "http://ariot.no/img/badges/badge-business-case.png",
+      "badge": "i.fixed.it.png",
       "points": "100",
       "criteria": [
         {
-          "text": "Using IoT for the most awkward things"
+          "text": "Bring out your inner McGyver!"
         },
         {
-          "text": "Toilet humor comes a long way on this badge..."
+          "text": "It must still work, but it can be dirty AF and show real bad craftmanship"
         },
         {
-          "text": "#noshame #nofilter"
+          "text": "Can be both hardware and software"
+        }
+      ]
+    },
+    {
+      "title": "Instant",
+      "intro": "Whatever happens in one part of your solution should instantly have an effect somewhere else",
+      "image": "http://ariot.no/img/badges/badge-business-case.png",
+      "badge": "instant.png",
+      "points": "100",
+      "criteria": [
+        {
+          "text": "More than submitting a form"
+        },
+        {
+          "text": "Instant means within a second"
+        }
+      ]
+    },
+    {
+      "title": "It's alive!",
+      "intro": "At least one land moving device that does something useful",
+      "image": "http://ariot.no/img/badges/badge-business-case.png",
+      "badge": "its.alive.png",
+      "points": "100",
+      "criteria": [
+        {
+          "text": "It needs to move on the ground"
+        }
+      ]
+    },
+    {
+      "title": "Leave no one behind",
+      "intro": "Go out of your way to help other teams in the event",
+      "image": "http://ariot.no/img/badges/badge-business-case.png",
+      "badge": "leave.no.one.behind.png",
+      "points": "100",
+      "criteria": [
+        {
+          "text": "Needs to be help with someone elses solution"
+        },
+        {
+          "text": "The team that got help writes the blogpost as a thank you!"
+        }
+      ]
+    },
+    {
+      "title": "Make love, not war",
+      "intro": "Code is free! Share it with the world and make your solution available online to the rest of the world",
+      "image": "http://ariot.no/img/badges/badge-business-case.png",
+      "badge": "make.love.not.war.png",
+      "points": "100",
+      "criteria": [
+        {
+          "text": "We want a good README!"
+        },
+        {
+          "text": "It should be easy for the next person to clone and run it"
+        }
+      ]
+    },
+    {
+      "title": "Metabadge",
+      "intro": "Get at least 10 cultural references in the other badges.",
+      "image": "http://ariot.no/img/badges/badge-business-case.png",
+      "badge": "placeholder.png",
+      "points": "Max 100",
+      "criteria": [
+        {
+          "text": "Come and tell us what kind of reference you have figured out (Each reference is 10p)"
+        }
+      ]
+    },
+    {
+      "title": "Native",
+      "intro": "Create a native mobile app",
+      "image": "http://ariot.no/img/badges/badge-business-case.png",
+      "badge": "native.png",
+      "points": "100",
+      "criteria": [
+        {
+          "text": "...and not just a website with icon shortcut"
+        },
+        {
+          "text": "Make use of the native functions of the device"
+        }
+      ]
+    },
+    {
+      "title": "Off the wire",
+      "intro": "Use four or more wireless transmission technologies in your solution",
+      "image": "http://ariot.no/img/badges/badge-business-case.png",
+      "badge": "placeholder.png",
+      "points": "200",
+      "criteria": [
+        {
+          "text": "Examples: Wifi"
+        },
+        {
+          "text": "Bluetooth"
+        },
+        {
+          "text": "NFC"
+        },
+        {
+          "text": "Z-wave/ZigBee"
+        },
+        {
+          "text": "4G/LTE"
+        }
+      ]
+    },
+    {
+      "title": "Race condition",
+      "intro": "At random, the jury will present a challenge. Timeboxed to one hour, the first team with a working solution gets all the points",
+      "image": "http://ariot.no/img/badges/badge-business-case.png",
+      "badge": "race.condition.png",
+      "points": "100",
+      "criteria": [
+        {
+          "text": "The winner gets the GRAND SLAM 250 points"
+        },
+        {
+          "text": "Second runner up gets 100 points"
+        },
+        {
+          "text": "Third place gets those important 50 points"
+        }
+      ]
+    },
+    {
+      "title": "Savvy",
+      "intro": "Show good craftmanship and create a sound and robust solution",
+      "image": "http://ariot.no/img/badges/badge-business-case.png",
+      "badge": "savvy.png",
+      "points": "100",
+      "criteria": [
+        {
+          "text": "Can be either software or hardware"
+        },
+        {
+          "text": "Examples: consider GDPR, have unit tests on your code"
+        }
+      ]
+    },
+    {
+      "title": "Shiny pixels",
+      "intro": "Make a beautiful application design",
+      "image": "http://ariot.no/img/badges/badge-business-case.png",
+      "badge": "shiny.pixels.png",
+      "points": "100",
+      "criteria": [
+        {
+          "text": "And we mean dashing, like if a real designer should have made it"
+        },
+        {
+          "text": "On this badge, we prioritize graphic design over interaction design"
+        },
+        {
+          "text": "Show us the grid and your spacing"
+        }
+      ]
+    },
+    {
+      "title": "SmartCamp",
+      "intro": "Pimp your camp. Dress up. Bring some cool props.",
+      "image": "http://ariot.no/img/badges/badge-business-case.png",
+      "badge": "smart.camp.png",
+      "points": "100",
+      "criteria": [
+        {
+          "text": "We love a good theme in your team ;)"
+        }
+      ]
+    },
+    {
+      "title": "Smooth object",
+      "intro": "Create a good design for a physical object that looks like a finished product",
+      "image": "http://ariot.no/img/badges/badge-business-case.png",
+      "badge": "smooth.object.png",
+      "points": "100",
+      "criteria": [
+        {
+          "text": "You don't need to have it physical in real life, a technical drawing or a rendering is OK"
+        },
+        {
+          "text": "Have a clear description on what your product does"
+        },
+        {
+          "text": "Dream big! You don't have to actual make the product you draw, but we would like to see how it would look like when it hits the stores"
+        }
+      ]
+    },
+    {
+      "title": "Solder soldier",
+      "intro": "Parts of your solution needs soldering to be implemented",
+      "image": "http://ariot.no/img/badges/badge-business-case.png",
+      "badge": "solder.soldier.png",
+      "points": "100",
+      "criteria": [
+        {
+          "text": "Your device needs to function afterwards..."
+        }
+      ]
+    },
+    {
+      "title": "The analyst",
+      "intro": "Using big data to provide insightfull reports and drilling of your datasources",
+      "image": "http://ariot.no/img/badges/badge-business-case.png",
+      "badge": "the.analyst.png",
+      "points": "100",
+      "criteria": [
+        {
+          "text": "Use AI/ML to crunch your data to make useful insights"
+        },
+        {
+          "text": "BYODS (Bring Your Own Data Sets)"
+        }
+      ]
+    },
+    {
+      "title": "The assembler",
+      "intro": "Using Assembly in your solutions",
+      "image": "http://ariot.no/img/badges/badge-business-case.png",
+      "badge": "placeholder.png",
+      "points": "100",
+      "criteria": [
+        {
+          "text": "The code must compile and run"
+        }
+      ]
+    },
+    {
+      "title": "The presenter",
+      "intro": "One lightning talk by the team in front of everyone",
+      "image": "http://ariot.no/img/badges/badge-business-case.png",
+      "badge": "the.presenter.png",
+      "points": "100",
+      "criteria": [
+        {
+          "text": "Make it relevant for the rest of us"
+        },
+        {
+          "text": "Only one member from the team needs to talk"
+        },
+        {
+          "text": "Maximum 7 minute talk"
+        }
+      ]
+    },
+    {
+      "title": "Three dimensions",
+      "intro": "Use a 3D printed object to enrich your solution",
+      "image": "http://ariot.no/img/badges/badge-business-case.png",
+      "badge": "three.dimensions.png",
+      "points": "100",
+      "criteria": [
+        {
+          "text": "The printed item needs to be a useful function of your solutions"
+        },
+        {
+          "text": "It is ok to use external 3D model libraries as a source for your 3D model"
+        }
+      ]
+    },
+    {
+      "title": "This is intense!",
+      "intro": "Use 5 or more different sensors in your solution",
+      "image": "http://ariot.no/img/badges/badge-business-case.png",
+      "badge": "this.is.intense.png",
+      "points": "100",
+      "criteria": [
+        {
+          "text": "Camera does not count here, as it has it's own badge"
+        }
+      ]
+    },
+    {
+      "title": "Treehugger",
+      "intro": "We love nature. And so should you. Create a solution that is good for our enviroment",
+      "image": "http://ariot.no/img/badges/badge-business-case.png",
+      "badge": "treehugger.png",
+      "points": "100",
+      "criteria": [
+        {
+          "text": "Be more like Greta. Save the world."
+        }
+      ]
+    },
+    {
+      "title": "Traveller",
+      "intro": "Create a transportation solution",
+      "image": "http://ariot.no/img/badges/badge-business-case.png",
+      "badge": "traveller.png",
+      "points": "100",
+      "criteria": [
+        {
+          "text": "It can be a part of a bigger scheme, a specific transportation solution, something that transports one thing from A to B etc."
+        },
+        {
+          "text": "Physical transport only, data traffic is not accepted"
+        }
+      ]
+    },
+    {
+      "title": "T800",
+      "intro": "Include a robot in your solution",
+      "image": "http://ariot.no/img/badges/badge-business-case.png",
+      "badge": "t800.png",
+      "points": "100",
+      "criteria": [
+        {
+          "text": "A drone, radio car nor plane is a robot (they have their own badges)"
+        },
+        {
+          "text": "Must be a physical robot that works"
+        }
+      ]
+    },
+    {
+      "title": "Under construction",
+      "intro": "Let's get physical! Construct and build an awesome physical object",
+      "image": "http://ariot.no/img/badges/badge-business-case.png",
+      "badge": "under.construction.png",
+      "points": "100",
+      "criteria": [
+        {
+          "text": "Not enough with a 3D printed object, it has it's own badge"
+        }
+      ]
+    },
+    {
+      "title": "Wear me!",
+      "intro": "Embedding IoT devices as a wearable device",
+      "image": "http://ariot.no/img/badges/badge-business-case.png",
+      "badge": "wear.me.png",
+      "points": "100",
+      "criteria": [
+        {
+          "text": "We would love it if you made something else than a smart watch"
+        },
+        {
+          "text": "Have your user in mind "
         }
       ]
     }

@@ -5,12 +5,6 @@ import './Leaderboard.scss';
 class Leaderboard extends Component {
 
   render() {
-    const {
-      position,
-      team,
-      badges,
-      points
-  } = this.props.item;
     
     return (
       <div className="c_leaderboard">
