@@ -57,10 +57,10 @@
     .text__title {
       &__number {
         display: block;
-        font-size: 0.9em;
+        // font-size: 0.9em;
       }
       &__name {
-        font-size: 1em;
+        // font-size: 1em;
       }
       @media (min-width: $break--med) {
         &__name {
