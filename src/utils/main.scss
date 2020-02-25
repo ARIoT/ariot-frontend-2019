@@ -125,7 +125,7 @@ p {
     background: transparent;
     border: 1px solid $blue;
     &:focus {
-      outline: 1px solid $pink;
+      outline: 2px solid $pink;
       border-color: $pink;
       text-decoration: underline;
     }
@@ -134,8 +134,21 @@ p {
       color: $purplesuperdark;
     }
   }
+  &--turquoise-text {
+    color: $turquoise;
+    background: transparent;
+    border: 1px solid $turquoise;
+    &:focus {
+      outline: 2px solid $pink;
+      border-color: $pink;
+      text-decoration: underline;
+    }
+    @include hover() {
+      background-color: $turquoise;
+      color: $purplesuperdark;
+    }
+  }
 }
-
 .c_icon-link {
   border: 1px solid red;
 }

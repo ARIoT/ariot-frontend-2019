@@ -1,26 +1,102 @@
 @import '../../utils/_variables.scss';
 @import '../../utils/_mixins.scss';
 
+.scroll-to-top {
+  position: fixed;
+  top: 15em;
+  left: 2em;
+}
+
 .t_badges {
-  .page-intro {
+  &__choose-list {
+    margin-bottom: 2em;
+    text-align: center;
+    // border: 1px solid purple;
+    button {
+      margin: 0 0.5em;
+      padding-left: 2em;
+      padding-right: 2em;
+      text-transform: uppercase;
+      font-weight: bold;
+    }
+  }
+  &__main-content {
     padding: 0 $gutter;
-    margin: 4em 0 2em;
-    color: $turquoise;
-    p {
+    @media (min-width: $break--med) {
+      padding: 0;
+    }
+    &__change-view {
+      text-align: right;
+      button {
+        padding: 0.5em 0.5em 0.2em;
+        margin: 0 0.5em;
+        width: 60px;
+        height: 60px;
+        border: none;
+        svg {
+          display: block;
+          margin: 0 auto 0.4em;
+          width: 20px;
+          height: 20px;
+          fill: $turquoise;
+          transition: fill 150ms ease-in;
+        }
+        span {
+          display: block;
+          text-transform: uppercase;
+        }
+        @include hover() {
+          svg {
+            fill: $purplesuperdark;
+          }
+        }
+        &.c_button--active {
+          background-color: $turquoise;
+        }
+      }
+    }
+    >p {
       margin: 0 auto 2em;
       max-width: 600px;
       width: 90%;
       text-align: center;
+      font-family: $heading-font;
+      font-size: 0.9em;
     }
+  }
+  
+  .c_button--active {
+    background-color: $blue;
+    color: $purplesuperdark;
+    svg {
+      fill: $purplesuperdark;
+    }
+  }
+  .page-intro {
+    
     &__actions {
       text-align: center;
-      .c_button--change-view {
-        padding: 0.5em 1.5em;
-        margin: 0 0.5em;
+      &__change-view {
+        text-align: right;
+        
       }
-      .c_button--active {
-        background-color: $blue;
-        color: $purplesuperdark;
+      &__change-badges {
+        margin-bottom: 2em;
+                
+      }
+      .c_button--change-view,
+      .c_button--change-what-to-show,
+      button {
+        // padding: 0.5em 0.5em 0.2em;
+        // margin: 0 0.5em;
+        // width: 70px;
+        // height: 70px;
+        // border: none;
+        // border: 2px solid red !important;
+        span {
+          display: block;
+          text-transform: uppercase;
+        }
       }
       @media (min-width: $break--med) {
         text-align: right;

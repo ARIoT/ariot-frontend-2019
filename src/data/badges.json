@@ -1,4 +1,34 @@
 {
+  "awards": [
+    {
+      "title": "Impenetrable",
+      "intro": "Extreme measures taken to harden the security of the total solution",
+      "image": "http://ariot.no/img/badges/badge-business-case.png",
+      "badge": "impenetrable.png",
+      "points": "500"
+    },
+    {
+      "title": "Use me",
+      "intro": "The solution with best overall user experience, both software and hardware",
+      "image": "http://ariot.no/img/badges/badge-business-case.png",
+      "badge": "use.me.png",
+      "points": "500"
+    },
+    {
+      "title": "Geek out!",
+      "intro": "The solution that incorporates the most geeky stuff in the most geeky way",
+      "image": "http://ariot.no/img/badges/badge-business-case.png",
+      "badge": "geek.out.png",
+      "points": "500"
+    },
+    {
+      "title": "Money tree",
+      "intro": "The solution that has the best potential to make actual business",
+      "image": "http://ariot.no/img/badges/badge-business-case.png",
+      "badge": "money.tree.png",
+      "points": "500"
+    }
+  ],
   "badges": [
     {
       "title": "[Description here]",
