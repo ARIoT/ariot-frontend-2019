@@ -34,28 +34,28 @@
             "name": "Dimitrios Platis",
             "title": "Nice title",
             "image": "dimitrios.platis.jpg",
-            "intro": "This is the second time Dimitrios join us for jury duty! Thank you! Lorem ipsum, a short n cool intro. Not to many characters, but some is fine. It's Friday and I wanna go home.",
+            "intro": "Second jury duty for Ariot and eager to experience the passion, teamwork, cool tech and hacks!",
             "type": "Jury",
             "lookingFor": [
                 {
-                    "value": "Lorem ipsum"                        
+                    "value": "Works for Edument in Gothenburg as a software engineering consultant. Usually within embedded systems."                        
                 },
                 {
-                    "value": "Lorem ipsum is so great"
+                    "value": "Likes teaching. Delivers courses on beginner and advanced C++ at Edument and Systems Development at the University of Gothenburg."
                 },
                 {
-                    "value": "Even more lorem ipsuom yaaz"
+                    "value": "Works on open source hobby projects and blogs about them. Preferrably the entire product stack, from software to hardware."
                 }
             ],
             "bio": [
                 {
-                    "value": "Lorem ipsum"                        
+                    "value": "Software & hardware best practices. Yes, it is a quick & dirty prototype, but can it go live soon?"                        
                 },
                 {
-                    "value": "Lorem ipsum is so great"
+                    "value": "Innovative solutions for pragmatic business cases. Can you think out of the box to solve a real problem?"
                 },
                 {
-                    "value": "Even more lorem ipsuom yaaz"
+                    "value": "Edge computing on low-end IoT. Can you run inference on an cheap microcontroller?"
                 }
             ]
         },
@@ -156,13 +156,24 @@
             "type": "Committee",
             "bio": [
                 {
-                    "value": "Lorem ipsum"                        
+                    "value": "Participated in Ariot 2018 & 2019"                        
                 },
                 {
-                    "value": "Lorem ipsum is so great"
+                    "value": "Has her own scrumban board at home for renovations."
                 },
                 {
-                    "value": "Even more lorem ipsuom yaaz"
+                    "value": "Thinks the best thing about Norway is the hiking opportunities and “smurte lefser”."
+                }
+            ],
+            "canHelpWith": [
+                {
+                    "value": "Practical stuff around the event."
+                },
+                {
+                    "value": "Finding workarounds and hacks"
+                },
+                {
+                    "value": "Google cloud platform"
                 }
             ]
         },

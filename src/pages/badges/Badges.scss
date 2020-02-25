@@ -1,6 +1,12 @@
 @import '../../utils/_variables.scss';
 @import '../../utils/_mixins.scss';
 
+.scroll-to-top {
+  position: fixed;
+  top: 15em;
+  left: 2em;
+}
+
 .t_badges {
   &__choose-list {
     margin-bottom: 2em;
@@ -49,7 +55,7 @@
         }
       }
     }
-    p {
+    >p {
       margin: 0 auto 2em;
       max-width: 600px;
       width: 90%;

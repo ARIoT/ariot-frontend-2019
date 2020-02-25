@@ -54,18 +54,22 @@
     }
   }
   &__text {
+    
+    .text__intro {
+      font-family: $heading-font;
+    }
     .text__title {
-      &__number {
-        display: block;
-        // font-size: 0.9em;
+      margin-bottom: 0.4em;
+      @media (max-width: $break--med) {
+        text-align: center;
       }
-      &__name {
-        // font-size: 1em;
+      &__number {
+        display: inline-block;
+        margin-right: 0.7em;
       }
       @media (min-width: $break--med) {
-        &__name {
-          font-size: 1.3em;
-        }
+        font-size: 2.6em;
+        line-height: 1.2em;
       }
     }
   }
@@ -81,7 +85,7 @@
         }
       }
       figcaption {
-        margin-top: 1em;
+        margin-top: 0.6em;
         font-size: 2em;
       } 
     }
@@ -91,7 +95,7 @@
     margin-top: 1em;
     max-height: 0;
     overflow: hidden;
-    transition: max-height 250ms ease-in-out;
+    transition: max-height 250ms ease-in;
     h3 {
       margin: 1em 0;
     }
@@ -104,6 +108,7 @@
       display: block;
       visibility: visible;
       max-height: 15em;
+      max-height: 300px;
     }
   }
   &__toggle-criteria-button {
@@ -160,9 +165,6 @@
     }
     @media (min-width: $break--med) {
       width: calc(33% - 1em);
-      .c_badge__content {
-        // align-items: ;
-      }
     }
   }
 }

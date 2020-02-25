@@ -56,9 +56,10 @@ class Badge extends Component {
               <div className={`c_badge__criteria ${this.state.criteriaOpen ? 'c_badge__criteria--open' : ''}`}>
                 <h3>Criteria for this badge:</h3>
                 <ul className="u_mega-bullet-list">
-                {criteria.map(listItem => 
+                {criteria.map((listItem, index) => 
                 	(
-                    <li>
+                    <li 
+                      key={`listItem-${index}`}>
                       <p>{listItem.text}</p>
                     </li>
                   ))}
