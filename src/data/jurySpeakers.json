@@ -20,8 +20,7 @@
             "bio": [
                 {
                     "value": "Currently working as service design lead at FINN.no"
-                },
-                
+                },                
                 {
                     "value": "Loves people, they can be so weird"
                 },
@@ -38,17 +37,6 @@
             "type": "Jury",
             "lookingFor": [
                 {
-                    "value": "Works for Edument in Gothenburg as a software engineering consultant. Usually within embedded systems."                        
-                },
-                {
-                    "value": "Likes teaching. Delivers courses on beginner and advanced C++ at Edument and Systems Development at the University of Gothenburg."
-                },
-                {
-                    "value": "Works on open source hobby projects and blogs about them. Preferrably the entire product stack, from software to hardware."
-                }
-            ],
-            "bio": [
-                {
                     "value": "Software & hardware best practices. Yes, it is a quick & dirty prototype, but can it go live soon?"                        
                 },
                 {
@@ -56,6 +44,17 @@
                 },
                 {
                     "value": "Edge computing on low-end IoT. Can you run inference on an cheap microcontroller?"
+                }
+            ],
+            "bio": [
+                {
+                    "value": "Works for Edument in Gothenburg as a software engineering consultant. Usually within embedded systems."                        
+                },
+                {
+                    "value": "Likes teaching. Delivers courses on beginner and advanced C++ at Edument and Systems Development at the University of Gothenburg."
+                },
+                {
+                    "value": "Works on open source hobby projects and blogs about them. Preferrably the entire product stack, from software to hardware."
                 }
             ]
         },
@@ -90,30 +89,30 @@
         },
         {
             "name": "Christian Nesmark",
-            "title": "Developer in CNAS",
-            "intro": "Co-founder of Ariot. Lorem ipsum, a short n cool intro. Not to many characters, but some is fine. It's Friday and I wanna go home.",
+            "title": "Rogue Consultant at CNAS",
+            "intro": "Founder of Ariot, and recurring jury member. Looking forward to see what our 5th anniversary will bring.",
             "image": "christian.nesmark.jpg",
             "type": "Jury",
             "lookingFor": [
                 { 
-                    "value": "Lorem ipsum"                         
+                    "value": "Innovation, innovation, innovation!"                         
                 },
                 {
-                    "value": "Lorem ipsum is so great"
+                    "value": "Creative use of existing technology to solve problems of the future."
                 },
                 {
-                    "value": "Even more lorem ipsuom yaaz"
+                    "value": "Holistic view of your solution. How well does it fit in the bigger picture?"
                 }
             ],
             "bio": [
                 {
-                    "value": "Lorem ipsum"                        
+                    "value": "Self-employed consultant, working as a full-stack (sic) developer, architect and team lead for large companies."
                 },
                 {
-                    "value": "Lorem ipsum is so great"
+                    "value": "Ask me about Star Wars. All of it. <- (Did you catch the reference there...?)"                        
                 },
                 {
-                    "value": "Even more lorem ipsuom yaaz"
+                    "value": "Newborn skydiver. Prepare to hear stories about falling through clouds at 200 kph."
                 }
             ]
         }
