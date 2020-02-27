@@ -9,7 +9,7 @@
     },
     {
       "title": "Use me",
-      "intro": "The solution with best overall user experience, both software and hardware",
+      "intro": "The solution with the best overall user experience, both software and hardware",
       "image": "http://ariot.no/img/badges/badge-business-case.png",
       "badge": "use.me.png",
       "points": "500"
@@ -98,7 +98,7 @@
           "text": "HTML and CSS does not count"
         },
         {
-          "text": "Assembly does not count (it has it's own badge)"
+          "text": "Assembly does not count (it has its own badge)"
         }
       ]
     },
@@ -134,7 +134,7 @@
     },
     {
       "title": "C-C-C-Combobadge",
-      "intro": "Badge bingo-RAMA! Get given bingo on badge sheet and earn your Combobadge",
+      "intro": "Badge bingo-RAMA! Get the given bingo on the badge sheet and earn your Combobadge",
       "image": "http://ariot.no/img/badges/badge-business-case.png",
       "badge": "placeholder.png",
       "points": "100",
@@ -149,7 +149,7 @@
     },
     {
       "title": "Dr. Who",
-      "intro": "Use IoT in a clever way which can help in medical purposes, assist in diagnostics or general health impovment",
+      "intro": "Use IoT in a clever way which can help in medical purposes, assist in diagnostics or general health improvement",
       "image": "http://ariot.no/img/badges/badge-business-case.png",
       "badge": "dr.who.png",
       "points": "100",
@@ -188,7 +188,7 @@
     },
     {
       "title": "First brunch",
-      "intro": "Sketch out the solution your team is making. The concept, the technology and more",
+      "intro": "Deliver a solution before lunch on the first day of the event.",
       "image": "http://ariot.no/img/badges/badge-early-delivery.png",
       "badge": "first.brunch.png",
       "points": "100",
@@ -230,10 +230,10 @@
       "points": "100",
       "criteria": [
         {
-          "text": "A real dashboard, with useful informatio"
+          "text": "A real dashboard, with useful information"
         },
         {
-          "text": "Show off your data inn a nice and meaningful way"
+          "text": "Show off your data in a nice and meaningful way"
         },
         {
           "text": "A dashboard contains more than one graph"
@@ -251,7 +251,7 @@
           "text": "Bring out your inner McGyver!"
         },
         {
-          "text": "It must still work, but it can be dirty AF and show real bad craftmanship"
+          "text": "It must still work, but it can be dirty AF and show real bad craftsmanship"
         },
         {
           "text": "Can be both hardware and software"
@@ -293,10 +293,10 @@
       "points": "100",
       "criteria": [
         {
-          "text": "Needs to be help with someone elses solution"
+          "text": "Needs to be help with someone else's solution"
         },
         {
-          "text": "The team that got help writes the blogpost as a thank you!"
+          "text": "The team that got help writes the blog post as a thank you!"
         }
       ]
     },
@@ -317,7 +317,7 @@
     },
     {
       "title": "Metabadge",
-      "intro": "Get at least 10 cultural references in the other badges.",
+      "intro": "Get at least 10 pop culture references in the other badges.",
       "image": "http://ariot.no/img/badges/badge-business-case.png",
       "badge": "placeholder.png",
       "points": "Max 100",
@@ -335,7 +335,7 @@
       "points": "100",
       "criteria": [
         {
-          "text": "...and not just a website with icon shortcut"
+          "text": "...and not just a website with an icon shortcut"
         },
         {
           "text": "Make use of the native functions of the device"
@@ -386,7 +386,7 @@
     },
     {
       "title": "Savvy",
-      "intro": "Show good craftmanship and create a sound and robust solution",
+      "intro": "Show good craftsmanship and create a sound and robust solution",
       "image": "http://ariot.no/img/badges/badge-business-case.png",
       "badge": "savvy.png",
       "points": "100",
@@ -461,7 +461,7 @@
     },
     {
       "title": "The analyst",
-      "intro": "Using big data to provide insightfull reports and drilling of your datasources",
+      "intro": "Using big data to provide insightful reports and drilling of your data sources",
       "image": "http://ariot.no/img/badges/badge-business-case.png",
       "badge": "the.analyst.png",
       "points": "100",
@@ -476,7 +476,7 @@
     },
     {
       "title": "The assembler",
-      "intro": "Using Assembly in your solutions",
+      "intro": "Use Assembly in your solutions",
       "image": "http://ariot.no/img/badges/badge-business-case.png",
       "badge": "placeholder.png",
       "points": "100",
@@ -527,13 +527,13 @@
       "points": "100",
       "criteria": [
         {
-          "text": "Camera does not count here, as it has it's own badge"
+          "text": "Camera does not count here, as it has its own badge"
         }
       ]
     },
     {
       "title": "Treehugger",
-      "intro": "We love nature. And so should you. Create a solution that is good for our enviroment",
+      "intro": "We love nature. And so should you. Create a solution that is good for our environment",
       "image": "http://ariot.no/img/badges/badge-business-case.png",
       "badge": "treehugger.png",
       "points": "100",
@@ -581,7 +581,7 @@
       "points": "100",
       "criteria": [
         {
-          "text": "Not enough with a 3D printed object, it has it's own badge"
+          "text": "Not enough with a 3D printed object, it has its own badge"
         }
       ]
     },

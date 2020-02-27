@@ -3,8 +3,8 @@
 		"topBoxes": [
 			{
 					"label": "Winner",
-					"title": "Modern Family by Babyshark Ultd from Computas",
-					"text": "Creating a smart baby monitor system preventing sleepdepriventing in parents",
+					"title": "Kernel Panic 3.0 from Computas",
+					"text": "Created a smart bike helmet to assist bikers in their everyday life.",
 					"urlText": "Check out the winning project",
 					"url": "#",
 					"extraClass": "greygreen"
@@ -29,13 +29,13 @@
 		"leaderboard": [
 			{
 					"position": "01",
-					"name": "Modern Family by Babyshark Ultd",
+					"name": "Kernel Panic 3.0",
 					"badges": "27",
 					"points": "2700"
 			},
 			{
 					"position": "02",
-					"name": "Kernel Panic 3.0",
+					"name": "Modern Family by Babyshark Ultd",
 					"badges": "22",
 					"points": "2700"
 			},

@@ -8,13 +8,13 @@
             "type": "Jury",
             "lookingFor": [
                 {
-                    "value": "Solutions that look at a greater picture and work holistically to reach a clear goal"                        
+                    "value": "Solutions that look at the bigger picture and work holistically to reach a clear goal"
                 },
                 {
                     "value": "Get to know and empathise with your user"
                 },
                 {
-                    "value": "Don't \"just\" make MVPs make a MLP (Most lovable solution)"
+                    "value": "Don't \"just\" make MVPs, make a MLP (Minimum lovable product)"
                 }
             ],
             "bio": [
@@ -25,7 +25,7 @@
                     "value": "Loves people, they can be so weird"
                 },
                 {
-                    "value": "Have Shiba named Link"
+                    "value": "Has a Shiba named Link"
                 }
             ]
         },
@@ -43,7 +43,7 @@
                     "value": "Innovative solutions for pragmatic business cases. Can you think out of the box to solve a real problem?"
                 },
                 {
-                    "value": "Edge computing on low-end IoT. Can you run inference on an cheap microcontroller?"
+                    "value": "Edge computing on low-end IoT. Can you run inference on an cheap micro controller?"
                 }
             ],
             "bio": [
@@ -62,7 +62,7 @@
             "name": "Kaja Helene Kristiansen",
             "title": "Developer at EGGS Design",
             "image": "kaja.helene.kristiansen.jpg",
-            "intro": "Forth year helping out with Ariot, and are ready to make this the best year yet.",
+            "intro": "Forth year helping out with Ariot, and is ready to make this the best year yet.",
             "type": "Jury",
             "lookingFor": [
                 {
@@ -72,18 +72,18 @@
                     "value": "Good design. Would love to see more design in this competition, service, interaction and graphic. Bring it!"
                 },
                 {
-                    "value": "Good craftmanship. Take pride in what you create. If you like what you are doing, it shows in the product!"
+                    "value": "Good craftsmanship. Take pride in what you create. If you like what you are doing, it shows in the product!"
                 }
             ],
             "bio": [
                 {
-                    "value": "Can most probably name all the Pokemons, but has problem with remembering how to write media queries without looking it up first."
+                    "value": "Can most probably name all the Pokemons, but has problems with remembering how to write media queries without looking it up first."
                 },
                 {
                     "value": "Has newly started a new job as a frontend developer in EGGS Design, working in the Creative Tech department"
                 },
                 {
-                    "value": "Also have a shiba inu, he's named Momo. Momo means 'peach' in Japanese"
+                    "value": "Also has a shiba inu, he's named Momo. Momo means 'peach' in Japanese"
                 }
             ]
         },
@@ -122,8 +122,8 @@
             "name": "Maria Karlsen",
             "title": "UX Designer at Northern Beat",
             "image": "maria.karlsen.jpg",
-            "intro": "It's her first year in the Ariot comitee and her agenda is to bring some design into the challenge",
-            "type": "Comittee",
+            "intro": "It's her first year in the Ariot committee and her agenda is to bring some design into the challenge",
+            "type": "Committee",
             "bio": [
                 {
                     "value": "She is a weird designer potato – a hybrid between interaction-, product- and service designer"
@@ -143,15 +143,15 @@
                     "value": "Great energy and comradeship in the teams"
                 },
                 {
-                    "value": "Those corky solutions that makes her laugh"
+                    "value": "Those quirky solutions that makes her laugh"
                 }
             ]
         },
         {
             "name": "Angeliqa Axelsson",
-            "title": "Kul tittel",
+            "title": "Data engineer at Computas",
             "image": "angeliqa.axelsson.jpg",
-            "intro": "Lorem ipsum, a short n cool intro. Not to many characters, but some is fine. It's Friday and I wanna go home.",
+            "intro": "This first year committee member is responsible for all of Ariot’s social media presence.",
             "type": "Committee",
             "bio": [
                 {
@@ -161,7 +161,7 @@
                     "value": "Has her own scrumban board at home for renovations."
                 },
                 {
-                    "value": "Thinks the best thing about Norway is the hiking opportunities and “smurte lefser”."
+                    "value": "Thinks the best things about Norway are the hiking opportunities and “smurte lefser”."
                 }
             ],
             "canHelpWith": [
@@ -184,13 +184,13 @@
             "type": "Committee",
             "bio": [
                 {
-                    "value": "After participating at Ariot for two years, he snuck himself into the committee"                        
+                    "value": "After participating in Ariot for two years, he snuck himself into the committee"
                 },
                 {
-                    "value": "In his spare time he tinker a little with electronics, things that light up and makes noise are his favorites"
+                    "value": "In his spare time he tinkers a little with electronics, things that light up and makes noise are his favorites"
                 },
                 {
-                    "value": "Regular panel member in a disfunctional (yet funny!) podcast"
+                    "value": "Regular panel member in a dysfunctional (yet funny!) podcast"
                 }
             ]
         }
