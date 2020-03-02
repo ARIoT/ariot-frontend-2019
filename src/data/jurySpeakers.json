@@ -180,7 +180,7 @@
             "name": "Jan Ole Skotterud",
             "title": "System developer at Visma Consulting",
             "image": "jan.ole.skotterud.jpg",
-            "intro": "Lorem ipsum, a short n cool intro. Not to many characters, but some is fine. It's Friday and I wanna go home.",
+            "intro": "Always a happy camper, Jan Ole will bring good vibes and and has a big talent for those brainy issues.",
             "type": "Committee",
             "bio": [
                 {
@@ -191,6 +191,14 @@
                 },
                 {
                     "value": "Regular panel member in a dysfunctional (yet funny!) podcast"
+                }
+            ],
+            "canHelpWith": [
+                {
+                    "value": "Practical stuff around the event."
+                },
+                {
+                    "value": "Knows a bunch about hardware, also broght a lot of stuff with him in case you need something"
                 }
             ]
         }
