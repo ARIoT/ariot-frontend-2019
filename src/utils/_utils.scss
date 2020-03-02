@@ -3,6 +3,15 @@
 
 .u_label-text-boxes {
   margin-bottom: 4em;
+  &--two {
+    @media (min-width: $break--big) {
+      display: flex;
+      justify-content: space-between;
+      .c_label-text-box {
+        width: calc(50% - 1em);
+      }
+    }
+  }
   &--three {
     @media (min-width: $break--big) {
       display: flex;

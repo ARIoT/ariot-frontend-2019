@@ -21,9 +21,9 @@ class LabelTextBox extends Component {
           )}
 
           {item.url && (
-            <Link to={item.url}>
+            <a href={item.url}>
               {item.urlText}
-            </Link>
+            </a>
           )}
 
 

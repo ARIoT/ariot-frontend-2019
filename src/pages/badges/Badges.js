@@ -64,7 +64,7 @@ export default class Badges extends React.Component {
 						</div>
 
 						{this.state.whatToShow === 'badges' && (
-							<div className="t_badges__main-content">
+							<div className="t_badges__main-content t_badges__main-content--badges">
 								<p>We want to see a underlying theme, a thread throughout your project. Each badge should have it's place in the solution. Every team can get each badge (except Race condition).</p>
 								<div className="t_badges__main-content__change-view">
 									<button
@@ -73,7 +73,7 @@ export default class Badges extends React.Component {
 										onClick={() => this.changeBadgeView('list')}
 									>
 										<IconListView 	
-											className="c_button--change-view__list" 
+											className="c_button--change-view__list c_button--change-view__list--every-other" 
 										/>
 										<span>List</span>
 									</button>
@@ -102,7 +102,7 @@ export default class Badges extends React.Component {
 							</div>
 						)}
 						{this.state.whatToShow === 'awards' && (
-							<div className="t_badges__main-content">
+							<div className="t_badges__main-content t_badges__main-content--awards">
 								<p>Only one of each award can be given out. You cannot apply for this badge, it is a jury decision and the lucky ones will be called out during the dinner on Saturday. If you are going for the oppurtunity to get an extra 500 points, have the criteria in the back of your head during the event.</p>
 								<div className="t_badges__main-content__change-view">
 									<button
