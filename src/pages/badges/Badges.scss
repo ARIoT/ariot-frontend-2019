@@ -87,12 +87,6 @@
       .c_button--change-view,
       .c_button--change-what-to-show,
       button {
-        // padding: 0.5em 0.5em 0.2em;
-        // margin: 0 0.5em;
-        // width: 70px;
-        // height: 70px;
-        // border: none;
-        // border: 2px solid red !important;
         span {
           display: block;
           text-transform: uppercase;
@@ -109,21 +103,11 @@
   .badge-list {
     display: block;
     margin-top: 4em;
-    // transition: all 200ms ease-in;
-    .c_badge {
-      // transition: width 200ms ease-in;
-    }
     padding: 0 1.5em;
-    &--list {
-    }
     &--grid {
       display: flex;
       justify-content: space-between;
       flex-wrap: wrap;
-      .c_badge {
-        // width: 33%;
-        // border: 2px solid pink;
-      }
     }
     @media (min-width: $break--big) {
       padding: 0;

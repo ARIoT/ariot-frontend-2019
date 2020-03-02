@@ -6,24 +6,16 @@
 					"title": "Kernel Panic 3.0 from Computas",
 					"text": "Created a smart bike helmet to assist bikers in their everyday life.",
 					"urlText": "Check out the winning project",
-					"url": "#",
+					"url": "https://blog-ariot19.azurewebsites.net/2019/03/20/smarthjelm-by-kernel-panic-3-0-summary/",
 					"extraClass": "greygreen"
 			},
 			{
 					"label": "Teams",
 					"title": "7 IoT teams",
 					"text": "Seven brainy teams with three intense days to create their IoT projects = pure awesomeness",
-					"urlText": "Check out the teams blogposts",
-					"url": "#",
-					"extraClass": "greygreen"
-			},
-			{
-					"label": "What",
-					"title": "??",
-					"text": "Her må det være noe annet enn programmet for året, for det er stort sett det samme hvert år og ikke så interessant å lese",
-					"urlText": "Check out this cool link",
-					"url": "#",
-					"extraClass": "greygreen"
+					"extraClass": "greygreen",
+					"url": "https://blog-ariot.azurewebsites.net/",
+					"urlText": "Check out the teams blogposts"
 			}
 		],
 		"leaderboard": [
@@ -69,83 +61,130 @@
 			"topBoxes": [
 					{
 					"label": "Winner",
-					"title": "Visma",
-					"text": "Skiing has never been more fun!",
+					"title": "Visma ConsultIoTing",
+					"text": "Trying to make personal trainers obsolete, the Visma team created a suite of technical solutions to make an athlete out of a normal-bodied IT consultant. This included a lot of sensors, camera skeleton tracking, and data processing in Azure.",
 					"urlText": "Check out the winning project",
-					"url": "#",
+					"url": "https://blog-ariot.azurewebsites.net/author/visma/",
 					"extraClass": "greygreen"
 				},
 				{
 					"label": "Teams",
-					"title": "6 IoT teams",
-					"text": "Six brainy teams with three intense days to create their IoT projects = pure awesomeness",
+					"title": "7 IoT teams",
+					"text": "Seven teams, including newcomers from Coop IT and Aptiv from Sweden, Ariot 2018 was a great sucsess. ",
 					"urlText": "Check out the teams blogposts",
-					"url": "#",
-					"extraClass": "greygreen"
-				},
-				{
-					"label": "What",
-					"title": "??",
-					"text": "Her må det være noe annet enn programmet for året, for det er stort sett det samme hvert år og ikke så interessant å lese",
-					"urlText": "Check out this cool link",
-					"url": "#",
+					"url": "https://blog-ariot.azurewebsites.net/",
 					"extraClass": "greygreen"
 				}
 			],       
 			"leaderboard": [
                 {
                     "position": "01",
-                    "name": "",
-                    "badges": "",
-                    "points": ""
+                    "name": "Kernel Panic 2.0",
+                    "badges": "23",
+                    "points": "2950"
                 },
                 {
-                    "position": "01",
-                    "name": "",
-                    "badges": "",
-                    "points": ""
+                    "position": "02",
+                    "name": "KnowIoT",
+                    "badges": "22",
+                    "points": "2700"
                 },
                 {
-                    "position": "01",
-                    "name": "",
-                    "badges": "",
-                    "points": ""
+                    "position": "03",
+                    "name": "Visma ConsultIoTing",
+                    "badges": "22",
+                    "points": "2350"
                 },
                 {
-                    "position": "01",
-                    "name": "",
-                    "badges": "",
-                    "points": ""
+                    "position": "04",
+                    "name": "Great place to workSPACE",
+                    "badges": "21",
+                    "points": "2100"
                 },
                 {
-                    "position": "01",
-                    "name": "",
-                    "badges": "",
-                    "points": ""
+                    "position": "05",
+                    "name": "Cööperators",
+                    "badges": "9",
+                    "points": "1850"
                 },
                 {
-                    "position": "01",
-                    "name": "",
-                    "badges": "",
-                    "points": ""
+                    "position": "06",
+                    "name": "FitTeam",
+                    "badges": "17",
+                    "points": "1700"
                 },
                 {
-                    "position": "01",
-                    "name": "",
-                    "badges": "",
-                    "points": ""
-                },
-                {
-                    "position": "01",
-                    "name": "",
-                    "badges": "",
-                    "points": ""
+                    "position": "07",
+                    "name": "placeholder",
+                    "badges": "16",
+                    "points": "1550"
                 }
 			]
 		},
-		"2017": [
-
-		],
+		"2017": {
+			
+			"topBoxes": [
+				{
+					"label": "Winner",
+					"title": "Bespin - Cloud Bar",
+					"text": "The Bespin team created a semi-automatic bar solution. The customer places an order and pays through an app, and the app uses the face recognition API in Azure to create an identity for the user. At the bar, the user walks up to a camera, and the system uses face recognition to identify the person. The order is automatically served, with the only manual step in this process - age verification by an actual person working in the bar. Cheers!",
+					"urlText": "Check out the winning project",
+					"url": "https://www.youtube.com/watch?v=FsOpITezdpo",
+					"extraClass": "greygreen"
+				},
+				{
+					"label": "Teams",
+					"title": "7 IoT teams",
+					"text": "Altran Sweden, Sopra Steria, Knowit and Visma joined us this year for the first time, and together with old timers from Itera and EvilCorp (EvilCorp consisted of people from several firms, among others Novanet) Ariot 2017 sure was an event to remebmer!",
+					"extraClass": "greygreen"
+				}
+			],    
+			"leaderboard": [
+					{
+							"position": "01",
+							"name": "Bespin - Cloud Bar",
+							"badges": "20",
+							"points": "2500"
+					},
+					{
+							"position": "02",
+							"name": "SmartAss",
+							"badges": "23",
+							"points": "2450"
+					},
+					{
+							"position": "03",
+							"name": "Altran Gnomes",
+							"badges": "19",
+							"points": "2400"
+					},
+					{
+							"position": "04",
+							"name": "TrashTalk",
+							"badges": "18",
+							"points": "2300"
+					},
+					{
+							"position": "05",
+							"name": "EvilCorp",
+							"badges": "20",
+							"points": "2150"
+					},
+					{
+							"position": "06",
+							"name": "KnowIoT",
+							"badges": "16",
+							"points": "2100"
+					},
+					{
+							"position": "07",
+							"name": "AntibIoTics",
+							"badges": "15",
+							"points": "1500"
+					}
+			]
+		
+		},
 		"2016": [
 			
 		]

@@ -45,3 +45,15 @@
           }
       ]
   }
+
+  // Denne skal på past events som en tredje boks
+
+  
+  {
+    "label": "What",
+    "title": "??",
+    "text": "Her må det være noe annet enn programmet for året, for det er stort sett det samme hvert år og ikke så interessant å lese",
+    "urlText": "Check out this cool link",
+    "url": "#",
+    "extraClass": "greygreen"
+}

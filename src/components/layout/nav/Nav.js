@@ -15,16 +15,6 @@ class Nav extends React.Component {
 		this.toggleMainMenu = this.toggleMainMenu.bind(this);
 	}
 
-	componentDidMount() {
-		let dataUrl = this.props.mainMenuUrl;
-		fetch(dataUrl)
-			.then(response => response.json())
-			.then(mainMenuItems => this.setState({
-				mainMenuItems: mainMenuItems.reverse()
-			})
-			.catch(error => console.log(error)));			
-	}
-
   toggleMainMenu() {
 		this.setState({
 			navOpen: !this.state.navOpen
@@ -35,7 +25,7 @@ class Nav extends React.Component {
 		return (
 			<nav className="c_nav" role="navigation" aria-label="Hovedmeny">
 				<button className={`c_nav__toggle-menu-button ${this.state.navOpen ? 'c_nav__toggle-menu-button--clicked' : ''}`} aria-label="Åpne/lukke menyen" onClick={this.toggleMainMenu} tabIndex="1">
-					Menu
+					{this.state.navOpen ? 'Close' : 'Menu'}
 				</button>
   		<ul className={`c_nav__main-menu ${this.state.navOpen ? 'c_nav__main-menu--open' : ''}`}>
 				{SiteData.mainMenu.map(item => 

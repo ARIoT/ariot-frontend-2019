@@ -28,7 +28,7 @@ export default class LastYear extends React.Component {
 						<div className="g_center">
 							<h2 className="year-title">...back to {thisYear}</h2>
 							{thisYearData['topBoxes'] && (
-								<div className="u_label-text-boxes u_label-text-boxes--three">
+								<div className="u_label-text-boxes u_label-text-boxes--two">
 									{thisYearData['topBoxes'].map((item, index) => (
 										<LabelTextBox
 											item = {item}

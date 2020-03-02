@@ -42,7 +42,6 @@ export default class About extends React.Component {
 		// console.log(allArrays);
 		return (
 			<div className="c_label-text-boxes c_label-text-boxes--three">
-				Jeg er renderWhereWhenWhat
 				{allArrays.map( item => (
 						Object.values(item.acf)
 				))}
