@@ -65,7 +65,7 @@ export default class Badges extends React.Component {
 
 						{this.state.whatToShow === 'badges' && (
 							<div className="t_badges__main-content t_badges__main-content--badges">
-								<p>We want to see a underlying theme, a thread throughout your project. Each badge should have it's place in the solution. Every team can get each badge (except Race condition).</p>
+								<p>We want to see a underlying theme, a thread throughout your project. Each badge should have its place in the solution. Every team can get each badge (except Race condition).</p>
 								<div className="t_badges__main-content__change-view">
 									<button
 										type="button"
