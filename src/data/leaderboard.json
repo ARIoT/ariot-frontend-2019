@@ -1,0 +1,13 @@
+{
+	"topBoxes": [
+		
+		{
+				"label": "Teams",
+				"title": "5 IoT teams",
+				"text": "This year we have five teams competing to show off their IoT skills and become this years ruler of the galaxy.",
+				"extraClass": "greygreen",
+				"url": "https://blog-ariot20.azurewebsites.net/",
+				"urlText": "Check out the teams blogposts"
+		}
+	]
+}
