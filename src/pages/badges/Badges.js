@@ -73,7 +73,7 @@ export default class Badges extends React.Component {
 										onClick={() => this.changeBadgeView('list')}
 									>
 										<IconListView 	
-											className="c_button--change-view__list c_button--change-view__list--every-other" 
+											className="c_button--change-view__list c_button--change-view__list" 
 										/>
 										<span>List</span>
 									</button>

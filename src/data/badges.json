@@ -136,7 +136,7 @@
       "title": "C-C-C-Combobadge",
       "intro": "Badge bingo-RAMA! Get the given bingo on the badge sheet and earn your Combobadge",
       "image": "http://ariot.no/img/badges/badge-business-case.png",
-      "badge": "placeholder.png",
+      "badge": "c.c.c.combobadge.png",
       "points": "100",
       "criteria": [
         {
@@ -319,7 +319,7 @@
       "title": "Metabadge",
       "intro": "Get at least 10 pop culture references in the other badges.",
       "image": "http://ariot.no/img/badges/badge-business-case.png",
-      "badge": "placeholder.png",
+      "badge": "metabadge.png",
       "points": "Max 100",
       "criteria": [
         {
@@ -346,7 +346,7 @@
       "title": "Off the wire",
       "intro": "Use four or more wireless transmission technologies in your solution",
       "image": "http://ariot.no/img/badges/badge-business-case.png",
-      "badge": "placeholder.png",
+      "badge": "off.the.wire.png",
       "points": "200",
       "criteria": [
         {
@@ -478,7 +478,7 @@
       "title": "The assembler",
       "intro": "Use Assembly in your solutions",
       "image": "http://ariot.no/img/badges/badge-business-case.png",
-      "badge": "placeholder.png",
+      "badge": "the.assembler.png",
       "points": "100",
       "criteria": [
         {
