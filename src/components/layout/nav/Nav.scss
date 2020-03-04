@@ -1,5 +1,5 @@
-@import '../../../utils/variables';
-@import '../../../utils/mixins';
+@import "../../../utils/variables";
+@import "../../../utils/mixins";
 
 .c_nav {
   position: sticky;
@@ -21,7 +21,8 @@
           @media (min-width: $break--med) {
             position: relative;
             box-shadow: 0px 0.3em 0px 0px $blue;
-            transition: background-color  80ms ease-in-out, box-shadow  80ms ease-in-out;
+            transition: background-color 80ms ease-in-out,
+              box-shadow 80ms ease-in-out;
             &:hover {
               background-color: darken($blue, 15%);
               box-shadow: 0px 0.3em 0px 0px darken($blue, 15);
@@ -37,7 +38,7 @@
               left: 0;
               right: 0;
               // content: '';
-            } 
+            }
           }
         }
         &:focus {
@@ -72,7 +73,7 @@
     &:focus {
       @include focusBorder($darkpurple);
     }
-    
+
     @media (min-width: $break--med) {
       display: none;
       height: 0;
@@ -81,7 +82,7 @@
       width: 80%;
     }
   }
-  
+
   @media (max-width: $break--med) {
     min-height: 44px;
     &__main-menu {
@@ -97,7 +98,8 @@
       background: $yellow;
       animation: removeVisibilty 200ms forwards;
       animation-delay: 250ms;
-      transition: transform 200ms ease-in-out, background-color 200ms ease-in-out;
+      transition: transform 200ms ease-in-out,
+        background-color 200ms ease-in-out;
       transform: translateX(100%);
       &__item {
         display: block;
@@ -130,7 +132,8 @@
         margin: 0 0.3em;
         text-align: center;
         a {
-          display: block;
+          display: flex;
+          align-items: center;
           position: relative;
           padding: 0.8em 1em;
           height: 100%;
@@ -141,8 +144,8 @@
             right: 0;
             bottom: 0;
             height: 0;
-            transition: height 100ms ease-in-out ;
-            content: '';
+            transition: height 100ms ease-in-out;
+            content: "";
           }
           &:hover {
             &:after {
