@@ -16,6 +16,11 @@
       "aria": "Read up on all the badges you can collect!"
     },
     {
+      "name": "Leaderboard",
+      "url": "leaderboard",
+      "aria": "Who is in the lead? Who will win?"
+    },
+    {
       "name": "Jury & speakers",
       "url": "jury-speakers",
       "aria": "See all of our jury and speakers"

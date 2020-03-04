@@ -12,6 +12,7 @@ import JurySpeakers from '../pages/jurySpeakers/JurySpeakers';
 import SignUp from '../pages/signUp/SignUp';
 import PastEvents from '../pages/pastEvents/PastEvents';
 import LastYear from '../pages/pastEvents/LastYear';
+import CurrentLeaderboard from '../pages/leaderboard/Leaderboard';
 import NoMatch from '../pages/noMatch/NoMatch'; 
 
 export default () => (
@@ -21,6 +22,7 @@ export default () => (
 			<Route path="/about" exact component={About} />
 			<Route path="/program-2020" exact component={Program} />
 			<Route path="/badges" exact component={Badges} />
+			<Route path="/leaderboard" exact component={CurrentLeaderboard} />
 			<Route path="/jury-speakers" exact component={JurySpeakers} />
 			<Route path="/past-events" exact component={PastEvents} />
 			<Route path="/last-year/:year" component={LastYear} />
