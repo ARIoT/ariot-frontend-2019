@@ -1,47 +1,54 @@
 @import '../../utils/_variables.scss';
 
 .t_program {
-  padding-bottom: 4em;
-  background-color: $yellow;
-  color: $purplesuperdark;
-  .c_program__types {
-    margin-bottom: 2em;
-    text-align: right;
-    .type {
-      display: block;
-      position: relative;
-      margin-bottom: 0.4em;
-      font-family: $heading-font;
-      font-weight: bold;
-      &:after {
-        position: absolute;
-        top: 50%;
-        right: 0;
-        transform: translateY(-50%);
-        height: 5px;
-        content: '';
-      }
-      &--talks {
-        padding-right: 110px;
-        &:after {
-          width: 100px;
-          background-color: $pink;
-        }
-      }
-      &--social {
-        padding-right: 130px;
-        &:after {
-          width: 120px;
-          background-color: $blue;
-        }
-      }
-      &--hacking {
-        padding-right: 160px;
-        &:after {
-          width: 150px;
-          background-color: $purplesuperdark;
-        }
-      }
-    }
-  }
+	padding-bottom: 4em;
+	background-color: $yellow;
+	color: $purplesuperdark;
+	.c_program__types {
+		margin-bottom: 2em;
+		text-align: right;
+		.type {
+			display: block;
+			position: relative;
+			margin-bottom: 0.4em;
+			font-family: $heading-font;
+			font-weight: bold;
+			&:after {
+				position: absolute;
+				top: 50%;
+				right: 0;
+				transform: translateY(-50%);
+				height: 5px;
+				content: '';
+			}
+			&--food {
+				padding-right: 90px;
+				&:after {
+					width: 80px;
+					background-color: $purple;
+				}
+			}
+			&--talks {
+				padding-right: 110px;
+				&:after {
+					width: 100px;
+					background-color: $pink;
+				}
+			}
+			&--social {
+				padding-right: 130px;
+				&:after {
+					width: 120px;
+					background-color: $blue;
+				}
+			}
+			&--hacking {
+				padding-right: 150px;
+				&:after {
+					width: 140px;
+					background-color: $purplesuperdark;
+				}
+			}
+		}
+	}
 }

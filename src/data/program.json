@@ -1,159 +1,197 @@
 [
-    {
-        "date": "12",
-        "day": "Thursday",
-        "stops": [
-            {
-                "time": "08:30",
-                "activity": "Check-in and rigging of your team camp"
-            },
-            {
-                "time": "10:00",
-                "activity": "Welcome keynote w/ Christian Nesmark",
-                "type": "talk"
-            },
-            {
-                "time": "10:30",
-                "activity": "Challenge kick-off",
-                "type": "hacktime"
-            },
-            {
-                "time": "12:00",
-                "activity": "Lunch"
-            },
-            {
-                "time": "13:30",
-                "activity": "Challenge session",
-                "type": "hacktime"
-            },
-            {
-                "time": "15:00",
-                "activity": "Fika"
-            },
-            {
-                "time": "19:00",
-                "activity": "Dinner",
-                "type": "social"
-            }
-        ]
-    },
-    {
-        "date": "13",
-        "day": "Friday",
-        "stops": [
-            {
-                "time": "07:00 - 10:00",
-                "activity": "Breakfast"
-            },
-            {
-                "time": "08:00",
-                "activity": "Challenge session",
-                "type": "hacktime"
-            },
-            {
-                "time": "12:00",
-                "activity": "Lunch"
-            },
-            {
-                "time": "13:00",
-                "activity": "Lightning talks",
-                "type": "talk"
-            },
-            {
-                "time": "14:30",
-                "activity": "Challenge session",
-                "type": "hacktime"
-            },
-            {
-                "time": "15:00",
-                "activity": "Fika"
-            },
-            {
-                "time": "18:45",
-                "activity": "Friday 13th Kahoot!",
-                "type": "social"
-            },
-            {
-                "time": "19:00",
-                "activity": "Pizza + geekbeer",
-                "type": "social"
-            }
-        ]
-    },
-    {
-        "date": "14",
-        "day": "Saturday",
-        "stops": [
-            {
-                "time": "07:00 - 10:00",
-                "activity": "Breakfast"
-            },
-            {
-                "time": "08:00",
-                "activity": "Challenge session",
-                "type": "hacktime"
-            },
-            {
-                "time": "12:00",
-                "activity": "Lunch"
-            },
-            {
-                "time": "13:00",
-                "activity": "LAST SUBMISSION"
-            },
-            {
-                "time": "13:05",
-                "activity": "Jury pitch (max 10 min each team)",
-                "type": "talk"
-            },
-            {
-                "time": "14:30 ish",
-                "activity": "Clean out"
-            },
-            {
-                "time": "15:00",
-                "activity": "Free time / prepare your talk / get a beer / sleep",
-                "type": "social"
-            },
-            {
-                "time": "18:00",
-                "activity": "Pre-drinks and high-fives",
-                "type": "social"
-            },
-            {
-                "time": "19:00",
-                "activity": "Dinner (dress semi-formal)",
-                "type": "social"
-            },
-            {
-                "time": "21:00",
-                "activity": "Demos, final scoreboard update and award ceremony!",
-                "type": "social"
-            },
-            {
-                "time": "22:00",
-                "activity": "Party! Let's make ARIOT!",
-                "type": "social"
-            },
-            {
-                "time": "01:30",
-                "activity": "Bar closes"
-            }
-        ]
-    },  
-    {
-        "date": "15",
-        "day": "Sunday",
-        "text": "There is no official program for Sunday. Just sleep and get som rest and get home safely.",
-        "stops": [
-            {
-                "time": "07:00 - 10:00",
-                "activity": "Breakfast"
-            },
-            {
-                "time": "07:00 - 12:00",
-                "activity": "Wake up and smell the coffee! And then leave. Thanks for this year!"
-            }
-        ]
-    }
+	{
+		"date": "12",
+		"day": "Thursday",
+		"stops": [
+			{
+				"time": "08:00",
+				"activity": "Check-in and rigging of your team camp",
+				"type": "social",
+				"extraInfo": "We'll be ready for you anytime between 08:00 and 09:45, but please be ready when the official program starts at 10:00."
+			},
+			{
+				"time": "10:00",
+				"activity": "Welcome to Ariot 2020 w/ Christian Nesmark",
+				"type": "talk"
+			},
+			{
+				"time": "10:30",
+				"activity": "Challenge kick-off",
+				"type": "hacktime",
+				"extraInfo": "The hacking begins!"
+			},
+			{
+				"time": "13:00",
+				"activity": "Lunch",
+				"type": "food",
+				"extraInfo": "We'll lock the working room, but just let us know when you want back to working and we'll unlock the door"
+			},
+			{
+				"time": "14:00",
+				"activity": "Challenge session",
+				"type": "hacktime"
+			},
+			{
+				"time": "15:00",
+				"activity": "Fika",
+				"type": "food",
+				"extraInfo": "We don't lock the room now. Feel free to get up and stretch your legs, while grabbing a coffee and a little cake. Mmm, fika!"
+			},
+			{
+				"time": "19:00",
+				"activity": "Dinner",
+				"type": "food",
+				"extraInfo": "We'll lock the room again, and eat a three course dinner in the restaurant. Buy your own drinks (you can put it on your room)."
+			},
+			{
+				"time": "20:00",
+				"activity": "Challenge session",
+				"type": "hacktime",
+				"extraInfo": "Work for as long as you want, but please get some sleep to! If you are the last one leaving for the night, please make sure someone locks the door."
+			}
+		]
+	},
+	{
+		"date": "13",
+		"day": "Friday",
+		"stops": [
+			{
+				"time": "07:00",
+				"activity": "Breakfast",
+				"type": "food",
+				"extraInfo": "No need to be there 07 sharp, the breakfast will be served until 10:00."
+			},
+			{
+				"time": "08:00",
+				"activity": "Challenge session",
+				"type": "hacktime",
+				"extraInfo": "If the room's not open when you are ready to hack, just talk to one of the jury or someone wokring at the hotel and we'll help you."
+			},
+			{
+				"time": "11:30",
+				"activity": "Lunch",
+				"type": "food",
+				"extraInfo": "Yes, a little earlier lunch today. We'll lock the door."
+			},
+			{
+				"time": "13:00",
+				"activity": "Lightning talks",
+				"type": "talk",
+				"extraInfo": "We'll lock the doors and force everyone out to a new room. The teams will hold their lightning talks, and Ragnhild Mjønner will hold a short talk right after."
+			},
+			{
+				"time": "14:30",
+				"activity": "Challenge session",
+				"type": "hacktime"
+			},
+			{
+				"time": "15:00",
+				"activity": "Fika",
+				"type": "food",
+				"extraInfo": "We don't lock the room now. Feel free to get up and stretch your legs, while grabbing a coffee and a little cake. Mmm, fika!"
+			},
+			{
+				"time": "18:45",
+				"activity": "Quiz!",
+				"type": "social",
+				"extraInfo": "The room will be locked, and everyone must participate in our very cool quiz."
+			},
+			{
+				"time": "19:00",
+				"activity": "Pizza + geekbeer",
+				"type": "food",
+				"extraInfo": "Today the dinner will be served in the working room."
+			}
+		]
+	},
+	{
+		"date": "14",
+		"day": "Saturday",
+		"stops": [
+			{
+				"time": "07:00",
+				"activity": "Breakfast",
+				"type": "food",
+				"extraInfo": "No need to be there 07 sharp, the breakfast will be served until 10:00."
+			},
+			{
+				"time": "08:00",
+				"activity": "Challenge session",
+				"type": "hacktime",
+				"extraInfo": "If the room's not open when you are ready to hack, just talk to one of the jury or someone wokring at the hotel and we'll help you."
+			},
+			{
+				"time": "11:30",
+				"activity": "Lunch",
+				"type": "food",
+				"extraInfo": "The room will be locked as usual"
+			},
+			{
+				"time": "13:00",
+				"activity": "Jury pitch",
+				"type": "talk",
+				"extraInfo": "The jury will start their rounds. Show us your project, tell us what award(s) you are going for etc.++ We will timing you, max 7 minutes each."
+			},
+			{
+				"time": "14:00",
+				"activity": "LAST SUBMISSION",
+				"extraInfo": "Super duper last opportunity to send in you blog posts. We won't read anything after this."
+			},
+			{
+				"time": "14:01",
+				"activity": "Clean out",
+				"extraInfo": "Start cleaing out the room. We're done working! Good job!"
+			},
+			{
+				"time": "14:30",
+				"activity": "Free time / prepare your talk / get a beer / sleep",
+				"type": "social",
+				"extraInfo": "Work on your presentation for later, eat, sleep, grab a beer, it's up to you!"
+			},
+			{
+				"time": "17:30",
+				"activity": "Pre-drinks and high-fives",
+				"type": "social",
+				"extraInfo": "Relax your shoulders, you did great! Dress up and meet up at the bar and grab a drink before dinner."
+			},
+			{
+				"time": "18:30",
+				"activity": "Dinner",
+				"type": "food",
+				"extraInfo": "Three course dinner, awards ceremony, presentations, good times, fine people. Get ready to have good time."
+			},
+			{
+				"time": "20:30",
+				"activity": "Demos, final scoreboard update and award ceremony! And desserts.",
+				"type": "social"
+			},
+			{
+				"time": "22:00",
+				"activity": "Party! Let's make ARIOT!",
+				"type": "social",
+				"extraInfo": "We find our way to the bar, and dance our socks off! Or chill. Or drink. Or talk. We just want you to have a good time!"
+			},
+			{
+				"time": "01:30",
+				"activity": "Bar closes",
+				"extraInfo": "Nothing left to do but sleep"
+			}
+		]
+	},
+	{
+		"date": "15",
+		"day": "Sunday",
+		"text": "There is no official program for Sunday. Just sleep and get som rest and get home safely. Last checkout is 11:00.",
+		"stops": [
+			{
+				"time": "07:00",
+				"activity": "Breakfast",
+				"type": "food"
+			},
+			{
+				"time": "11:00",
+				"activity": "Wake up and smell the coffee! And then leave. Thanks for this year!"
+			}
+		]
+	}
 ]
