@@ -172,7 +172,7 @@
 				"extraInfo": "We find our way to the bar, and dance our socks off! Or chill. Or drink. Or talk. We just want you to have a good time!"
 			},
 			{
-				"time": "01:30",
+				"time": "02:30",
 				"activity": "Bar closes",
 				"extraInfo": "Nothing left to do but sleep"
 			}
@@ -190,7 +190,8 @@
 			},
 			{
 				"time": "11:00",
-				"activity": "Wake up and smell the coffee! And then leave. Thanks for this year!"
+				"activity": "Last checkout",
+				"extraInfo": "Wake up and smell the coffee! The subway line number 1 is only ten minutes walk away, call a taxi from the reception or drive away in your car. Thanks for this year! We hope to see you next year!"
 			}
 		]
 	}

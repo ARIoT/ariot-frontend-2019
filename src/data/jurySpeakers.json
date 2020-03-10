@@ -1,206 +1,206 @@
 {
-    "jury": [
-        {
-            "name": "Ragnhild Mjønner",
-            "title": "Service designer at Finn",
-            "image": "ragnhild.mjoenner.jpg",
-            "intro": "Coming from the worlds of entrepreneurship and service design, Ragnhild has a great mix of experience regarding building something new and sustainable.",
-            "type": "Jury",
-            "lookingFor": [
-                {
-                    "value": "Solutions that look at the bigger picture and work holistically to reach a clear goal"
-                },
-                {
-                    "value": "Get to know and empathise with your user"
-                },
-                {
-                    "value": "Don't \"just\" make MVPs, make a MLP (Minimum lovable product)"
-                }
-            ],
-            "bio": [
-                {
-                    "value": "Currently working as service design lead at FINN.no"
-                },                
-                {
-                    "value": "Loves people, they can be so weird"
-                },
-                {
-                    "value": "Has a Shiba named Link"
-                }
-            ]
-        },
-        {
-            "name": "Dimitrios Platis",
-            "title": "Software Engineer & Maker at Edument AB, Sweden",
-            "image": "dimitrios.platis.jpg",
-            "intro": "Second jury duty for Ariot and eager to experience the passion, teamwork, cool tech and hacks!",
-            "type": "Jury",
-            "lookingFor": [
-                {
-                    "value": "Software & hardware best practices. Yes, it is a quick & dirty prototype, but can it go live soon?"                        
-                },
-                {
-                    "value": "Innovative solutions for pragmatic business cases. Can you think out of the box to solve a real problem?"
-                },
-                {
-                    "value": "Edge computing on low-end IoT. Can you run inference on an cheap micro controller?"
-                }
-            ],
-            "bio": [
-                {
-                    "value": "Works for Edument in Gothenburg as a software engineering consultant. Usually within embedded systems."                        
-                },
-                {
-                    "value": "Likes teaching. Delivers courses on beginner and advanced C++ at Edument and Systems Development at the University of Gothenburg."
-                },
-                {
-                    "value": "Works on open source hobby projects and blogs about them. Preferrably the entire product stack, from software to hardware."
-                }
-            ]
-        },
-        {
-            "name": "Kaja Helene Kristiansen",
-            "title": "Developer at EGGS Design",
-            "image": "kaja.helene.kristiansen.jpg",
-            "intro": "Forth year helping out with Ariot, and is ready to make this the best year yet.",
-            "type": "Jury",
-            "lookingFor": [
-                {
-                    "value": "Geeky and fun stuff! This is a place where you can create want YOU want, and not what the typical client want. "
-                },
-                {
-                    "value": "Good design. Would love to see more design in this competition, service, interaction and graphic. Bring it!"
-                },
-                {
-                    "value": "Good craftsmanship. Take pride in what you create. If you like what you are doing, it shows in the product!"
-                }
-            ],
-            "bio": [
-                {
-                    "value": "Can most probably name all the Pokemons, but has problems with remembering how to write media queries without looking it up first."
-                },
-                {
-                    "value": "Has newly started a new job as a frontend developer in EGGS Design, working in the Creative Tech department"
-                },
-                {
-                    "value": "Also has a shiba inu, he's named Momo. Momo means 'peach' in Japanese"
-                }
-            ]
-        },
-        {
-            "name": "Christian Nesmark",
-            "title": "Rogue Consultant at CNAS",
-            "intro": "Founder of Ariot, and recurring jury member. Looking forward to see what our 5th anniversary will bring.",
-            "image": "christian.nesmark.jpg",
-            "type": "Jury",
-            "lookingFor": [
-                { 
-                    "value": "Innovation, innovation, innovation!"                         
-                },
-                {
-                    "value": "Creative use of existing technology to solve problems of the future."
-                },
-                {
-                    "value": "Holistic view of your solution. How well does it fit in the bigger picture?"
-                }
-            ],
-            "bio": [
-                {
-                    "value": "Self-employed consultant, working as a full-stack (sic) developer, architect and team lead for large companies."
-                },
-                {
-                    "value": "Ask me about Star Wars. All of it. <- (Did you catch the reference there...?)"                        
-                },
-                {
-                    "value": "Newborn skydiver. Prepare to hear stories about falling through clouds at 200 kph."
-                }
-            ]
-        }
-    ],
-    "comittee": [
-        {
-            "name": "Maria Karlsen",
-            "title": "UX Designer at Northern Beat",
-            "image": "maria.karlsen.jpg",
-            "intro": "It's her first year in the Ariot committee and her agenda is to bring some design into the challenge",
-            "type": "Committee",
-            "bio": [
-                {
-                    "value": "She is a weird designer potato – a hybrid between interaction-, product- and service designer"
-                },
-                {
-                    "value": "Loves to learn new stuff and can find inspiration in all things"
-                },
-                {
-                    "value": "She loves the forest, and to walk with a dog among the trees"
-                }
-            ],
-            "canHelpWith": [
-                {
-                    "value": "...a way to help out with practical stuff if you need it during the event"
-                },
-                {
-                    "value": "Great energy and comradeship in the teams"
-                },
-                {
-                    "value": "Those quirky solutions that makes her laugh"
-                }
-            ]
-        },
-        {
-            "name": "Angeliqa Axelsson",
-            "title": "Data engineer at Computas",
-            "image": "angeliqa.axelsson.jpg",
-            "intro": "This first year committee member is responsible for all of Ariot’s social media presence.",
-            "type": "Committee",
-            "bio": [
-                {
-                    "value": "Participated in Ariot 2018 & 2019"                        
-                },
-                {
-                    "value": "Has her own scrumban board at home for renovations."
-                },
-                {
-                    "value": "Thinks the best things about Norway are the hiking opportunities and “smurte lefser”."
-                }
-            ],
-            "canHelpWith": [
-                {
-                    "value": "Practical stuff around the event."
-                },
-                {
-                    "value": "Finding workarounds and hacks"
-                },
-                {
-                    "value": "Google cloud platform"
-                }
-            ]
-        },
-        {
-            "name": "Jan Ole Skotterud",
-            "title": "System developer at Visma Consulting",
-            "image": "jan.ole.skotterud.jpg",
-            "intro": "Always a happy camper, Jan Ole will bring good vibes and and has a big talent for those brainy issues.",
-            "type": "Committee",
-            "bio": [
-                {
-                    "value": "After participating in Ariot for two years, he snuck himself into the committee"
-                },
-                {
-                    "value": "In his spare time he tinkers a little with electronics, things that light up and makes noise are his favorites"
-                },
-                {
-                    "value": "Regular panel member in a dysfunctional (yet funny!) podcast"
-                }
-            ],
-            "canHelpWith": [
-                {
-                    "value": "Practical stuff around the event."
-                },
-                {
-                    "value": "Knows a bunch about hardware, also broght a lot of stuff with him in case you need something"
-                }
-            ]
-        }
-    ]
+	"jury": [
+		{
+			"name": "Ragnhild Mjønner",
+			"title": "Service designer at FINN",
+			"image": "ragnhild.mjoenner.jpg",
+			"intro": "Coming from the worlds of entrepreneurship and service design, Ragnhild has a great mix of experience regarding building something new and sustainable.",
+			"type": "Jury",
+			"lookingFor": [
+				{
+					"value": "Solutions that look at the bigger picture and work holistically to reach a clear goal"
+				},
+				{
+					"value": "Get to know and empathise with your user"
+				},
+				{
+					"value": "Don't \"just\" make MVPs, make a MLP (Minimum lovable product)"
+				}
+			],
+			"bio": [
+				{
+					"value": "Currently working as service design lead at FINN.no"
+				},
+				{
+					"value": "Loves people, they can be so weird"
+				},
+				{
+					"value": "Has a Shiba named Link"
+				}
+			]
+		},
+		{
+			"name": "Dimitrios Platis",
+			"title": "Software Engineer & Maker at Edument AB, Sweden",
+			"image": "dimitrios.platis.jpg",
+			"intro": "Second jury duty for Ariot and eager to experience the passion, teamwork, cool tech and hacks!",
+			"type": "Jury",
+			"lookingFor": [
+				{
+					"value": "Software & hardware best practices. Yes, it is a quick & dirty prototype, but can it go live soon?"
+				},
+				{
+					"value": "Innovative solutions for pragmatic business cases. Can you think out of the box to solve a real problem?"
+				},
+				{
+					"value": "Edge computing on low-end IoT. Can you run inference on an cheap micro controller?"
+				}
+			],
+			"bio": [
+				{
+					"value": "Works for Edument in Gothenburg as a software engineering consultant. Usually within embedded systems."
+				},
+				{
+					"value": "Likes teaching. Delivers courses on beginner and advanced C++ at Edument and Systems Development at the University of Gothenburg."
+				},
+				{
+					"value": "Works on open source hobby projects and blogs about them. Preferrably the entire product stack, from software to hardware."
+				}
+			]
+		},
+		{
+			"name": "Kaja Helene Kristiansen",
+			"title": "Developer at EGGS Design",
+			"image": "kaja.helene.kristiansen.jpg",
+			"intro": "Forth year helping out with Ariot, and is ready to make this the best year yet.",
+			"type": "Jury",
+			"lookingFor": [
+				{
+					"value": "Geeky and fun stuff! This is a place where you can create want YOU want, and not what the typical client want. "
+				},
+				{
+					"value": "Good design. Would love to see more design in this competition, service, interaction and graphic. Bring it!"
+				},
+				{
+					"value": "Good craftsmanship. Take pride in what you create. If you like what you are doing, it shows in the product!"
+				}
+			],
+			"bio": [
+				{
+					"value": "Can most probably name all the Pokemons, but has problems with remembering how to write media queries without looking it up first."
+				},
+				{
+					"value": "Has newly started a new job as a frontend developer in EGGS Design, working in the Creative Tech department"
+				},
+				{
+					"value": "Also has a shiba inu, he's named Momo. Momo means 'peach' in Japanese"
+				}
+			]
+		},
+		{
+			"name": "Christian Nesmark",
+			"title": "Rogue Consultant at CNAS",
+			"intro": "Founder of Ariot, and recurring jury member. Looking forward to see what our 5th anniversary will bring.",
+			"image": "christian.nesmark.jpg",
+			"type": "Jury",
+			"lookingFor": [
+				{
+					"value": "Innovation, innovation, innovation!"
+				},
+				{
+					"value": "Creative use of existing technology to solve problems of the future."
+				},
+				{
+					"value": "Holistic view of your solution. How well does it fit in the bigger picture?"
+				}
+			],
+			"bio": [
+				{
+					"value": "Self-employed consultant, working as a full-stack (sic) developer, architect and team lead for large companies."
+				},
+				{
+					"value": "Ask me about Star Wars. All of it. <- (Did you catch the reference there...?)"
+				},
+				{
+					"value": "Newborn skydiver. Prepare to hear stories about falling through clouds at 200 kph."
+				}
+			]
+		}
+	],
+	"comittee": [
+		{
+			"name": "Maria Karlsen",
+			"title": "UX Designer at Northern Beat",
+			"image": "maria.karlsen.jpg",
+			"intro": "It's her first year in the Ariot committee and her agenda is to bring some design into the challenge",
+			"type": "Committee",
+			"bio": [
+				{
+					"value": "She is a weird designer potato – a hybrid between interaction-, product- and service designer"
+				},
+				{
+					"value": "Loves to learn new stuff and can find inspiration in all things"
+				},
+				{
+					"value": "She loves the forest, and to walk with a dog among the trees"
+				}
+			],
+			"canHelpWith": [
+				{
+					"value": "...a way to help out with practical stuff if you need it during the event"
+				},
+				{
+					"value": "Great energy and comradeship in the teams"
+				},
+				{
+					"value": "Those quirky solutions that makes her laugh"
+				}
+			]
+		},
+		{
+			"name": "Angeliqa Axelsson",
+			"title": "Data engineer at Computas",
+			"image": "angeliqa.axelsson.jpg",
+			"intro": "This first year committee member is responsible for all of Ariot’s social media presence.",
+			"type": "Committee",
+			"bio": [
+				{
+					"value": "Participated in Ariot 2018 & 2019"
+				},
+				{
+					"value": "Has her own scrumban board at home for renovations."
+				},
+				{
+					"value": "Thinks the best things about Norway are the hiking opportunities and “smurte lefser”."
+				}
+			],
+			"canHelpWith": [
+				{
+					"value": "Practical stuff around the event."
+				},
+				{
+					"value": "Finding workarounds and hacks"
+				},
+				{
+					"value": "Google cloud platform"
+				}
+			]
+		},
+		{
+			"name": "Jan Ole Skotterud",
+			"title": "System developer at Visma Consulting",
+			"image": "jan.ole.skotterud.jpg",
+			"intro": "Always a happy camper, Jan Ole will bring good vibes and and has a big talent for those brainy issues.",
+			"type": "Committee",
+			"bio": [
+				{
+					"value": "After participating in Ariot for two years, he snuck himself into the committee"
+				},
+				{
+					"value": "In his spare time he tinkers a little with electronics, things that light up and makes noise are his favorites"
+				},
+				{
+					"value": "Regular panel member in a dysfunctional (yet funny!) podcast"
+				}
+			],
+			"canHelpWith": [
+				{
+					"value": "Practical stuff around the event."
+				},
+				{
+					"value": "Knows a bunch about hardware, also broght a lot of stuff with him in case you need something"
+				}
+			]
+		}
+	]
 }
