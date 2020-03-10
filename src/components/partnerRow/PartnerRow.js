@@ -2,7 +2,9 @@ import React, { Component } from 'react';
 import './PartnerRow.scss';
 import SiteData from '../../data/site.json';
 import { ReactComponent as IteraLogo } from '../../assets/images/logos/itera-logo.svg';
+// import { ReactComponent as NordicLogo } from '../../assets/images/logos/nordic-semi-logo.svg';
 import { ReactComponent as MicrosoftLogo } from '../../assets/images/logos/microsoft-logo.svg';
+import NordicPng from '../../assets/images/logos/nordic-logo-black.png';
 
 class PartnerRow extends Component {
 	constructor() {
@@ -16,6 +18,9 @@ class PartnerRow extends Component {
 				return <IteraLogo />;
 			case 'microsoft-partner':
 				return <MicrosoftLogo />;
+			case 'nordic-partner':
+				// return <NordicLogo />;
+				return <img src={NordicPng} alt='Nordic Semiconductor logo' />;
 			default:
 				return null;
 		}
@@ -29,7 +34,7 @@ class PartnerRow extends Component {
 						<h3 className='c_partner-row__heading'>Our awesome partners:</h3>
 						<ul className='c_partner-row__logos'>
 							{SiteData.partnerRow.map(item => (
-								<li key={item.id}>
+								<li key={item.id} className={`logo--${item.id}`}>
 									<a
 										href={item.url}
 										aria-label={`Visit ${item.name} 's webpage`}

@@ -2,61 +2,82 @@
 @import '../../utils/_mixins.scss';
 
 .c_partner-row {
-  padding: 2em;
-  // margin-top: 4em;
-  text-align: center;
-  background-color: $greygreen;
-  &__content {
-    color: $purplesuperdark;
-    @media (min-width: $break--big) {
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-    }
-  }
-  h3 {
-    font-size: 1.2em;;
-  }
-  ul {
-    display: flex;
-    margin: 2em 0;
-    justify-content: center;
-    flex-wrap: wrap;
-    list-style: none;
-    @media (min-width: $break--med) {
-      margin: 0;
-    }
-    li {
-      margin-bottom: 0.6em;
-      width: 100%;
-      @media (min-width: $break--med) {
-        padding: 0 2em;
-        width: auto;
-      }
-      a {
-        display: inline-block;
-        img,
-        svg {
-          display: block;
-          max-height: 80px;
-          max-width: 7em;
-        }
-        svg,
-        svg path {
-          fill: $purplesuperdark;
-        }
-        span {
-          display: block;
-          text-indent: -9000px;
-        }
-        &:focus {
-          @include focusBorder($darkpurple);
-        }
-      }
-    }
-  }
- 
-    &__content {
-      
-  }
+	padding: 2em;
+	// margin-top: 4em;
+	text-align: center;
+	background-color: $greygreen;
+	&__content {
+		color: $purplesuperdark;
+		@media (min-width: $break--big) {
+			display: flex;
+			align-items: center;
+			justify-content: space-between;
+		}
+	}
+	h3 {
+		font-size: 1.2em;
+	}
+	ul {
+		display: flex;
+		margin: 2em 0;
+		justify-content: center;
+		flex-wrap: wrap;
+		list-style: none;
+		@media (min-width: $break--med) {
+			// margin: 0;
+		}
+		li {
+			margin-bottom: 0.6em;
+			width: 100%;
+			max-width: 140px;
+			@media (min-width: $break--med) {
+				padding: 0 1em;
+				margin-bottom: 0;
+				width: auto;
+			}
+			a {
+				display: inline-block;
+				@media (min-width: $break--med) {
+					padding-bottom: 5px;
+					border-bottom: 3px solid transparent;
+					&:hover {
+						border-color: $pink;
+					}
+				}
+				img,
+				svg {
+					display: block;
+					max-height: 80px;
+					max-width: 7em;
+					@media (min-width: $break--med) {
+						max-width: 100px;
+					}
+				}
+				svg,
+				svg path {
+					fill: $purplesuperdark;
+				}
+				span {
+					display: block;
+					text-indent: -9000px;
+				}
+				&:focus {
+					@include focusBorder($darkpurple);
+				}
+			}
+			&.logo--nordic-partner {
+				// border: 2px solid blue;
+				@media (min-width: $break--med) {
+					a {
+						img {
+							height: 70px;
+						}
+					}
+				}
+			}
+		}
+	}
+
+	&__content {
+	}
 }

@@ -1,65 +1,72 @@
 {
-  "mainMenu": [
-    {
-      "name": "About",
-      "url": "about",
-      "aria": "Read all our info on the event"
-    },
-    {
-      "name": "Program 2020",
-      "url": "program-2020",
-      "aria": "See our program for the event"
-    },
-    {
-      "name": "Badges",
-      "url": "badges",
-      "aria": "Read up on all the badges you can collect!"
-    },
-    {
-      "name": "Jury & speakers",
-      "url": "jury-speakers",
-      "aria": "See all of our jury and speakers"
-    },
-    {
-      "name": "Past events",
-      "url": "past-events",
-      "aria": "Travel back in time and see our past events"
-    },
-    {
-      "name": "Sign up",
-      "url": "sign-up",
-      "aria": "Sign up today!",
-      "extraClass": "highlighted"
-    }
-  ],
-  "partnerRow": [
-    {
-      "id": "itera-partner",
-      "name": "Itera",
-      "url": "https://itera.no",
-      "logo": "itera-logo.png",
-      "ariaLabel": "Gå til itera.no, åpnes i ny fane"
-    },
-    {
-      "id": "microsoft-partner",
-      "name": "Microsoft",
-      "url": "https://www.microsoft.com/nb-no",
-      "logo": "microsoft-logo.svg",
-      "ariaLabel": "Gå til microsoft.com/no, åpnes i ny fane"
-    }
-  ],
-  "pastYears": [
-    {
-      "value": "2016"
-    },
-    {
-      "value": "2017"
-    },
-    {
-      "value": "2018"
-    },
-    {
-      "value": "2019"
-    }
-  ]
+	"mainMenu": [
+		{
+			"name": "About",
+			"url": "about",
+			"aria": "Read all our info on the event"
+		},
+		{
+			"name": "Program 2020",
+			"url": "program-2020",
+			"aria": "See our program for the event"
+		},
+		{
+			"name": "Badges",
+			"url": "badges",
+			"aria": "Read up on all the badges you can collect!"
+		},
+		{
+			"name": "Jury & speakers",
+			"url": "jury-speakers",
+			"aria": "See all of our jury and speakers"
+		},
+		{
+			"name": "Past events",
+			"url": "past-events",
+			"aria": "Travel back in time and see our past events"
+		},
+		{
+			"name": "Sign up",
+			"url": "sign-up",
+			"aria": "Sign up today!",
+			"extraClass": "highlighted"
+		}
+	],
+	"partnerRow": [
+		{
+			"id": "microsoft-partner",
+			"name": "Microsoft",
+			"url": "https://www.microsoft.com/nb-no",
+			"logo": "microsoft-logo.svg",
+			"ariaLabel": "Gå til microsoft.com/no, åpnes i ny fane"
+		},
+		{
+			"id": "itera-partner",
+			"name": "Itera",
+			"url": "https://itera.no",
+			"logo": "itera-logo.png",
+			"ariaLabel": "Gå til itera.no, åpnes i ny fane"
+		},
+		{
+			"id": "nordic-partner",
+			"name": "Nordic Semi",
+			"url": "https://www.nordicsemi.com/",
+			"logo": "nordic-semi-logo.svg",
+			"ariaLabel": "Gå til nordicsemi.com, åpnes i ny fane"
+		}
+	],
+	"pastYears": [
+		{
+			"value": "2016"
+		},
+		{
+			"value": "2017"
+		},
+		{
+			"value": "2018"
+		},
+		{
+			"value": "2019"
+		}
+	]
 }
