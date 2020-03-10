@@ -9,44 +9,35 @@ import pastEventsData from '../../data/pastEvents.json';
 import './LastYear.scss';
 
 export default class LastYear extends React.Component {
-
-    componentDidMount() {
-
-    }
+	componentDidMount() {
+		window.scrollTo(0, 0);
+	}
 
 	render() {
-        const thisYear = this.props.match.params.year;
-        const thisYearData = pastEventsData[thisYear];
+		const thisYear = this.props.match.params.year;
+		const thisYearData = pastEventsData[thisYear];
 		return (
 			<Fragment>
-					<div className="t_last-year t_page">
-						<Nav />
-						<Header
-							pageTitle="Our history"
-							type="logo"
-							theme="pink-darkblue" />
-						<div className="g_center">
-							<h2 className="year-title">...back to {thisYear}</h2>
-							{thisYearData['topBoxes'] && (
-								<div className="u_label-text-boxes u_label-text-boxes--two">
-									{thisYearData['topBoxes'].map((item, index) => (
-										<LabelTextBox
-											item = {item}
-											key = {`topBoxes-${index}`}
-									/>
-									))}
-								</div>	
-							)}
+				<div className='t_last-year t_page'>
+					<Nav />
+					<Header pageTitle='Our history' type='logo' theme='pink-darkblue' />
+					<div className='g_center'>
+						<h2 className='year-title'>...back to {thisYear}</h2>
+						{thisYearData['topBoxes'] && (
+							<div className='u_label-text-boxes u_label-text-boxes--two'>
+								{thisYearData['topBoxes'].map((item, index) => (
+									<LabelTextBox item={item} key={`topBoxes-${index}`} />
+								))}
+							</div>
+						)}
 
-							{thisYearData['leaderboard'] && (
-								<Leaderboard
-									item = {thisYearData['leaderboard']} />
-								
-							)}
-						</div>
+						{thisYearData['leaderboard'] && (
+							<Leaderboard item={thisYearData['leaderboard']} />
+						)}
 					</div>
-					<PartnerRow />
-					<Footer />
+				</div>
+				<PartnerRow />
+				<Footer />
 			</Fragment>
 		);
 	}
