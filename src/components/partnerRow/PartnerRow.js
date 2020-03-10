@@ -1,10 +1,12 @@
 import React, { Component } from 'react';
 import './PartnerRow.scss';
 import SiteData from '../../data/site.json';
-import { ReactComponent as IteraLogo } from '../../assets/images/logos/itera-logo.svg';
+// import { ReactComponent as IteraLogo } from '../../assets/images/logos/itera-logo.svg';
 // import { ReactComponent as NordicLogo } from '../../assets/images/logos/nordic-semi-logo.svg';
-import { ReactComponent as MicrosoftLogo } from '../../assets/images/logos/microsoft-logo.svg';
-import NordicPng from '../../assets/images/logos/nordic-logo-black.png';
+// import { ReactComponent as MicrosoftLogo } from '../../assets/images/logos/microsoft-logo.svg';
+import NordicPng from '../../assets/images/logos/nordic-logo.png';
+import MsPng from '../../assets/images/logos/ms-logo.png';
+import IteraPng from '../../assets/images/logos/itera-logo.png';
 
 class PartnerRow extends Component {
 	constructor() {
@@ -15,9 +17,11 @@ class PartnerRow extends Component {
 	getIcon(logo) {
 		switch (logo) {
 			case 'itera-partner':
-				return <IteraLogo />;
+				// return <IteraLogo />;
+				return <img src={IteraPng} alt='Itera logo' />;
 			case 'microsoft-partner':
-				return <MicrosoftLogo />;
+				// return <MicrosoftLogo />;
+				return <img src={MsPng} alt='Microsoft logo' />;
 			case 'nordic-partner':
 				// return <NordicLogo />;
 				return <img src={NordicPng} alt='Nordic Semiconductor logo' />;
