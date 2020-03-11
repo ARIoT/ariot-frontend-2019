@@ -1,31 +1,38 @@
 @import '../../utils/_variables.scss';
 
-.t_about {  
-  &__intro {
-    padding: 0 1em;
-    margin-bottom: 3em;
-    color: $blue;
-    font-family: $heading-font;
-    line-height: 1.6em;
-    h2 {
-      margin-bottom: 0.4em;
-    }
-    @media (min-width: $break--med) {
-      font-size: 1.2em;
-    }
-  }
-  .c_label-text-boxes {
-    &--bottom-boxes-about {
-      @media (min-width: $break--big) {
-        display: flex;
-        justify-content: space-between;
-        .c_label-text-box {
-          width: calc(33% - 1em);
-          &.double {
-            width: calc(66% - 1em);
-          }
-        }
-      }
-    }
-  }
+.t_about {
+	.c_obs-note {
+		margin-bottom: 3em;
+		padding: $gutter;
+		background-color: $yellow;
+		color: $purplesuperdark;
+		font-family: $main-font;
+	}
+	&__intro {
+		padding: 0 1em;
+		margin-bottom: 3em;
+		color: $blue;
+		font-family: $heading-font;
+		line-height: 1.6em;
+		h2 {
+			margin-bottom: 0.4em;
+		}
+		@media (min-width: $break--med) {
+			font-size: 1.2em;
+		}
+	}
+	.c_label-text-boxes {
+		&--bottom-boxes-about {
+			@media (min-width: $break--big) {
+				display: flex;
+				justify-content: space-between;
+				.c_label-text-box {
+					width: calc(33% - 1em);
+					&.double {
+						width: calc(66% - 1em);
+					}
+				}
+			}
+		}
+	}
 }

@@ -34,13 +34,6 @@
 	],
 	"partnerRow": [
 		{
-			"id": "microsoft-partner",
-			"name": "Microsoft",
-			"url": "https://www.microsoft.com/nb-no",
-			"logo": "microsoft-logo.svg",
-			"ariaLabel": "Gå til microsoft.com/no, åpnes i ny fane"
-		},
-		{
 			"id": "itera-partner",
 			"name": "Itera",
 			"url": "https://itera.no",
